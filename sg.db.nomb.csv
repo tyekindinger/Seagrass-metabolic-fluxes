@@ -1,0 +1,954 @@
+,Paper,Subject,Subj_notes,MonoMix,Dom.species,TropTemp,Month.corr,Time,Plot.time,Plot.time.err,Method,AGbiomass,AGbiomass.units,AGbiomass_notes,Resp_facet,time.unit,model,O2.mmol,Temp.C,Time2,AGbiomass2,Temp2,Response
+1,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Apr,4,4,0,Incubator,18.254,g DW m-2,NA,GPP_hour,hour,N,2.98314,23.247,16,333.208516,540.423009,GPP
+2,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,May,5,5,0,Incubator,8.906,g DW m-2,NA,GPP_hour,hour,N,5.634876,26.32,25,79.316836,692.7424,GPP
+3,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Jun,6,6,0,Incubator,10.223,g DW m-2,NA,GPP_hour,hour,N,3.500879,30.017,36,104.509729,901.020289,GPP
+4,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Aug,8,8,0,Incubator,11.575,g DW m-2,NA,GPP_hour,hour,N,9.175118,30.258,64,133.980625,915.546564,GPP
+5,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,7,g DW m-2,NA,GPP_day,day,N,74.3,26.6,9,49,707.56,GPP
+6,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,55,g DW m-2,NA,GPP_day,day,N,91.6,26.6,9,3025,707.56,GPP
+7,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,15,g DW m-2,NA,GPP_day,day,N,198.3,31.1,49,225,967.21,GPP
+8,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,31,g DW m-2,NA,GPP_day,day,N,156.2,31.1,49,961,967.21,GPP
+9,Anton et al. 2020,C,NA,mono,Halodule stipulacea,tropical,Jul,7,7,0,Incubator,14,g DW m-2,NA,GPP_day,day,N,114.9,30.8,49,196,948.64,GPP
+10,Anton et al. 2020,D,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,64,g DW m-2,NA,GPP_day,day,N,116.9,30.8,49,4096,948.64,GPP
+11,Anton et al. 2020,E,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,63,g DW m-2,NA,GPP_day,day,N,201.2,30.27,49,3969,916.2729,GPP
+12,Anton et al. 2020,F,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,11,g DW m-2,NA,GPP_day,day,N,130.6,29.93,49,121,895.8049,GPP
+13,Anton et al. 2020,G,NA,mono,Halophila stipulacea,tropical,Jul,7,7,0,Incubator,32,g DW m-2,NA,GPP_day,day,N,268.7,29.93,49,1024,895.8049,GPP
+14,Anton et al. 2020,H,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,51,g DW m-2,NA,GPP_day,day,N,146.8,29.93,49,2601,895.8049,GPP
+15,Anton et al. 2020,J,NA,mono,Halophila stipulacea,tropical,Jan,1,1,0,Incubator,5,g DW m-2,NA,GPP_day,day,N,42.4,23.8,1,25,566.44,GPP
+16,Anton et al. 2020,K,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,7,g DW m-2,NA,GPP_day,day,N,239.4,31.5,49,49,992.25,GPP
+17,Anton et al. 2020,L,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,13,g DW m-2,NA,GPP_day,day,N,104.7,31.5,49,169,992.25,GPP
+18,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Mar,3,3,0,Incubator,14,g DW m-2,NA,GPP_day,day,N,122.2,25,9,196,625,GPP
+19,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,GPP_day,day,N,66.5,25,9,9,625,GPP
+20,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,GPP_day,day,N,101.7,32.3,64,16,1043.29,GPP
+21,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,GPP_day,day,N,121.1,32.3,64,16,1043.29,GPP
+22,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,8,g DW m-2,NA,GPP_day,day,N,65.9,27.5,9,64,756.25,GPP
+23,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,GPP_day,day,N,63.6,27.5,9,9,756.25,GPP
+24,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,28,g DW m-2,NA,GPP_day,day,N,77.1,27.5,9,784,756.25,GPP
+25,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Aug,8,8,0,Incubator,26,g DW m-2,NA,GPP_day,day,N,146.7,31,64,676,961,GPP
+26,Anton et al. 2020,R,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,19,g DW m-2,NA,GPP_day,day,N,149.2,31,64,361,961,GPP
+27,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,GPP_day,day,N,114,31,64,16,961,GPP
+28,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Aug,8,8,0,Incubator,28,g DW m-2,NA,GPP_day,day,N,123,31,64,784,961,GPP
+29,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,111.0648849,g DW m-2,NA,GPP_day,day,N,72.0972,14.05,4,12335.40866,197.4025,GPP
+30,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,173.7906793,g DW m-2,NA,GPP_day,day,N,102.0972,15.52,16,30203.20021,240.8704,GPP
+31,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,344.7404888,g DW m-2,NA,GPP_day,day,N,211.3848,23.41,36,118846.0046,548.0281,GPP
+32,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,237.878419,g DW m-2,NA,GPP_day,day,N,111.384,25.78,64,56586.14223,664.6084,GPP
+33,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,89.2602009,g DW m-2,NA,GPP_day,day,N,90.558,21.29,100,7967.383465,453.2641,GPP
+34,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,111.3256182,g DW m-2,NA,GPP_day,day,N,73.6356,16.14,144,12393.39327,260.4996,GPP
+35,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,338.9,g DW m-2,NA,GPP_day,day,N,31.02,NA,1,114853.21,NA,GPP
+36,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348,g DW m-2,NA,GPP_day,day,N,59.89,NA,4,121104,NA,GPP
+37,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,405.1,g DW m-2,NA,GPP_day,day,N,59.81,NA,9,164106.01,NA,GPP
+38,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,859,g DW m-2,NA,GPP_day,day,N,146.05,NA,16,737881,NA,GPP
+39,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,519.9,g DW m-2,NA,GPP_day,day,N,173.31,NA,16,270296.01,NA,GPP
+40,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,490,g DW m-2,NA,GPP_day,day,N,129.6,NA,25,240100,NA,GPP
+41,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,798.5,g DW m-2,NA,GPP_day,day,N,48.43,NA,25,637602.25,NA,GPP
+42,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,682.2,g DW m-2,NA,GPP_day,day,N,123.01,NA,36,465396.84,NA,GPP
+43,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,872.4,g DW m-2,NA,GPP_day,day,N,120.1,NA,36,761081.76,NA,GPP
+44,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.9,g DW m-2,NA,GPP_day,day,N,137.24,NA,49,306805.21,NA,GPP
+45,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.6,g DW m-2,NA,GPP_day,day,N,155.19,NA,64,280476.16,NA,GPP
+46,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.4,g DW m-2,NA,GPP_day,day,N,24.66,NA,81,54475.56,NA,GPP
+47,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415,g DW m-2,NA,GPP_day,day,N,114.81,NA,100,172225,NA,GPP
+48,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,399.2,g DW m-2,NA,GPP_day,day,N,77.66,NA,121,159360.64,NA,GPP
+49,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,287.7,g DW m-2,NA,GPP_day,day,N,53.85,NA,144,82771.29,NA,GPP
+50,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,29.38,NA,49,NA,NA,GPP
+51,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,39.35,NA,49,NA,NA,GPP
+52,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,49.26,NA,49,NA,NA,GPP
+53,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,18.12,NA,49,NA,NA,GPP
+54,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,18.62,NA,49,NA,NA,GPP
+55,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,22.91,NA,49,NA,NA,GPP
+56,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,6.97,NA,49,NA,NA,GPP
+57,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,339.396,g DW m-2,NA,GPP_day,day,N,33.593,13.933,1,115189.6448,194.128489,GPP
+58,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348.957,g DW m-2,NA,GPP_day,day,N,61.041,14.467,4,121770.9878,209.294089,GPP
+59,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,GPP_day,day,N,59.85,NA,9,NA,NA,GPP
+60,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,860.21,g DW m-2,NA,GPP_day,day,N,146.257,NA,16,739961.2441,NA,GPP
+61,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,521.143,g DW m-2,NA,GPP_day,day,N,172.173,15.147,16,271590.0264,229.431609,GPP
+62,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,487.462,g DW m-2,NA,GPP_day,day,N,129.582,NA,25,237619.2014,NA,GPP
+63,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,797.001,g DW m-2,NA,GPP_day,day,N,50.621,18.917,25,635210.594,357.852889,GPP
+64,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,681.985,g DW m-2,NA,GPP_day,day,N,123.993,22.605,36,465103.5402,510.986025,GPP
+65,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,870.692,g DW m-2,NA,GPP_day,day,N,118.803,22.415,36,758104.5589,502.432225,GPP
+66,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.397,g DW m-2,NA,GPP_day,day,N,136.934,25.151,49,306248.2396,632.572801,GPP
+67,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.737,g DW m-2,NA,GPP_day,day,N,153.752,27.273,64,280621.2892,743.816529,GPP
+68,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.993,g DW m-2,NA,GPP_day,day,N,26.147,25.745,81,54752.72405,662.805025,GPP
+69,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415.093,g DW m-2,NA,GPP_day,day,N,114.335,23.637,100,172302.1986,558.707769,GPP
+70,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,396.952,g DW m-2,NA,GPP_day,day,N,77.212,18.669,121,157570.8903,348.531561,GPP
+71,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,285.406,g DW m-2,NA,GPP_day,day,N,54.346,15.66,144,81456.58484,245.2356,GPP
+72,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,34.73631279,g DW m-2,NA,GPP_day,day,N,86.535,16,16,1206.611426,256,GPP
+73,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,44.66097359,g DW m-2,NA,GPP_day,day,N,105.735,27.6,36,1994.602562,761.76,GPP
+74,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,12,NA,1,NA,NA,GPP
+75,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,57,NA,9,NA,NA,GPP
+76,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,75.416,NA,16,NA,NA,GPP
+77,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,40,NA,16,NA,NA,GPP
+78,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,50,NA,16,NA,NA,GPP
+79,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,85,NA,16,NA,NA,GPP
+80,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,73,NA,16,NA,NA,GPP
+81,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,152.607,NA,25,NA,NA,GPP
+82,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,124,NA,25,NA,NA,GPP
+83,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,195,NA,36,NA,NA,GPP
+84,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,105,NA,36,NA,NA,GPP
+85,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,87,NA,36,NA,NA,GPP
+86,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,154,NA,36,NA,NA,GPP
+87,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,139,NA,36,NA,NA,GPP
+88,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,188,NA,49,NA,NA,GPP
+89,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,161,NA,49,NA,NA,GPP
+90,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,218,NA,64,NA,NA,GPP
+91,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,63,NA,64,NA,NA,GPP
+92,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,93,NA,64,NA,NA,GPP
+93,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,117,NA,64,NA,NA,GPP
+94,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,68.4,NA,100,NA,NA,GPP
+95,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,69,NA,100,NA,NA,GPP
+96,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,61,NA,100,NA,NA,GPP
+97,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Nov,11,11,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,75,NA,121,NA,NA,GPP
+98,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Feb,2,2,0,Incubator,NA,NA,NA,GPP_day,day,N,187.55,22.3,4,NA,497.29,GPP
+99,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Feb,2,2,0,Incubator,NA,NA,NA,GPP_day,day,N,103.47,22.8,4,NA,519.84,GPP
+100,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,183.09,29.6,16,NA,876.16,GPP
+101,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,175.9,30,16,NA,900,GPP
+102,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jun,6,6,0,Incubator,NA,NA,NA,GPP_day,day,N,340,32.5,36,NA,1056.25,GPP
+103,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,417.97,33.4,49,NA,1115.56,GPP
+104,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Jul,7,7,0,Incubator,NA,NA,NA,GPP_day,day,N,267.33,33.5,49,NA,1122.25,GPP
+105,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,263.91,32,64,NA,1024,GPP
+106,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,270.67,33.8,64,NA,1142.44,GPP
+107,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Sep,9,9,0,Incubator,NA,NA,NA,GPP_day,day,N,305.62,33.5,81,NA,1122.25,GPP
+108,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,263.26,32.2,100,NA,1036.84,GPP
+109,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_day,day,N,211.04,28.5,121,NA,812.25,GPP
+110,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_day,day,N,236.69,30.7,121,NA,942.49,GPP
+111,Calleja et al. 2006,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Incubator,NA,NA,NA,GPP_day,day,N,156.72,24,144,NA,576,GPP
+112,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,482.1,g DW m-2,NA,GPP_day,day,N,45,14.14329,4,232420.41,200.032652,GPP
+113,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,248.1,g DW m-2,NA,GPP_day,day,N,76.27,13.25963,4,61553.61,175.8177877,GPP
+114,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,314,g DW m-2,NA,GPP_day,day,N,99.36,12.90182,4,98596,166.4569593,GPP
+115,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,736.3,g DW m-2,NA,GPP_day,day,N,139.42,14.31058,16,542137.69,204.7926999,GPP
+116,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,529.9,g DW m-2,NA,GPP_day,day,N,254.22,15.93007,16,280794.01,253.7671302,GPP
+117,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,750.6,g DW m-2,NA,GPP_day,day,N,157.88,18.21524,25,563400.36,331.7949683,GPP
+118,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,435,g DW m-2,NA,GPP_day,day,N,389.88,20.24781,36,189225,409.9738098,GPP
+119,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,862.4,g DW m-2,NA,GPP_day,day,N,392.28,25.5752,64,743733.76,654.090855,GPP
+120,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,528.3,g DW m-2,NA,GPP_day,day,N,75.64,22.27244,64,279100.89,496.0615836,GPP
+121,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,629.5,g DW m-2,NA,GPP_day,day,N,272.66,25.57224,64,396270.25,653.9394586,GPP
+122,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,431.2,g DW m-2,NA,GPP_day,day,N,229.45,24.35753,64,185933.44,593.2892677,GPP
+123,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,255.6,g DW m-2,NA,GPP_day,day,N,56.44,22.33733,100,65331.36,498.9563115,GPP
+124,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,201.1,g DW m-2,NA,GPP_day,day,N,22.67,19.32532,100,40441.21,373.4679931,GPP
+125,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,301.5,g DW m-2,NA,GPP_day,day,N,28.32,18.03682,144,90902.25,325.3268757,GPP
+126,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,235.5,g DW m-2,NA,GPP_day,day,N,46.32,16.36981,144,55460.25,267.9706794,GPP
+127,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.521,NA,4,NA,NA,GPP
+128,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Feb,2,2,0,Incubator,NA,NA,NA,GPP_hour,hour,N,0.813,NA,4,NA,NA,GPP
+129,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,GPP_hour,hour,N,5.789,NA,4,NA,NA,GPP
+130,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,6.94,NA,25,NA,NA,GPP
+131,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,11.398,NA,64,NA,NA,GPP
+132,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.377,NA,64,NA,NA,GPP
+133,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,10.62,NA,64,NA,NA,GPP
+134,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.347,NA,121,NA,NA,GPP
+135,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.607,NA,121,NA,NA,GPP
+136,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.435,NA,121,NA,NA,GPP
+137,Drylie et al. 2018,A,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,290,g DW m-2,NA,GPP_hour,hour,N,7.594,NA,64,84100,NA,GPP
+138,Drylie et al. 2018,B,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,308,g DW m-2,NA,GPP_hour,hour,N,1.265,NA,64,94864,NA,GPP
+139,Drylie et al. 2018,C,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,161,g DW m-2,NA,GPP_hour,hour,N,0.346,NA,64,25921,NA,GPP
+140,Duarte et al. 2002,A,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,142.3,g DW m-2,NA,GPP_day,day,N,55.086441,NA,81,20249.29,NA,GPP
+141,Duarte et al. 2002,B,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,149.7,g DW m-2,NA,GPP_day,day,N,78.92171,NA,81,22410.09,NA,GPP
+142,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Mar,3,3,0,Incubator,NA,NA,NA,GPP_day,day,N,63.48,16.5,9,NA,272.25,GPP
+143,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Sep,9,9,0,Incubator,NA,NA,NA,GPP_day,day,N,123.618,24.6,81,NA,605.16,GPP
+144,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Feb,2,2,0,Incubator,NA,NA,NA,GPP_hour,hour,N,4.029,15.31,4,NA,234.3961,GPP
+145,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_hour,hour,N,13.207,19.39,16,NA,375.9721,GPP
+146,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Jun,6,6,0,Incubator,NA,NA,NA,GPP_hour,hour,N,12.759,25.61,36,NA,655.8721,GPP
+147,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,15.696,26.82,64,NA,719.3124,GPP
+148,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,18.716,27.39,64,NA,750.2121,GPP
+149,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_hour,hour,N,22.141,25.01,100,NA,625.5001,GPP
+150,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_hour,hour,N,17.896,19.4,100,NA,376.36,GPP
+151,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Dec,12,12,0,Incubator,NA,NA,NA,GPP_hour,hour,N,11.983,11.48,144,NA,131.7904,GPP
+152,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,42.93,g DW m-2,NA,GPP_hour,hour,N,4.27,17.3,9,1842.9849,299.29,GPP
+153,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,54.395,g DW m-2,NA,GPP_hour,hour,N,10.089,17.3,9,2958.816025,299.29,GPP
+154,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,71.8,g DW m-2,NA,GPP_hour,hour,N,10.453,17.3,9,5155.24,299.29,GPP
+155,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,65.175,g DW m-2,NA,GPP_hour,hour,N,14.523,25.6,64,4247.780625,655.36,GPP
+156,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,110.586,g DW m-2,NA,GPP_hour,hour,N,16.589,25.6,64,12229.2634,655.36,GPP
+157,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,115.104,g DW m-2,NA,GPP_hour,hour,N,23.796,25.6,64,13248.93082,655.36,GPP
+158,Gruber et al. 2017,A,NA,mix,Enhalus acoroides + Thalassia hemprichii,tropical,Oct,10,10,0,Control volume,NA,NA,NA,GPP_day,day,N,430,30.8,100,NA,948.64,GPP
+159,Gustafsson and Norkko 2016,A,NA,mono,Ruppia cirrhosa,temperate,Aug,8,8,0,Incubator,0.4,g DW m-2,NA,GPP_day,day,N,45.926,19,64,0.16,361,GPP
+160,Gustafsson and Norkko 2016,B,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,4.2,g DW m-2,NA,GPP_day,day,N,38.011,19,64,17.64,361,GPP
+161,Herbert and Fourqurean 2008,A,NA,mix,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,57.3,g DW m-2,NA,GPP_hour,hour,N,30.073184,NA,121,3283.29,NA,GPP
+162,Holmer et al. 2004,B,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,490,g DW m-2,NA,GPP_day,day,N,115.008,18,36,240100,324,GPP
+163,Holmer et al. 2004,C,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,527,g DW m-2,NA,GPP_day,day,N,123.515,18,36,277729,324,GPP
+164,Holmer et al. 2004,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,471,g DW m-2,NA,GPP_day,day,N,104.031,18,25,221841,324,GPP
+165,Holmer et al. 2004,E,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,612,g DW m-2,NA,GPP_day,day,N,184.771,18,25,374544,324,GPP
+166,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,65.9,NA,36,NA,NA,GPP
+167,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,126,NA,36,NA,NA,GPP
+168,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,223.6,NA,36,NA,NA,GPP
+169,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,215,NA,36,NA,NA,GPP
+170,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,143.8,NA,36,NA,NA,GPP
+171,Johnson et al. 2019,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Incubator,130.9,g DW m-2,NA,GPP_day,day,N,305.605,30,49,17134.81,900,GPP
+172,Johnson et al. 2019,D,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,202.2,g DW m-2,NA,GPP_day,day,N,198.92,32.2,64,40884.84,1036.84,GPP
+173,Johnson et al. 2019,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,96.5,g DW m-2,NA,GPP_day,day,N,152.224,34.4,64,9312.25,1183.36,GPP
+174,Johnson et al. 2019,F,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,70.7,g DW m-2,NA,GPP_day,day,N,130.561,29.2,25,4998.49,852.64,GPP
+175,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jun,6,6,0,Incubator,183.2,g DW m-2,NA,GPP_day,day,N,375.383,31.9,36,33562.24,1017.61,GPP
+176,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,May to Aug,6.5,6.5,1.5,Incubator,183.2,g DW m-2,NA,GPP_day,day,N,356.736,31.7,42.25,33562.24,1004.89,GPP
+177,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jul,5,7,0,Incubator,183.2,g DW m-2,NA,GPP_day,day,N,347.141,33.6,25,33562.24,1128.96,GPP
+178,Johnson et al. 2019,H,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Incubator,51.6,g DW m-2,NA,GPP_day,day,N,121.033,27.9,4,2662.56,778.41,GPP
+179,Koopmans et al. 2020,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,151.4,NA,25,NA,NA,GPP
+180,Koopmans et al. 2020,B,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,203.7,NA,25,NA,NA,GPP
+181,Koopmans et al. 2020,C,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,159.8,NA,25,NA,NA,GPP
+182,Koopmans et al. 2020,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,GPP_day,day,N,133.3,NA,25,NA,NA,GPP
+183,Long et al. 2015,A,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,75,g DW m-2,NA,GPP_day,day,N,151,29.1,49,5625,846.81,GPP
+184,Long et al. 2015,B,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,24,g DW m-2,NA,GPP_day,day,N,68,31.2,49,576,973.44,GPP
+185,Long et al. 2015,C,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,193,g DW m-2,NA,GPP_day,day,N,223,30.6,64,37249,936.36,GPP
+186,Long et al. 2015,D,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,136,g DW m-2,NA,GPP_day,day,N,190,30.7,64,18496,942.49,GPP
+187,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,70.270675,NA,1,NA,NA,GPP
+188,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,236.705604,NA,1,NA,NA,GPP
+189,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,125.721232,NA,1,NA,NA,GPP
+190,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,171.430474,NA,16,NA,NA,GPP
+191,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,176.759057,NA,16,NA,NA,GPP
+192,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,176.925575,NA,64,NA,NA,GPP
+193,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,187.166443,NA,64,NA,NA,GPP
+194,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,213.559576,NA,64,NA,NA,GPP
+195,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,71.602821,NA,100,NA,NA,GPP
+196,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,242.117445,NA,100,NA,NA,GPP
+197,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,203.318707,NA,100,NA,NA,GPP
+198,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,42.29562,NA,1,NA,NA,GPP
+199,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,102.741722,NA,1,NA,NA,GPP
+200,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,39.881106,NA,16,NA,NA,GPP
+201,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,327.791053,NA,16,NA,NA,GPP
+202,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,78.430067,NA,64,NA,NA,GPP
+203,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,454.511394,NA,64,NA,NA,GPP
+204,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,58.198107,NA,100,NA,NA,GPP
+205,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,228.046658,NA,100,NA,NA,GPP
+206,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,117.728359,NA,1,NA,NA,GPP
+207,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,189.081402,NA,1,NA,NA,GPP
+208,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,GPP_day,day,N,79.92873,NA,1,NA,NA,GPP
+209,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,152.697178,NA,16,NA,NA,GPP
+210,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,298.400593,NA,16,NA,NA,GPP
+211,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,193.577393,NA,16,NA,NA,GPP
+212,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,109.31919,NA,16,NA,NA,GPP
+213,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,258.019932,NA,64,NA,NA,GPP
+214,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,370.253191,NA,64,NA,NA,GPP
+215,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,293.488306,NA,64,NA,NA,GPP
+216,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,214.14239,NA,64,NA,NA,GPP
+217,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,186.833407,NA,100,NA,NA,GPP
+218,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,253.357423,NA,100,NA,NA,GPP
+219,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,197.57383,NA,100,NA,NA,GPP
+220,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,154.112583,NA,100,NA,NA,GPP
+221,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,209.4,g DW m-2,NA,GPP_hour,hour,N,5.031971,NA,36,43848.36,NA,GPP
+222,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Jul,7,7,0,C14_enrichment,114.658,g DW m-2,NA,GPP_hour,hour,N,7.402649,NA,49,13146.45696,NA,GPP
+223,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,C14_enrichment,82.085,g DW m-2,NA,GPP_hour,hour,N,11.346799,NA,81,6737.947225,NA,GPP
+224,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,C14_enrichment,175.15,g DW m-2,NA,GPP_hour,hour,N,37.18451,NA,100,30677.5225,NA,GPP
+225,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,C14_enrichment,51.191,g DW m-2,NA,GPP_hour,hour,N,3.698452,NA,121,2620.518481,NA,GPP
+226,Morgan and Kitting 1984,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,C14_enrichment,88.29,g DW m-2,NA,GPP_hour,hour,N,3.40205,NA,144,7795.1241,NA,GPP
+227,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,203.425,g DW m-2,NA,GPP_hour,hour,N,9.131358,NA,36,41381.73063,NA,GPP
+228,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Jul,7,7,0,C14_enrichment,132.247,g DW m-2,NA,GPP_hour,hour,N,3.527854,NA,49,17489.26901,NA,GPP
+229,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,C14_enrichment,154.278,g DW m-2,NA,GPP_hour,hour,N,15.701666,NA,64,23801.70128,NA,GPP
+230,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,C14_enrichment,449.218,g DW m-2,NA,GPP_hour,hour,N,47.401567,NA,81,201796.8115,NA,GPP
+231,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,C14_enrichment,225.516,g DW m-2,NA,GPP_hour,hour,N,24.98747,NA,100,50857.46626,NA,GPP
+232,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,C14_enrichment,91.634,g DW m-2,NA,GPP_hour,hour,N,0.966222,NA,121,8396.789956,NA,GPP
+233,Morgan and Kitting 1984,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,C14_enrichment,86.55,g DW m-2,NA,GPP_hour,hour,N,2.407104,NA,144,7490.9025,NA,GPP
+234,Olive et al. 2016,E,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,212.45,NA,100,NA,NA,GPP
+235,Olive et al. 2016,F,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,GPP_day,day,N,105.45,NA,100,NA,NA,GPP
+236,Penhale 1977,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,C14_enrichment,51.186,g DW m-2,NA,GPP_day,day,N,53.662151,13.652,1,2620.006596,186.377104,GPP
+237,Penhale 1977,A,NA,mono,Zostera marina,temperate,Feb,2,2,0,C14_enrichment,99.048,g DW m-2,NA,GPP_day,day,N,52.737143,12.374,4,9810.506304,153.115876,GPP
+238,Penhale 1977,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,C14_enrichment,185.108,g DW m-2,NA,GPP_day,day,N,49.731489,15.341,9,34264.97166,235.346281,GPP
+239,Penhale 1977,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,C14_enrichment,140.431,g DW m-2,NA,GPP_day,day,N,39.315777,17.669,16,19720.86576,312.193561,GPP
+240,Penhale 1977,A,NA,mono,Zostera marina,temperate,May,5,5,0,C14_enrichment,128.006,g DW m-2,NA,GPP_day,day,N,45.096456,20.137,25,16385.53604,405.498769,GPP
+241,Penhale 1977,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,C14_enrichment,117.881,g DW m-2,NA,GPP_day,day,N,52.744636,25.706,36,13895.93016,660.798436,GPP
+242,Penhale 1977,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,C14_enrichment,140.431,g DW m-2,NA,GPP_day,day,N,90.444354,27.446,49,19720.86576,753.282916,GPP
+243,Penhale 1977,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,C14_enrichment,113.739,g DW m-2,NA,GPP_day,day,N,104.531792,27.4,64,12936.56012,750.76,GPP
+244,Penhale 1977,A,NA,mono,Zostera marina,temperate,Sep,9,9,0,C14_enrichment,77.348,g DW m-2,NA,GPP_day,day,N,73.778381,25.39,81,5982.713104,644.6521,GPP
+245,Penhale 1977,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,C14_enrichment,71.791,g DW m-2,NA,GPP_day,day,N,71.004188,19.721,100,5153.947681,388.917841,GPP
+246,Penhale 1977,A,NA,mono,Zostera marina,temperate,Nov,11,11,0,C14_enrichment,81.882,g DW m-2,NA,GPP_day,day,N,75.628398,14.886,121,6704.661924,221.592996,GPP
+247,Penhale 1977,A,NA,mono,Zostera marina,temperate,Dec,12,12,0,C14_enrichment,76.819,g DW m-2,NA,GPP_day,day,N,50.887126,12.512,144,5901.158761,156.550144,GPP
+248,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Feb,2,2,0,Incubator,26.6,g DW m-2,NA,GPP_hour,hour,N,11.430429,9.3,4,707.56,86.49,GPP
+249,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Apr,4,4,0,Incubator,67.7,g DW m-2,NA,GPP_hour,hour,N,11.092947,14.15,16,4583.29,200.2225,GPP
+250,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,27.8,g DW m-2,NA,GPP_hour,hour,N,7.436404,17.3,25,772.84,299.29,GPP
+251,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,99.9,g DW m-2,NA,GPP_hour,hour,N,16.711127,21.6,49,9980.01,466.56,GPP
+252,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,136.3,g DW m-2,NA,GPP_hour,hour,N,16.609998,26.8,64,18577.69,718.24,GPP
+253,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,36.4,g DW m-2,NA,GPP_hour,hour,N,20.249853,25.2,64,1324.96,635.04,GPP
+254,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Oct,10,10,0,Incubator,54.2,g DW m-2,NA,GPP_hour,hour,N,12.47353,14.4,100,2937.64,207.36,GPP
+255,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Feb,2,2,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,51.95555,9.4,4,NA,88.36,GPP
+256,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,371.7955,27.6,36,NA,761.76,GPP
+257,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,181.9717,30.1,64,NA,906.01,GPP
+258,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,162.4409,27.4,64,NA,750.76,GPP
+259,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy correlation,NA,NA,NA,GPP_day,day,N,135.7604,17,100,NA,289,GPP
+260,Santos et al. 2004,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_hour,hour,N,12.47,NA,49,NA,NA,GPP
+261,Santos et al. 2004,B,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,GPP_hour,hour,N,6.36,NA,49,NA,NA,GPP
+262,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Incubator,NA,NA,NA,GPP_day,day,N,12.5,9,16,NA,81,GPP
+263,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,NA,NA,NA,GPP_day,day,N,275,16,36,NA,256,GPP
+264,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,NA,NA,NA,GPP_day,day,N,109.4,21,64,NA,441,GPP
+265,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,20.776,g AFDW m-2,NA,GPP_hour,hour,N,4.554439,15.5875,4,431.642176,242.9701563,GPP
+266,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,16.218,g AFDW m-2,NA,GPP_hour,hour,N,5.453038,25.95,16,263.023524,673.4025,GPP
+267,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,10.998,g AFDW m-2,NA,GPP_hour,hour,N,3.237114,25.3,16,120.956004,640.09,GPP
+268,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,45.156,g AFDW m-2,NA,GPP_hour,hour,N,5.184078,30.0125,36,2039.064336,900.7501563,GPP
+269,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,41.552,g AFDW m-2,NA,GPP_hour,hour,N,3.811102,28.2,36,1726.568704,795.24,GPP
+270,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,34.238,g AFDW m-2,NA,GPP_hour,hour,N,2.864046,31.1125,64,1172.240644,967.9876563,GPP
+271,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,23.002,g AFDW m-2,NA,GPP_hour,hour,N,2.668021,31.775,64,529.092004,1009.650625,GPP
+272,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,11.024,g AFDW m-2,NA,GPP_hour,hour,N,5.167892,21.775,100,121.528576,474.150625,GPP
+273,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,19.08,g AFDW m-2,NA,GPP_hour,hour,N,4.702807,20.125,144,364.0464,405.015625,GPP
+274,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,11.837,g AFDW m-2,NA,GPP_hour,hour,N,3.769139,14.1125,144,140.114569,199.1626563,GPP
+275,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,36.782,g AFDW m-2,NA,GPP_hour,hour,N,5.430658,16.2375,4,1352.915524,263.6564063,GPP
+276,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,42.4,g AFDW m-2,NA,GPP_hour,hour,N,8.379628,25.8,16,1797.76,665.64,GPP
+277,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,35.113,g AFDW m-2,NA,GPP_hour,hour,N,5.604403,22.94286,16,1232.922769,526.374825,GPP
+278,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,34.98,g AFDW m-2,NA,GPP_hour,hour,N,3.142199,31.4125,36,1223.6004,986.7451563,GPP
+279,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,32.224,g AFDW m-2,NA,GPP_hour,hour,N,4.49719,28.825,36,1038.386176,830.880625,GPP
+280,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,80.772,g AFDW m-2,NA,GPP_hour,hour,N,10.487249,30.45,64,6524.115984,927.2025,GPP
+281,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,13.25,g AFDW m-2,NA,GPP_hour,hour,N,7.596726,29.9875,64,175.5625,899.2501563,GPP
+282,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,38.478,g AFDW m-2,NA,GPP_hour,hour,N,3.71219,22.4375,100,1480.556484,503.4414063,GPP
+283,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,22.26,g AFDW m-2,NA,GPP_hour,hour,N,4.364908,18.36667,144,495.5076,337.3345669,GPP
+284,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,5.698,g AFDW m-2,NA,GPP_hour,hour,N,4.493794,13.01667,144,32.467204,169.4336979,GPP
+285,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,101,g DW m-2,NA,GPP_hour,hour,N,8.532,NA,25,10201,NA,GPP
+286,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,101,g DW m-2,NA,GPP_hour,hour,N,14.622,NA,64,10201,NA,GPP
+287,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.558,NA,25,NA,NA,GPP
+288,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.675,NA,64,NA,NA,GPP
+289,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.481,NA,121,NA,NA,GPP
+290,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Mar,3,3,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.5,NA,9,NA,NA,GPP
+291,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,0.848,NA,25,NA,NA,GPP
+292,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,6.104,NA,64,NA,NA,GPP
+293,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.315,NA,81,NA,NA,GPP
+294,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.59,NA,121,NA,NA,GPP
+295,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.077,NA,25,NA,NA,GPP
+296,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,8.872,NA,64,NA,NA,GPP
+297,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.266,NA,121,NA,NA,GPP
+298,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.142,NA,25,NA,NA,GPP
+299,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,3.654,NA,64,NA,NA,GPP
+300,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.385,NA,121,NA,NA,GPP
+301,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.921,NA,9,NA,NA,GPP
+302,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.713,NA,25,NA,NA,GPP
+303,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.709,NA,64,NA,NA,GPP
+304,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Sep,9,9,0,Incubator,NA,NA,NA,GPP_hour,hour,N,2.025,NA,81,NA,NA,GPP
+305,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,GPP_hour,hour,N,1.401,NA,121,NA,NA,GPP
+306,Yarbro and Carlson 2009,A,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,GPP_hour,hour,N,0.979,NA,9,NA,NA,GPP
+307,Yarbro and Carlson 2009,C,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,GPP_hour,hour,N,5.395,NA,9,NA,NA,GPP
+308,Adams et al. 2016,C,diff sites,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-141,25.2,64,NA,635.04,R
+309,Adams et al. 2016,A,diff sites,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-241,26.2,64,NA,686.44,R
+310,Adams et al. 2016,B,diff sites,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-147,27.2,64,NA,739.84,R
+311,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Apr,4,4,0,Incubator,18.254,g DW m-2,NA,R_hour,hour,N,-2.02959,23.247,16,333.208516,540.423009,R
+312,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,May,5,5,0,Incubator,8.906,g DW m-2,NA,R_hour,hour,N,-1.216116,26.32,25,79.316836,692.7424,R
+313,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Jun,6,6,0,Incubator,10.223,g DW m-2,NA,R_hour,hour,N,-1.981433,30.017,36,104.509729,901.020289,R
+314,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Aug,8,8,0,Incubator,11.575,g DW m-2,NA,R_hour,hour,N,-6.90854,30.258,64,133.980625,915.546564,R
+315,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,7,g DW m-2,NA,R_day,day,N,-29.3,26.6,9,49,707.56,R
+316,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,55,g DW m-2,NA,R_day,day,N,-44.6,26.6,9,3025,707.56,R
+317,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,15,g DW m-2,NA,R_day,day,N,-143.4,31.1,49,225,967.21,R
+318,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,31,g DW m-2,NA,R_day,day,N,-81.8,31.1,49,961,967.21,R
+319,Anton et al. 2020,C,NA,mono,Halodule stipulacea,tropical,Jul,7,7,0,Incubator,14,g DW m-2,NA,R_day,day,N,-60.2,30.8,49,196,948.64,R
+320,Anton et al. 2020,D,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,64,g DW m-2,NA,R_day,day,N,-92.2,30.8,49,4096,948.64,R
+321,Anton et al. 2020,E,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,63,g DW m-2,NA,R_day,day,N,-65.3,30.27,49,3969,916.2729,R
+322,Anton et al. 2020,F,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,11,g DW m-2,NA,R_day,day,N,-59.3,29.93,49,121,895.8049,R
+323,Anton et al. 2020,G,NA,mono,Halophila stipulacea,tropical,Jul,7,7,0,Incubator,32,g DW m-2,NA,R_day,day,N,-169.6,29.93,49,1024,895.8049,R
+324,Anton et al. 2020,H,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,51,g DW m-2,NA,R_day,day,N,-81.7,29.93,49,2601,895.8049,R
+325,Anton et al. 2020,J,NA,mono,Halophila stipulacea,tropical,Jan,1,1,0,Incubator,5,g DW m-2,NA,R_day,day,N,-19.4,23.8,1,25,566.44,R
+326,Anton et al. 2020,K,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,7,g DW m-2,NA,R_day,day,N,-119.7,31.5,49,49,992.25,R
+327,Anton et al. 2020,L,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,13,g DW m-2,NA,R_day,day,N,-62.9,31.5,49,169,992.25,R
+328,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Mar,3,3,0,Incubator,14,g DW m-2,NA,R_day,day,N,-42.3,25,9,196,625,R
+329,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,R_day,day,N,-24.7,25,9,9,625,R
+330,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,R_day,day,N,-69.9,32.3,64,16,1043.29,R
+331,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,R_day,day,N,-62.4,32.3,64,16,1043.29,R
+332,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,8,g DW m-2,NA,R_day,day,N,-36.6,27.5,9,64,756.25,R
+333,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,R_day,day,N,-22.9,27.5,9,9,756.25,R
+334,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,28,g DW m-2,NA,R_day,day,N,-50.3,27.5,9,784,756.25,R
+335,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Aug,8,8,0,Incubator,26,g DW m-2,NA,R_day,day,N,-56.7,31,64,676,961,R
+336,Anton et al. 2020,R,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,19,g DW m-2,NA,R_day,day,N,-56.3,31,64,361,961,R
+337,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,R_day,day,N,-33.8,31,64,16,961,R
+338,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Aug,8,8,0,Incubator,28,g DW m-2,NA,R_day,day,N,-47.7,31,64,784,961,R
+339,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,111.0648849,g DW m-2,NA,R_day,day,N,-34.0248,14.05,4,12335.40866,197.4025,R
+340,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,173.7906793,g DW m-2,NA,R_day,day,N,-57.8556,15.52,16,30203.20021,240.8704,R
+341,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,344.7404888,g DW m-2,NA,R_day,day,N,-142.9608,23.41,36,118846.0046,548.0281,R
+342,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,237.878419,g DW m-2,NA,R_day,day,N,-77.7408,25.78,64,56586.14223,664.6084,R
+343,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,89.2602009,g DW m-2,NA,R_day,day,N,-63.7656,21.29,100,7967.383465,453.2641,R
+344,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,111.3256182,g DW m-2,NA,R_day,day,N,-45.0888,16.14,144,12393.39327,260.4996,R
+345,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,338.9,g DW m-2,NA,R_day,day,N,-18.04,NA,1,114853.21,NA,R
+346,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348,g DW m-2,NA,R_day,day,N,-32.85,NA,4,121104,NA,R
+347,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,405.1,g DW m-2,NA,R_day,day,N,-29.01,NA,9,164106.01,NA,R
+348,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,859,g DW m-2,NA,R_day,day,N,-88.72,NA,16,737881,NA,R
+349,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,519.9,g DW m-2,NA,R_day,day,N,-84.53,NA,16,270296.01,NA,R
+350,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,490,g DW m-2,NA,R_day,day,N,-88.39,NA,25,240100,NA,R
+351,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,798.5,g DW m-2,NA,R_day,day,N,-29.05,NA,25,637602.25,NA,R
+352,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,682.2,g DW m-2,NA,R_day,day,N,-138.42,NA,36,465396.84,NA,R
+353,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,872.4,g DW m-2,NA,R_day,day,N,-72.93,NA,36,761081.76,NA,R
+354,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.9,g DW m-2,NA,R_day,day,N,-96.44,NA,49,306805.21,NA,R
+355,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.6,g DW m-2,NA,R_day,day,N,-141.91,NA,64,280476.16,NA,R
+356,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.4,g DW m-2,NA,R_day,day,N,-35.86,NA,81,54475.56,NA,R
+357,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415,g DW m-2,NA,R_day,day,N,-108.97,NA,100,172225,NA,R
+358,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,399.2,g DW m-2,NA,R_day,day,N,-76.49,NA,121,159360.64,NA,R
+359,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,287.7,g DW m-2,NA,R_day,day,N,-60.87,NA,144,82771.29,NA,R
+360,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-35.46,NA,49,NA,NA,R
+361,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-54.29,NA,49,NA,NA,R
+362,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-53.9,NA,49,NA,NA,R
+363,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-83.65,NA,49,NA,NA,R
+364,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-49.12,NA,49,NA,NA,R
+365,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-74.07,NA,49,NA,NA,R
+366,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-14.13,NA,49,NA,NA,R
+367,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348.957,g DW m-2,NA,R_day,day,N,-32.846,14.467,4,121770.9878,209.294089,R
+368,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,R_day,day,N,-26.939,NA,9,NA,NA,R
+369,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,860.21,g DW m-2,NA,R_day,day,N,-89.925,NA,16,739961.2441,NA,R
+370,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,521.143,g DW m-2,NA,R_day,day,N,-83.314,15.147,16,271590.0264,229.431609,R
+371,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,487.462,g DW m-2,NA,R_day,day,N,-88.644,NA,25,237619.2014,NA,R
+372,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,797.001,g DW m-2,NA,R_day,day,N,-30.512,18.917,25,635210.594,357.852889,R
+373,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,681.985,g DW m-2,NA,R_day,day,N,-138.466,22.605,36,465103.5402,510.986025,R
+374,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,870.692,g DW m-2,NA,R_day,day,N,-72.244,22.415,36,758104.5589,502.432225,R
+375,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.397,g DW m-2,NA,R_day,day,N,-97.156,25.151,49,306248.2396,632.572801,R
+376,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.737,g DW m-2,NA,R_day,day,N,-141.45,27.273,64,280621.2892,743.816529,R
+377,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.993,g DW m-2,NA,R_day,day,N,-37.051,25.745,81,54752.72405,662.805025,R
+378,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415.093,g DW m-2,NA,R_day,day,N,-108.478,23.637,100,172302.1986,558.707769,R
+379,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,396.952,g DW m-2,NA,R_day,day,N,-76.661,18.669,121,157570.8903,348.531561,R
+380,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,285.406,g DW m-2,NA,R_day,day,N,-61.904,15.66,144,81456.58484,245.2356,R
+381,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,34.73631279,g DW m-2,NA,R_day,day,N,-68.078,16,16,1206.611426,256,R
+382,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,44.66097359,g DW m-2,NA,R_day,day,N,-132.865,27.6,36,1994.602562,761.76,R
+383,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,Eddy covariance,NA,NA,NA,R_day,day,N,-28,NA,1,NA,NA,R
+384,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Eddy covariance,NA,NA,NA,R_day,day,N,-69,NA,9,NA,NA,R
+385,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,R_day,day,N,-77,NA,16,NA,NA,R
+386,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,R_day,day,N,-52,NA,16,NA,NA,R
+387,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,R_day,day,N,-73,NA,16,NA,NA,R
+388,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,R_day,day,N,-82,NA,16,NA,NA,R
+389,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,R_day,day,N,-56,NA,16,NA,NA,R
+390,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-181,NA,25,NA,NA,R
+391,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-99,NA,25,NA,NA,R
+392,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,R_day,day,N,-220,NA,36,NA,NA,R
+393,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,R_day,day,N,-141,NA,36,NA,NA,R
+394,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,R_day,day,N,-135,NA,36,NA,NA,R
+395,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,R_day,day,N,-120,NA,36,NA,NA,R
+396,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,R_day,day,N,-125,NA,36,NA,NA,R
+397,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,R_day,day,N,-223,NA,49,NA,NA,R
+398,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,R_day,day,N,-144,NA,49,NA,NA,R
+399,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,R_day,day,N,-224,NA,64,NA,NA,R
+400,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,R_day,day,N,-81,NA,64,NA,NA,R
+401,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,R_day,day,N,-98,NA,64,NA,NA,R
+402,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,R_day,day,N,-111,NA,64,NA,NA,R
+403,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,R_day,day,N,-73,NA,100,NA,NA,R
+404,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,R_day,day,N,-53,NA,100,NA,NA,R
+405,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,R_day,day,N,-65,NA,100,NA,NA,R
+406,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Nov,11,11,0,Eddy covariance,NA,NA,NA,R_day,day,N,-40,NA,121,NA,NA,R
+407,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Feb,2,2,0,Incubator,NA,NA,NA,R_day,day,N,-152.97,22.3,4,NA,497.29,R
+408,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Feb,2,2,0,Incubator,NA,NA,NA,R_day,day,N,-91.3,22.8,4,NA,519.84,R
+409,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-109.4,29.6,16,NA,876.16,R
+410,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-159.81,30,16,NA,900,R
+411,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jun,6,6,0,Incubator,NA,NA,NA,R_day,day,N,-231.39,32.5,36,NA,1056.25,R
+412,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-278.83,33.4,49,NA,1115.56,R
+413,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Jul,7,7,0,Incubator,NA,NA,NA,R_day,day,N,-254.15,33.5,49,NA,1122.25,R
+414,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-168.46,32,64,NA,1024,R
+415,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-256.2,33.8,64,NA,1142.44,R
+416,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Sep,9,9,0,Incubator,NA,NA,NA,R_day,day,N,-342.17,33.5,81,NA,1122.25,R
+417,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-307.48,32.2,100,NA,1036.84,R
+418,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_day,day,N,-165.56,28.5,121,NA,812.25,R
+419,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_day,day,N,-233.47,30.7,121,NA,942.49,R
+420,Calleja et al. 2006,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Incubator,NA,NA,NA,R_day,day,N,-82.06,24,144,NA,576,R
+421,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,482.1,g DW m-2,NA,R_day,day,N,-107,14.14329,4,232420.41,200.032652,R
+422,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,248.1,g DW m-2,NA,R_day,day,N,-69.31,13.25963,4,61553.61,175.8177877,R
+423,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,314,g DW m-2,NA,R_day,day,N,-73.63,12.90182,4,98596,166.4569593,R
+424,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,736.3,g DW m-2,NA,R_day,day,N,-239.02,14.31058,16,542137.69,204.7926999,R
+425,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,529.9,g DW m-2,NA,R_day,day,N,-218.9,15.93007,16,280794.01,253.7671302,R
+426,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,750.6,g DW m-2,NA,R_day,day,N,-94.99,18.21524,25,563400.36,331.7949683,R
+427,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,435,g DW m-2,NA,R_day,day,N,-301.23,20.24781,36,189225,409.9738098,R
+428,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,862.4,g DW m-2,NA,R_day,day,N,-242.74,25.5752,64,743733.76,654.090855,R
+429,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,528.3,g DW m-2,NA,R_day,day,N,-129.68,22.27244,64,279100.89,496.0615836,R
+430,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,629.5,g DW m-2,NA,R_day,day,N,-296.54,25.57224,64,396270.25,653.9394586,R
+431,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,431.2,g DW m-2,NA,R_day,day,N,-192.12,24.35753,64,185933.44,593.2892677,R
+432,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,255.6,g DW m-2,NA,R_day,day,N,-39.29,22.33733,100,65331.36,498.9563115,R
+433,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,201.1,g DW m-2,NA,R_day,day,N,-49.47,19.32532,100,40441.21,373.4679931,R
+434,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,301.5,g DW m-2,NA,R_day,day,N,-67.97,18.03682,144,90902.25,325.3268757,R
+435,Champenois and Borges 2012,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,235.5,g DW m-2,NA,R_day,day,N,-54.1,16.36981,144,55460.25,267.9706794,R
+436,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.797,NA,4,NA,NA,R
+437,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Feb,2,2,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.141,NA,4,NA,NA,R
+438,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.58,NA,4,NA,NA,R
+439,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-3.35,NA,25,NA,NA,R
+440,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.253,NA,64,NA,NA,R
+441,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.415,NA,64,NA,NA,R
+442,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.633,NA,64,NA,NA,R
+443,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.87,NA,121,NA,NA,R
+444,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.405,NA,121,NA,NA,R
+445,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.72,NA,121,NA,NA,R
+446,Duarte et al. 2002,A,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,142.3,g DW m-2,NA,R_day,day,N,-55.211445,NA,81,20249.29,NA,R
+447,Duarte et al. 2002,B,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,149.7,g DW m-2,NA,R_day,day,N,-69.268223,NA,81,22410.09,NA,R
+448,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Mar,3,3,0,Incubator,NA,NA,NA,R_day,day,N,-48.573,16.5,9,NA,272.25,R
+449,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Sep,9,9,0,Incubator,NA,NA,NA,R_day,day,N,-70.91,24.6,81,NA,605.16,R
+450,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Feb,2,2,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.525,15.31,4,NA,234.3961,R
+451,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_hour,hour,N,-3.827,19.39,16,NA,375.9721,R
+452,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Jun,6,6,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.108,25.61,36,NA,655.8721,R
+453,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.299,26.82,64,NA,719.3124,R
+454,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.049,27.39,64,NA,750.2121,R
+455,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.455,25.01,100,NA,625.5001,R
+456,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.22,19.4,100,NA,376.36,R
+457,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Dec,12,12,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.832,11.48,144,NA,131.7904,R
+458,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,42.93,g DW m-2,NA,R_hour,hour,N,-3.68,17.3,9,1842.9849,299.29,R
+459,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,54.395,g DW m-2,NA,R_hour,hour,N,-4.704,17.3,9,2958.816025,299.29,R
+460,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,71.8,g DW m-2,NA,R_hour,hour,N,-2.367,17.3,9,5155.24,299.29,R
+461,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,65.175,g DW m-2,NA,R_hour,hour,N,-6.037,25.6,64,4247.780625,655.36,R
+462,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,110.586,g DW m-2,NA,R_hour,hour,N,-5.546,25.6,64,12229.2634,655.36,R
+463,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,115.104,g DW m-2,NA,R_hour,hour,N,-9.627,25.6,64,13248.93082,655.36,R
+464,Gruber et al. 2017,A,NA,mix,Enhalus acoroides + Thalassia hemprichii,tropical,Oct,10,10,0,Control volume,NA,NA,NA,R_day,day,N,-380,30.8,100,NA,948.64,R
+465,Gustafsson and Norkko 2016,A,NA,mono,Ruppia cirrhosa,temperate,Aug,8,8,0,Incubator,0.4,g DW m-2,NA,R_day,day,N,-38.852,19,64,0.16,361,R
+466,Gustafsson and Norkko 2016,B,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,4.2,g DW m-2,NA,R_day,day,N,-21.087,19,64,17.64,361,R
+467,Herbert and Fourqurean 2008,A,NA,mix,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,57.3,g DW m-2,NA,R_hour,hour,N,-20.082094,NA,121,3283.29,NA,R
+468,Holmer et al. 2004,B,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,490,g DW m-2,NA,R_day,day,N,-24.107,18,36,240100,324,R
+469,Holmer et al. 2004,C,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,527,g DW m-2,NA,R_day,day,N,-41.395,18,36,277729,324,R
+470,Holmer et al. 2004,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,471,g DW m-2,NA,R_day,day,N,-46.264,18,25,221841,324,R
+471,Holmer et al. 2004,E,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,612,g DW m-2,NA,R_day,day,N,-46.017,18,25,374544,324,R
+472,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-61,NA,36,NA,NA,R
+473,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-89.5,NA,36,NA,NA,R
+474,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-210.1,NA,36,NA,NA,R
+475,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-217.4,NA,36,NA,NA,R
+476,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-102.4,NA,36,NA,NA,R
+477,Johnson et al. 2019,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Incubator,130.9,g DW m-2,NA,R_day,day,N,-196.09,30,49,17134.81,900,R
+478,Johnson et al. 2019,D,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,202.2,g DW m-2,NA,R_day,day,N,-73.857,32.2,64,40884.84,1036.84,R
+479,Johnson et al. 2019,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,96.5,g DW m-2,NA,R_day,day,N,-88.979,34.4,64,9312.25,1183.36,R
+480,Johnson et al. 2019,F,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,70.7,g DW m-2,NA,R_day,day,N,-78.884,29.2,25,4998.49,852.64,R
+481,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jun,6,6,0,Incubator,183.2,g DW m-2,NA,R_day,day,N,-177.23,31.9,36,33562.24,1017.61,R
+482,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,May to Aug,6.5,6.5,1.5,Incubator,183.2,g DW m-2,NA,R_day,day,N,-132.58,31.7,42.25,33562.24,1004.89,R
+483,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jul,5,7,0,Incubator,183.2,g DW m-2,NA,R_day,day,N,-170.43,33.6,25,33562.24,1128.96,R
+484,Johnson et al. 2019,H,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Incubator,51.6,g DW m-2,NA,R_day,day,N,-23.777,27.9,4,2662.56,778.41,R
+485,Koopmans et al. 2020,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-66.4,NA,25,NA,NA,R
+486,Koopmans et al. 2020,B,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-91.8,NA,25,NA,NA,R
+487,Koopmans et al. 2020,C,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-106.2,NA,25,NA,NA,R
+488,Koopmans et al. 2020,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,R_day,day,N,-73,NA,25,NA,NA,R
+489,Long et al. 2015,A,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,75,g DW m-2,NA,R_day,day,N,-127,29.1,49,5625,846.81,R
+490,Long et al. 2015,B,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,24,g DW m-2,NA,R_day,day,N,-52,31.2,49,576,973.44,R
+491,Long et al. 2015,C,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,193,g DW m-2,NA,R_day,day,N,-185,30.6,64,37249,936.36,R
+492,Long et al. 2015,D,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,136,g DW m-2,NA,R_day,day,N,-155,30.7,64,18496,942.49,R
+493,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-43.21147,NA,1,NA,NA,R
+494,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-196.65798,NA,1,NA,NA,R
+495,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-164.936265,NA,1,NA,NA,R
+496,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-211.39484,NA,16,NA,NA,R
+497,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-90.835672,NA,16,NA,NA,R
+498,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-136.87795,NA,64,NA,NA,R
+499,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-148.86726,NA,64,NA,NA,R
+500,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-124.389086,NA,64,NA,NA,R
+501,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-83.009317,NA,100,NA,NA,R
+502,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-200.987453,NA,100,NA,NA,R
+503,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-136.295137,NA,100,NA,NA,R
+504,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-82.343244,NA,1,NA,NA,R
+505,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-119.143763,NA,1,NA,NA,R
+506,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-29.890015,NA,16,NA,NA,R
+507,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-268.260801,NA,16,NA,NA,R
+508,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-22.563214,NA,64,NA,NA,R
+509,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-447.850666,NA,64,NA,NA,R
+510,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-40.880215,NA,100,NA,NA,R
+511,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-177.008834,NA,100,NA,NA,R
+512,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-106.072086,NA,1,NA,NA,R
+513,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-113.648663,NA,1,NA,NA,R
+514,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_day,day,N,-57.532034,NA,1,NA,NA,R
+515,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-111.15089,NA,16,NA,NA,R
+516,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-298.733629,NA,16,NA,NA,R
+517,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-190.496807,NA,16,NA,NA,R
+518,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-121.808054,NA,16,NA,NA,R
+519,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-288.909056,NA,64,NA,NA,R
+520,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-283.99677,NA,64,NA,NA,R
+521,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-336.033703,NA,64,NA,NA,R
+522,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-216.88994,NA,64,NA,NA,R
+523,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-208.980326,NA,100,NA,NA,R
+524,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-253.940237,NA,100,NA,NA,R
+525,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-253.773718,NA,100,NA,NA,R
+526,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-118.061395,NA,100,NA,NA,R
+527,Martin et al. 2005,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Incubator,35.6,g AFDW m-2,NA,R_hour,hour,N,-2.3,13,9,1267.36,169,R
+528,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,Incubator,NA,NA,NA,R_hour,hour,N,-0.972974,7,1,NA,49,R
+529,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Incubator,NA,NA,NA,R_hour,hour,N,-3.129086,8,9,NA,64,R
+530,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_hour,hour,N,-6.156512,14,16,NA,196,R
+531,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,May,5,5,0,Incubator,81,g DW m-2,NA,R_hour,hour,N,-5.375233,18,25,6561,324,R
+532,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,May,5,5,0,Incubator,81,g DW m-2,NA,R_hour,hour,N,-4.496294,18,25,6561,324,R
+533,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jun,6,6,0,Incubator,20,g DW m-2,NA,R_hour,hour,N,-7.381433,24,36,400,576,R
+534,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,116,g DW m-2,NA,R_hour,hour,N,-9.183938,26,36,13456,676,R
+535,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,116,g DW m-2,NA,R_hour,hour,N,-11.914947,26,36,13456,676,R
+536,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jul,7,7,0,Incubator,80,g DW m-2,NA,R_hour,hour,N,-9.088278,24,49,6400,576,R
+537,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jul,7,7,0,Incubator,82,g DW m-2,NA,R_hour,hour,N,-7.386027,27,49,6724,729,R
+538,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Incubator,62,g DW m-2,NA,R_hour,hour,N,-6.153074,33,49,3844,1089,R
+539,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Aug,8,8,0,Incubator,87,g DW m-2,NA,R_hour,hour,N,-6.474055,25,64,7569,625,R
+540,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,61,g DW m-2,NA,R_hour,hour,N,-4.102248,27,64,3721,729,R
+541,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Sep,9,9,0,Incubator,61,g DW m-2,NA,R_hour,hour,N,-2.283961,27,81,3721,729,R
+542,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Oct,10,10,0,Incubator,70,g DW m-2,NA,R_hour,hour,N,-11.183326,20,100,4900,400,R
+543,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_hour,hour,N,-5.65715,16,100,NA,256,R
+544,Olive et al. 2016,E,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-150.79,NA,100,NA,NA,R
+545,Olive et al. 2016,F,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,R_day,day,N,-55.49,NA,100,NA,NA,R
+546,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Feb,2,2,0,Incubator,26.6,g DW m-2,NA,R_hour,hour,N,-2.480062,9.3,4,707.56,86.49,R
+547,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Apr,4,4,0,Incubator,67.7,g DW m-2,NA,R_hour,hour,N,-3.603948,14.15,16,4583.29,200.2225,R
+548,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,27.8,g DW m-2,NA,R_hour,hour,N,-3.368533,17.3,25,772.84,299.29,R
+549,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,99.9,g DW m-2,NA,R_hour,hour,N,-7.193176,21.6,49,9980.01,466.56,R
+550,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,136.3,g DW m-2,NA,R_hour,hour,N,-12.659193,26.8,64,18577.69,718.24,R
+551,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,36.4,g DW m-2,NA,R_hour,hour,N,-8.706827,25.2,64,1324.96,635.04,R
+552,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Oct,10,10,0,Incubator,54.2,g DW m-2,NA,R_hour,hour,N,-2.507282,14.4,100,2937.64,207.36,R
+553,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Feb,2,2,0,Eddy correlation,NA,NA,NA,R_day,day,N,-45.56864,9.4,4,NA,88.36,R
+554,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,R_day,day,N,-315.4495,27.6,36,NA,761.76,R
+555,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy correlation,NA,NA,NA,R_day,day,N,-229.5711,30.1,64,NA,906.01,R
+556,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy correlation,NA,NA,NA,R_day,day,N,-196.0729,27.4,64,NA,750.76,R
+557,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy correlation,NA,NA,NA,R_day,day,N,-136.0774,17,100,NA,289,R
+558,Santos et al. 2004,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_hour,hour,N,-7.57,NA,49,NA,NA,R
+559,Santos et al. 2004,B,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.35,NA,49,NA,NA,R
+560,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Incubator,NA,NA,NA,R_day,day,N,-6.25,9,16,NA,81,R
+561,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,NA,NA,NA,R_day,day,N,-209.4,16,36,NA,256,R
+562,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,NA,NA,NA,R_day,day,N,-159.4,21,64,NA,441,R
+563,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,20.776,g AFDW m-2,NA,R_hour,hour,N,-2.319832,15.5875,4,431.642176,242.9701563,R
+564,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,16.218,g AFDW m-2,NA,R_hour,hour,N,-2.003813,25.95,16,263.023524,673.4025,R
+565,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,10.998,g AFDW m-2,NA,R_hour,hour,N,-1.153672,25.3,16,120.956004,640.09,R
+566,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,45.156,g AFDW m-2,NA,R_hour,hour,N,-2.50107,30.0125,36,2039.064336,900.7501563,R
+567,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,41.552,g AFDW m-2,NA,R_hour,hour,N,-2.021098,28.2,36,1726.568704,795.24,R
+568,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,34.238,g AFDW m-2,NA,R_hour,hour,N,-1.771421,31.1125,64,1172.240644,967.9876563,R
+569,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,23.002,g AFDW m-2,NA,R_hour,hour,N,-1.849651,31.775,64,529.092004,1009.650625,R
+570,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,11.024,g AFDW m-2,NA,R_hour,hour,N,-2.169766,21.775,100,121.528576,474.150625,R
+571,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,19.08,g AFDW m-2,NA,R_hour,hour,N,-2.775824,20.125,144,364.0464,405.015625,R
+572,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,11.837,g AFDW m-2,NA,R_hour,hour,N,-1.97374,14.1125,144,140.114569,199.1626563,R
+573,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,36.782,g AFDW m-2,NA,R_hour,hour,N,-2.435029,16.2375,4,1352.915524,263.6564063,R
+574,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,42.4,g AFDW m-2,NA,R_hour,hour,N,-5.583322,25.8,16,1797.76,665.64,R
+575,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,35.113,g AFDW m-2,NA,R_hour,hour,N,-1.913593,22.94286,16,1232.922769,526.374825,R
+576,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,34.98,g AFDW m-2,NA,R_hour,hour,N,-4.762254,31.4125,36,1223.6004,986.7451563,R
+577,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,32.224,g AFDW m-2,NA,R_hour,hour,N,-1.46849,28.825,36,1038.386176,830.880625,R
+578,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,80.772,g AFDW m-2,NA,R_hour,hour,N,-6.056,30.45,64,6524.115984,927.2025,R
+579,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,13.25,g AFDW m-2,NA,R_hour,hour,N,-2.270076,29.9875,64,175.5625,899.2501563,R
+580,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,38.478,g AFDW m-2,NA,R_hour,hour,N,-1.339906,22.4375,100,1480.556484,503.4414063,R
+581,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,22.26,g AFDW m-2,NA,R_hour,hour,N,-0.932069,18.36667,144,495.5076,337.3345669,R
+582,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,5.698,g AFDW m-2,NA,R_hour,hour,N,-1.682999,13.01667,144,32.467204,169.4336979,R
+583,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,101,g DW m-2,NA,R_hour,hour,N,-2.728,NA,25,10201,NA,R
+584,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,101,g DW m-2,NA,R_hour,hour,N,-8.255,NA,64,10201,NA,R
+585,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.858,NA,25,NA,NA,R
+586,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.639,NA,64,NA,NA,R
+587,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Sep,9,9,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.263,NA,81,NA,NA,R
+588,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.097,NA,121,NA,NA,R
+589,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Mar,3,3,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.407,NA,9,NA,NA,R
+590,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.154,NA,25,NA,NA,R
+591,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-3.009,NA,64,NA,NA,R
+592,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.539,NA,81,NA,NA,R
+593,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.72,NA,121,NA,NA,R
+594,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.918,NA,25,NA,NA,R
+595,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-6.333,NA,64,NA,NA,R
+596,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.392,NA,121,NA,NA,R
+597,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.674,NA,25,NA,NA,R
+598,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.534,NA,64,NA,NA,R
+599,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.531,NA,121,NA,NA,R
+600,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.996,NA,9,NA,NA,R
+601,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.74,NA,25,NA,NA,R
+602,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.935,NA,64,NA,NA,R
+603,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Sep,9,9,0,Incubator,NA,NA,NA,R_hour,hour,N,-2.024,NA,81,NA,NA,R
+604,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,R_hour,hour,N,-0.944,NA,121,NA,NA,R
+605,Yarbro and Carlson 2009,A,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,R_hour,hour,N,-1.386,NA,9,NA,NA,R
+606,Yarbro and Carlson 2009,C,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,R_hour,hour,N,-4.051,NA,9,NA,NA,R
+607,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Apr,4,4,0,Incubator,18.254,g DW m-2,NA,NCP_hour,hour,N,0.614252,23.247,16,333.208516,540.423009,NCP
+608,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,May,5,5,0,Incubator,8.906,g DW m-2,NA,NCP_hour,hour,N,4.05918,26.32,25,79.316836,692.7424,NCP
+609,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Jun,6,6,0,Incubator,10.223,g DW m-2,NA,NCP_hour,hour,N,1.282356,30.017,36,104.509729,901.020289,NCP
+610,Anton et al. 2009,A,same site over time,mix,Halodule wrightii,tropical,Aug,8,8,0,Incubator,11.575,g DW m-2,NA,NCP_hour,hour,N,1.821176,30.258,64,133.980625,915.546564,NCP
+611,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,7,g DW m-2,NA,NCP_day,day,N,59.6,26.6,9,49,707.56,NCP
+612,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,55,g DW m-2,NA,NCP_day,day,N,69.2,26.6,9,3025,707.56,NCP
+613,Anton et al. 2020,A,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,15,g DW m-2,NA,NCP_day,day,N,120.6,31.1,49,225,967.21,NCP
+614,Anton et al. 2020,B,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,31,g DW m-2,NA,NCP_day,day,N,111.9,31.1,49,961,967.21,NCP
+615,Anton et al. 2020,C,NA,mono,Halodule stipulacea,tropical,Jul,7,7,0,Incubator,14,g DW m-2,NA,NCP_day,day,N,81,30.8,49,196,948.64,NCP
+616,Anton et al. 2020,D,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,64,g DW m-2,NA,NCP_day,day,N,65,30.8,49,4096,948.64,NCP
+617,Anton et al. 2020,E,NA,mono,Thalassodendrum ciliatum,tropical,Jul,7,7,0,Incubator,63,g DW m-2,NA,NCP_day,day,N,150.7,30.27,49,3969,916.2729,NCP
+618,Anton et al. 2020,F,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,11,g DW m-2,NA,NCP_day,day,N,97.2,29.93,49,121,895.8049,NCP
+619,Anton et al. 2020,G,NA,mono,Halophila stipulacea,tropical,Jul,7,7,0,Incubator,32,g DW m-2,NA,NCP_day,day,N,173.3,29.93,49,1024,895.8049,NCP
+620,Anton et al. 2020,H,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,51,g DW m-2,NA,NCP_day,day,N,100.8,29.93,49,2601,895.8049,NCP
+621,Anton et al. 2020,J,NA,mono,Halophila stipulacea,tropical,Jan,1,1,0,Incubator,5,g DW m-2,NA,NCP_day,day,N,33.9,23.8,1,25,566.44,NCP
+622,Anton et al. 2020,K,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator,7,g DW m-2,NA,NCP_day,day,N,174.5,31.5,49,49,992.25,NCP
+623,Anton et al. 2020,L,NA,mono,Thalassia hemprichii,tropical,Jul,7,7,0,Incubator,13,g DW m-2,NA,NCP_day,day,N,71.1,31.5,49,169,992.25,NCP
+624,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Mar,3,3,0,Incubator,14,g DW m-2,NA,NCP_day,day,N,100.9,25,9,196,625,NCP
+625,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,NCP_day,day,N,54.1,25,9,9,625,NCP
+626,Anton et al. 2020,M,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,NCP_day,day,N,63.8,32.3,64,16,1043.29,NCP
+627,Anton et al. 2020,N,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,NCP_day,day,N,87.3,32.3,64,16,1043.29,NCP
+628,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Mar,3,3,0,Incubator,8,g DW m-2,NA,NCP_day,day,N,47.6,27.5,9,64,756.25,NCP
+629,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Mar,3,3,0,Incubator,3,g DW m-2,NA,NCP_day,day,N,52.1,27.5,9,9,756.25,NCP
+630,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Mar,3,3,0,Incubator,28,g DW m-2,NA,NCP_day,day,N,51.9,27.5,9,784,756.25,NCP
+631,Anton et al. 2020,O,NA,mono,Halodule uninervis,tropical,Aug,8,8,0,Incubator,26,g DW m-2,NA,NCP_day,day,N,115.9,31,64,676,961,NCP
+632,Anton et al. 2020,R,NA,mono,Halophila stipulacea,tropical,Aug,8,8,0,Incubator,19,g DW m-2,NA,NCP_day,day,N,118.7,31,64,361,961,NCP
+633,Anton et al. 2020,P,NA,mono,Halophila ovalis,tropical,Aug,8,8,0,Incubator,4,g DW m-2,NA,NCP_day,day,N,95.7,31,64,16,961,NCP
+634,Anton et al. 2020,Q,NA,mono,Thalassia hemprichii,tropical,Aug,8,8,0,Incubator,28,g DW m-2,NA,NCP_day,day,N,97.1,31,64,784,961,NCP
+635,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,111.0648849,g DW m-2,NA,NCP_day,day,N,37.02,14.05,4,12335.40866,197.4025,NCP
+636,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,173.7906793,g DW m-2,NA,NCP_day,day,N,46.3944,15.52,16,30203.20021,240.8704,NCP
+637,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,344.7404888,g DW m-2,NA,NCP_day,day,N,64.0548,23.41,36,118846.0046,548.0281,NCP
+638,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,237.878419,g DW m-2,NA,NCP_day,day,N,33.582,25.78,64,56586.14223,664.6084,NCP
+639,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,89.2602009,g DW m-2,NA,NCP_day,day,N,27.696,21.29,100,7967.383465,453.2641,NCP
+640,Apostolaki et al. 2010,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,111.3256182,g DW m-2,NA,NCP_day,day,N,30.0936,16.14,144,12393.39327,260.4996,NCP
+641,Apostolaki et al. 2014,A,NA,mix,Cymodocea nodosa,temperate,May,5,5,0,Incubator,204.4,g DW m-2,NA,NCP_day,day,N,36.53,19.68,25,41779.36,387.3024,NCP
+642,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,338.9,g DW m-2,NA,NCP_day,day,N,12.98,NA,1,114853.21,NA,NCP
+643,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348,g DW m-2,NA,NCP_day,day,N,27.03,NA,4,121104,NA,NCP
+644,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,405.1,g DW m-2,NA,NCP_day,day,N,30.8,NA,9,164106.01,NA,NCP
+645,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,332.5,g DW m-2,NA,NCP_day,day,N,29.7,NA,9,110556.25,NA,NCP
+646,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,859,g DW m-2,NA,NCP_day,day,N,57.33,NA,16,737881,NA,NCP
+647,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,519.9,g DW m-2,NA,NCP_day,day,N,88.78,NA,16,270296.01,NA,NCP
+648,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,490,g DW m-2,NA,NCP_day,day,N,41.21,NA,25,240100,NA,NCP
+649,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,798.5,g DW m-2,NA,NCP_day,day,N,19.38,NA,25,637602.25,NA,NCP
+650,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,682.2,g DW m-2,NA,NCP_day,day,N,-15.4,NA,36,465396.84,NA,NCP
+651,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,872.4,g DW m-2,NA,NCP_day,day,N,47.17,NA,36,761081.76,NA,NCP
+652,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.9,g DW m-2,NA,NCP_day,day,N,40.8,NA,49,306805.21,NA,NCP
+653,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,880.5,g DW m-2,NA,NCP_day,day,N,-15.9,NA,49,775280.25,NA,NCP
+654,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.6,g DW m-2,NA,NCP_day,day,N,13.28,NA,64,280476.16,NA,NCP
+655,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,550.6,g DW m-2,NA,NCP_day,day,N,-24.67,NA,64,303160.36,NA,NCP
+656,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.4,g DW m-2,NA,NCP_day,day,N,-11.19,NA,81,54475.56,NA,NCP
+657,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415,g DW m-2,NA,NCP_day,day,N,5.84,NA,100,172225,NA,NCP
+658,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,578.3,g DW m-2,NA,NCP_day,day,N,2.49,NA,100,334430.89,NA,NCP
+659,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,399.2,g DW m-2,NA,NCP_day,day,N,1.17,NA,121,159360.64,NA,NCP
+660,Barron and Duarte 2009,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,287.7,g DW m-2,NA,NCP_day,day,N,-7.02,NA,144,82771.29,NA,NCP
+661,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-6.08,NA,49,NA,NA,NCP
+662,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-12.26,NA,49,NA,NA,NCP
+663,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-4.63,NA,49,NA,NA,NCP
+664,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-71.46,NA,49,NA,NA,NCP
+665,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-30.83,NA,49,NA,NA,NCP
+666,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-50.24,NA,49,NA,NA,NCP
+667,Barron et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-12.92,NA,49,NA,NA,NCP
+668,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,339.396,g DW m-2,NA,NCP_day,day,N,12.842,13.933,1,115189.6448,194.128489,NCP
+669,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,348.957,g DW m-2,NA,NCP_day,day,N,26.96,14.467,4,121770.9878,209.294089,NCP
+670,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,30.988,NA,9,NA,NA,NCP
+671,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,331.715,g DW m-2,NA,NCP_day,day,N,29.913,14.445,9,110034.8412,208.658025,NCP
+672,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,860.21,g DW m-2,NA,NCP_day,day,N,57.619,NA,16,739961.2441,NA,NCP
+673,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,521.143,g DW m-2,NA,NCP_day,day,N,89.294,15.147,16,271590.0264,229.431609,NCP
+674,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,487.462,g DW m-2,NA,NCP_day,day,N,41.171,NA,25,237619.2014,NA,NCP
+675,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,797.001,g DW m-2,NA,NCP_day,day,N,19.344,18.917,25,635210.594,357.852889,NCP
+676,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,681.985,g DW m-2,NA,NCP_day,day,N,-15.417,22.605,36,465103.5402,510.986025,NCP
+677,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,870.692,g DW m-2,NA,NCP_day,day,N,47.489,22.415,36,758104.5589,502.432225,NCP
+678,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,553.397,g DW m-2,NA,NCP_day,day,N,40.696,25.151,49,306248.2396,632.572801,NCP
+679,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,879.539,g DW m-2,NA,NCP_day,day,N,-16.029,26.324,49,773588.8525,692.952976,NCP
+680,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,529.737,g DW m-2,NA,NCP_day,day,N,13.331,27.273,64,280621.2892,743.816529,NCP
+681,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,550.091,g DW m-2,NA,NCP_day,day,N,-25.245,26.028,64,302600.1083,677.456784,NCP
+682,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,233.993,g DW m-2,NA,NCP_day,day,N,-11.525,25.745,81,54752.72405,662.805025,NCP
+683,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,415.093,g DW m-2,NA,NCP_day,day,N,5.573,23.637,100,172302.1986,558.707769,NCP
+684,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,579.494,g DW m-2,NA,NCP_day,day,N,2.43,22.685,100,335813.296,514.609225,NCP
+685,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,396.952,g DW m-2,NA,NCP_day,day,N,0.115,18.669,121,157570.8903,348.531561,NCP
+686,Barron et al. 2006,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,285.406,g DW m-2,NA,NCP_day,day,N,-6.631,15.66,144,81456.58484,245.2356,NCP
+687,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,34.73631279,g DW m-2,NA,NCP_day,day,N,19.849,16,16,1206.611426,256,NCP
+688,Berg et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,44.66097359,g DW m-2,NA,NCP_day,day,N,-27.103,27.6,36,1994.602562,761.76,NCP
+689,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-18,NA,1,NA,NA,NCP
+690,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-6.4,NA,9,NA,NA,NCP
+691,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,6.7,NA,16,NA,NA,NCP
+692,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-6.3,NA,16,NA,NA,NCP
+693,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-18,NA,16,NA,NA,NCP
+694,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,7.9,NA,16,NA,NA,NCP
+695,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,24,NA,16,NA,NA,NCP
+696,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-25,NA,25,NA,NA,NCP
+697,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,32,NA,25,NA,NA,NCP
+698,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-21,NA,36,NA,NA,NCP
+699,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-34,NA,36,NA,NA,NCP
+700,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-43,NA,36,NA,NA,NCP
+701,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,40,NA,36,NA,NA,NCP
+702,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,20,NA,36,NA,NA,NCP
+703,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-30,NA,49,NA,NA,NCP
+704,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,17,NA,49,NA,NA,NCP
+705,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-8,NA,64,NA,NA,NCP
+706,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,-17,NA,64,NA,NA,NCP
+707,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,11,NA,64,NA,NA,NCP
+708,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,11,NA,64,NA,NA,NCP
+709,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,5.9,NA,100,NA,NA,NCP
+710,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,19,NA,100,NA,NA,NCP
+711,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,6.4,NA,100,NA,NA,NCP
+712,Berger et al. 2020,A,NA,mono,Zostera marina,temperate,Nov,11,11,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,38,NA,121,NA,NA,NCP
+713,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Feb,2,2,0,Incubator,NA,NA,NA,NCP_day,day,N,34.58,22.3,4,NA,497.29,NCP
+714,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Feb,2,2,0,Incubator,NA,NA,NA,NCP_day,day,N,12.17,22.8,4,NA,519.84,NCP
+715,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,73.69,29.6,16,NA,876.16,NCP
+716,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,16.1,30,16,NA,900,NCP
+717,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,108.89,32.5,36,NA,1056.25,NCP
+718,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,139.15,33.4,49,NA,1115.56,NCP
+719,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,13.18,33.5,49,NA,1122.25,NCP
+720,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,95.45,32,64,NA,1024,NCP
+721,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,14.47,33.8,64,NA,1142.44,NCP
+722,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,-36.55,33.5,81,NA,1122.25,NCP
+723,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-44.23,32.2,100,NA,1036.84,NCP
+724,Burkhoz et al. 2019,A,NA,mono,Enhalus acoroides,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,45.48,28.5,121,NA,812.25,NCP
+725,Burkhoz et al. 2019,B,NA,mix,Cymodecea serrulata and Halodule uninervis,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,3.22,30.7,121,NA,942.49,NCP
+726,Calleja et al. 2006,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Incubator,NA,NA,NA,NCP_day,day,N,74.66,24,144,NA,576,NCP
+727,Cardini et al 2018,A,NA,mono,Halophila stipulacea,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_day,day,N,271.781,23,4,NA,529,NCP
+728,Cardini et al 2018,A,NA,mono,Halophila stipulacea,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,637.641,22.8,16,NA,519.84,NCP
+729,Cardini et al 2018,A,NA,mono,Halophila stipulacea,temperate,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,566.803,27.5,81,NA,756.25,NCP
+730,Cardini et al 2018,A,NA,mono,Halophila stipulacea,temperate,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,433.316,25.2,121,NA,635.04,NCP
+731,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_hour,hour,N,2.304,NA,4,NA,NA,NCP
+732,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_hour,hour,N,-0.413,NA,4,NA,NA,NCP
+733,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_hour,hour,N,3.215,NA,4,NA,NA,NCP
+734,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,May,5,5,0,Incubator,NA,NA,NA,NCP_hour,hour,N,3.623,NA,25,NA,NA,NCP
+735,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_hour,hour,N,6.449,NA,64,NA,NA,NCP
+736,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_hour,hour,N,0.886,NA,64,NA,NA,NCP
+737,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_hour,hour,N,5.033,NA,64,NA,NA,NCP
+738,Chen et al. 2019,A,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,NCP_hour,hour,N,1.143,NA,121,NA,NA,NCP
+739,Chen et al. 2019,B,NA,mono,Halophila ovalis,temperate,Nov,11,11,0,Incubator,NA,NA,NA,NCP_hour,hour,N,0.23,NA,121,NA,NA,NCP
+740,Chen et al. 2019,C,NA,mono,Zostera capricorni,temperate,Nov,11,11,0,Incubator,NA,NA,NA,NCP_hour,hour,N,-0.783,NA,121,NA,NA,NCP
+741,Dahl et al. 2016,A,NA,mono,Thalassia hemprichii,tropical,Sep,9,9,0,Incubator,NA,NA,NA,NCP_hour,hour,N,17.056225,29.68,81,NA,880.9024,NCP
+742,Drylie et al. 2018,A,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,290,g DW m-2,NA,NCP_hour,hour,N,2.793,NA,64,84100,NA,NCP
+743,Drylie et al. 2018,B,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,308,g DW m-2,NA,NCP_hour,hour,N,-1.076,NA,64,94864,NA,NCP
+744,Drylie et al. 2018,C,NA,mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,161,g DW m-2,NA,NCP_hour,hour,N,-0.801,NA,64,25921,NA,NCP
+745,Duarte et al. 2002,A,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,142.3,g DW m-2,NA,NCP_day,day,N,-0.12188,NA,81,20249.29,NA,NCP
+746,Duarte et al. 2002,B,NA,mono,Zostera marina,temperate,Sep,9,9,0,Incubator,149.7,g DW m-2,NA,NCP_day,day,N,9.965999,NA,81,22410.09,NA,NCP
+747,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,15.283,16.5,9,NA,272.25,NCP
+748,Egea et al. 2019,A,NA,mono,Cymodocea nodosa,temperate,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,52.869,24.6,81,NA,605.16,NCP
+749,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_day,day,N,0.278,15.31,4,NA,234.3961,NCP
+750,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,85.771,19.39,16,NA,375.9721,NCP
+751,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,88.384,25.61,36,NA,655.8721,NCP
+752,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,91.925,26.82,64,NA,719.3124,NCP
+753,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,148.516,27.39,64,NA,750.2121,NCP
+754,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,126.948,25.01,100,NA,625.5001,NCP
+755,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,80.772,19.4,100,NA,376.36,NCP
+756,Egea et al. 2019b ,A,NA,mono,Cymodocea nodosa,temperate,Dec,12,12,0,Incubator,NA,NA,NA,NCP_day,day,N,48.84,11.48,144,NA,131.7904,NCP
+757,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,42.93,g DW m-2,NA,NCP_day,day,N,-15.228,17.3,9,1842.9849,299.29,NCP
+758,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,54.395,g DW m-2,NA,NCP_day,day,N,-12.287,17.3,9,2958.816025,299.29,NCP
+759,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Mar,3,3,0,Incubator,71.8,g DW m-2,NA,NCP_day,day,N,3.27,17.3,9,5155.24,299.29,NCP
+760,Ferguson et al. 2017,C,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,65.175,g DW m-2,NA,NCP_day,day,N,40.62,25.6,64,4247.780625,655.36,NCP
+761,Ferguson et al. 2017,A,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,110.586,g DW m-2,NA,NCP_day,day,N,-10.776,25.6,64,12229.2634,655.36,NCP
+762,Ferguson et al. 2017,B,"two depths, two seasons",mono,Zostera muelleri,temperate,Aug,8,8,0,Incubator,115.104,g DW m-2,NA,NCP_day,day,N,-16.961,25.6,64,13248.93082,655.36,NCP
+763,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,13.107,NA,9,NA,NA,NCP
+764,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,24.82,NA,25,NA,NA,NCP
+765,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,26.031,NA,36,NA,NA,NCP
+766,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,4.096,NA,49,NA,NA,NCP
+767,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.29,NA,49,NA,NA,NCP
+768,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,5.548,NA,64,NA,NA,NCP
+769,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-6.035,NA,64,NA,NA,NCP
+770,Frankignoulle and Bouquegneau 1987,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-5.225,NA,100,NA,NA,NCP
+771,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,-11.192,NA,1,NA,NA,NCP
+772,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Incubator,NA,NA,NA,NCP_day,day,N,13.278,NA,4,NA,NA,NCP
+773,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,27.034,NA,9,NA,NA,NCP
+774,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,29.7,NA,9,NA,NA,NCP
+775,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,30.799,NA,16,NA,NA,NCP
+776,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,57.331,NA,16,NA,NA,NCP
+777,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,88.775,NA,25,NA,NA,NCP
+778,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,19.377,NA,25,NA,NA,NCP
+779,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,-7.023,NA,36,NA,NA,NCP
+780,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,12.981,NA,36,NA,NA,NCP
+781,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,5.842,NA,49,NA,NA,NCP
+782,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_day,day,N,1.166,NA,49,NA,NA,NCP
+783,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,41.214,NA,64,NA,NA,NCP
+784,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-15.401,NA,64,NA,NA,NCP
+785,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,2.49,NA,81,NA,NA,NCP
+786,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-15.899,NA,100,NA,NA,NCP
+787,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-24.674,NA,100,NA,NA,NCP
+788,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,47.169,NA,121,NA,NA,NCP
+789,Gazeau et al. 2005,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Incubator,NA,NA,NA,NCP_day,day,N,40.798,NA,144,NA,NA,NCP
+790,Gruber et al. 2017,A,NA,mix,Enhalus acoroides + Thalassia hemprichii,tropical,Oct,10,10,0,Control volume,NA,NA,NA,NCP_day,day,N,50,30.8,100,NA,948.64,NCP
+791,Gustafsson and Norkko 2016,A,NA,mono,Ruppia cirrhosa,temperate,Aug,8,8,0,Incubator,0.4,g DW m-2,NA,NCP_day,day,N,6.861,19,64,0.16,361,NCP
+792,Gustafsson and Norkko 2016,B,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,4.2,g DW m-2,NA,NCP_day,day,N,16.842,19,64,17.64,361,NCP
+793,Herbert and Fourqurean 2008,A,NA,mix,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,57.3,g DW m-2,NA,NCP_hour,hour,N,9.991091,NA,121,3283.29,NA,NCP
+794,Holmer et al. 2004,A,NA,mono,Cymodocea nodosa,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,34.195,NA,36,NA,NA,NCP
+795,Holmer et al. 2004,B,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,490,g DW m-2,NA,NCP_day,day,N,90.901,18,36,240100,324,NCP
+796,Holmer et al. 2004,C,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Incubator,527,g DW m-2,NA,NCP_day,day,N,82.12,18,36,277729,324,NCP
+797,Holmer et al. 2004,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,471,g DW m-2,NA,NCP_day,day,N,57.767,18,25,221841,324,NCP
+798,Holmer et al. 2004,E,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Incubator,612,g DW m-2,NA,NCP_day,day,N,138.754,18,25,374544,324,NCP
+799,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,4.9,NA,36,NA,NA,NCP
+800,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,36.5,NA,36,NA,NA,NCP
+801,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,13.4,NA,36,NA,NA,NCP
+802,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,-2.4,NA,36,NA,NA,NCP
+803,Hume et al. 2011,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,41.7,NA,36,NA,NA,NCP
+804,Johnson et al. 2019,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Incubator,130.9,g DW m-2,NA,NCP_day,day,N,110.579,30,49,17134.81,900,NCP
+805,Johnson et al. 2019,B,NA,mono,Halophila stipulacea,tropical,Jul,7,7,0,Incubator,36.4,g DW m-2,NA,NCP_day,day,N,98.717,30,49,1324.96,900,NCP
+806,Johnson et al. 2019,C,NA,mono,Halodule stipulacea,tropical,Jul,7,7,0,Incubator,17.1,g DW m-2,NA,NCP_day,day,N,60.748,31.1,49,292.41,967.21,NCP
+807,Johnson et al. 2019,D,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,202.2,g DW m-2,NA,NCP_day,day,N,127.613,32.2,64,40884.84,1036.84,NCP
+808,Johnson et al. 2019,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,96.5,g DW m-2,NA,NCP_day,day,N,65.222,34.4,64,9312.25,1183.36,NCP
+809,Johnson et al. 2019,F,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,70.7,g DW m-2,NA,NCP_day,day,N,52.821,29.2,25,4998.49,852.64,NCP
+810,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jun,6,6,0,Incubator,183.2,g DW m-2,NA,NCP_day,day,N,197.806,31.9,36,33562.24,1017.61,NCP
+811,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,May to Aug,6.5,6.5,1.5,Incubator,183.2,g DW m-2,NA,NCP_day,day,N,225.337,31.7,42.25,33562.24,1004.89,NCP
+812,Johnson et al. 2019,G,NA,mono,Thalassia testudinum,tropical,Jul,5,7,0,Incubator,183.2,g DW m-2,NA,NCP_day,day,N,177.853,33.6,25,33562.24,1128.96,NCP
+813,Johnson et al. 2019,H,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Incubator,51.6,g DW m-2,NA,NCP_day,day,N,98.7,27.9,4,2662.56,778.41,NCP
+814,Johnson et al. 2019,I,NA,mono,Halophila stipulacea,tropical,Feb,2,2,0,Incubator,63,g DW m-2,NA,NCP_day,day,N,71.117,27.9,4,3969,778.41,NCP
+815,Koopmans et al. 2020,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,85,NA,25,NA,NA,NCP
+816,Koopmans et al. 2020,B,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,119.1,NA,25,NA,NA,NCP
+817,Koopmans et al. 2020,C,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,53.6,NA,25,NA,NA,NCP
+818,Koopmans et al. 2020,D,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Eddy covariance,NA,NA,NA,NCP_day,day,N,60.3,NA,25,NA,NA,NCP
+819,Long et al. 2015,A,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,75,g DW m-2,NA,NCP_day,day,N,25,29.1,49,5625,846.81,NCP
+820,Long et al. 2015,B,NA,mono,Thalassia testudinium,tropical,Jul,7,7,0,Eddy correlation,24,g DW m-2,NA,NCP_day,day,N,11,31.2,49,576,973.44,NCP
+821,Long et al. 2015,C,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,193,g DW m-2,NA,NCP_day,day,N,37,30.6,64,37249,936.36,NCP
+822,Long et al. 2015,D,NA,mono,Thalassia testudinium,tropical,Aug,8,8,0,Eddy correlation,136,g DW m-2,NA,NCP_day,day,N,35,30.7,64,18496,942.49,NCP
+823,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,27.059206,NA,1,NA,NA,NCP
+824,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,40.047624,NA,1,NA,NA,NCP
+825,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,-39.215033,NA,1,NA,NA,NCP
+826,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,-40.047624,NA,16,NA,NA,NCP
+827,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,85.923385,NA,16,NA,NA,NCP
+828,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,40.047624,NA,64,NA,NA,NCP
+829,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,38.299183,NA,64,NA,NA,NCP
+830,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,89.17049,NA,64,NA,NA,NCP
+831,Maher and Eyre 2011,A,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-11.406496,NA,100,NA,NA,NCP
+832,Maher and Eyre 2011,B,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,41.046733,NA,100,NA,NA,NCP
+833,Maher and Eyre 2011,C,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,67.023571,NA,100,NA,NA,NCP
+834,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,-40.047624,NA,1,NA,NA,NCP
+835,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,-16.402042,NA,1,NA,NA,NCP
+836,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,9.991091,NA,16,NA,NA,NCP
+837,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,59.530252,NA,16,NA,NA,NCP
+838,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,55.866852,NA,64,NA,NA,NCP
+839,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,6.660728,NA,64,NA,NA,NCP
+840,Maher and Eyre 2011,D,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,17.317892,NA,100,NA,NA,NCP
+841,Maher and Eyre 2011,F,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,51.037825,NA,100,NA,NA,NCP
+842,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,11.656273,NA,1,NA,NA,NCP
+843,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,75.432739,NA,1,NA,NA,NCP
+844,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_day,day,N,22.396696,NA,1,NA,NA,NCP
+845,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,41.546288,NA,16,NA,NA,NCP
+846,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.333036,NA,16,NA,NA,NCP
+847,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,3.080586,NA,16,NA,NA,NCP
+848,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,-12.488864,NA,16,NA,NA,NCP
+849,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-30.889124,NA,64,NA,NA,NCP
+850,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,86.256421,NA,64,NA,NA,NCP
+851,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-42.545397,NA,64,NA,NA,NCP
+852,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-2.830809,NA,64,NA,NA,NCP
+853,Maher and Eyre 2011,E,NA,mono,Halophila ovalis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-22.06366,NA,100,NA,NA,NCP
+854,Maher and Eyre 2011,H,NA,mono,Posidonia australis,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.582814,NA,100,NA,NA,NCP
+855,Maher and Eyre 2011,I,NA,mono,Ruppia megcarpa,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,-56.199888,NA,100,NA,NA,NCP
+856,Maher and Eyre 2011,G,NA,mono,Zostera capricorni,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,36.051188,NA,100,NA,NA,NCP
+857,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jan,1,1,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,0.469748,NA,1,11664,NA,NCP
+858,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,C14_enrichment,166,g DW m-2,from reported range,NCP_hour,hour,N,1.537962,NA,4,27556,NA,NCP
+859,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,May,5,5,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,11.152056,NA,25,11664,NA,NCP
+860,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,3.375157,NA,36,11664,NA,NCP
+861,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,4.901213,NA,36,11664,NA,NCP
+862,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,5.206441,NA,36,11664,NA,NCP
+863,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,8.869008,NA,36,11664,NA,NCP
+864,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Jul,7,7,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,2.917399,NA,49,11664,NA,NCP
+865,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,C14_enrichment,42,g DW m-2,from reported range,NCP_hour,hour,N,4.43746,NA,64,1764,NA,NCP
+866,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,9.015628,NA,81,11664,NA,NCP
+867,Moncreiff et al. 1992,A,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,C14_enrichment,108,g DW m-2,mean = 108±37,NCP_hour,hour,N,4.742688,NA,100,11664,NA,NCP
+868,Moriarty et al. 1990,A,NA,mono,Halodule uninervis,tropical,Jan,1,1,0,Incubator_lacunal,78,g DW m-2,NA,NCP_day,day,N,91.585003,23,1,6084,529,NCP
+869,Moriarty et al. 1990,A,NA,mono,Halodule uninervis,tropical,Apr,4,4,0,Incubator_lacunal,35,g DW m-2,NA,NCP_day,day,N,83.259094,29,16,1225,841,NCP
+870,Moriarty et al. 1990,A,NA,mono,Halodule uninervis,tropical,Jul,7,7,0,Incubator_lacunal,185,g DW m-2,NA,NCP_day,day,N,291.406829,32,49,34225,1024,NCP
+871,Moriarty et al. 1990,A,NA,mono,Halodule uninervis,tropical,Nov,11,11,0,Incubator_lacunal,60,g DW m-2,NA,NCP_day,day,N,74.933185,30,121,3600,900,NCP
+872,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jan,1,1,0,Incubator,NA,NA,NA,NCP_hour,hour,N,5.36417,7,1,NA,49,NCP
+873,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Mar,3,3,0,Incubator,NA,NA,NA,NCP_hour,hour,N,8.496506,8,9,NA,64,NCP
+874,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_hour,hour,N,3.906553,14,16,NA,196,NCP
+875,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,May,5,5,0,Incubator,81,g DW m-2,NA,NCP_hour,hour,N,14.941967,18,25,6561,324,NCP
+876,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,May,5,5,0,Incubator,81,g DW m-2,NA,NCP_hour,hour,N,9.570734,18,25,6561,324,NCP
+877,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jun,6,6,0,Incubator,20,g DW m-2,NA,NCP_hour,hour,N,21.964605,24,36,400,576,NCP
+878,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,116,g DW m-2,NA,NCP_hour,hour,N,5.46183,26,36,13456,676,NCP
+879,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,116,g DW m-2,NA,NCP_hour,hour,N,4.289942,26,36,13456,676,NCP
+880,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jul,7,7,0,Incubator,80,g DW m-2,NA,NCP_hour,hour,N,23.92871,24,49,6400,576,NCP
+881,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Jul,7,7,0,Incubator,82,g DW m-2,NA,NCP_hour,hour,N,29.428229,27,49,6724,729,NCP
+882,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Jul,7,7,0,Incubator,62,g DW m-2,NA,NCP_hour,hour,N,7.805636,33,49,3844,1089,NCP
+883,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Aug,8,8,0,Incubator,87,g DW m-2,NA,NCP_hour,hour,N,18.952992,25,64,7569,625,NCP
+884,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,61,g DW m-2,NA,NCP_hour,hour,N,-3.132149,27,64,3721,729,NCP
+885,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Sep,9,9,0,Incubator,61,g DW m-2,NA,NCP_hour,hour,N,11.882164,27,81,3721,729,NCP
+886,Murray and Wetzel 1987,B,NA,mono,Ruppia maritima,temperate,Oct,10,10,0,Incubator,70,g DW m-2,NA,NCP_hour,hour,N,7.953955,20,100,4900,400,NCP
+887,Murray and Wetzel 1987,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_hour,hour,N,8.098616,16,100,NA,256,NCP
+888,Olive et al. 2016,E,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,61.67,NA,100,NA,NA,NCP
+889,Olive et al. 2016,F,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,49.96,NA,100,NA,NA,NCP
+890,Olive et al. 2016,A,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_hour,hour,N,9.936143,NA,100,NA,NA,NCP
+891,Olive et al. 2016,B,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_hour,hour,N,11.611,NA,100,NA,NA,NCP
+892,Olive et al. 2016,C,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_hour,hour,N,2.481,NA,100,NA,NA,NCP
+893,Olive et al. 2016,D,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_hour,hour,N,0.615,NA,100,NA,NA,NCP
+894,Olive et al. 2016,G,These are estimates based on different incubation times,mono,Posidonia oceanica,temperate,Oct,10,10,0,Incubator,NA,NA,NA,NCP_day,day,N,14.75,NA,100,NA,NA,NCP
+895,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Feb,2,2,0,Incubator,26.6,g DW m-2,NA,NCP_hour,hour,N,8.950367,9.3,4,707.56,86.49,NCP
+896,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Apr,4,4,0,Incubator,67.7,g DW m-2,NA,NCP_hour,hour,N,7.489,14.15,16,4583.29,200.2225,NCP
+897,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,27.8,g DW m-2,NA,NCP_hour,hour,N,4.067871,17.3,25,772.84,299.29,NCP
+898,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,99.9,g DW m-2,NA,NCP_hour,hour,N,9.517951,21.6,49,9980.01,466.56,NCP
+899,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,136.3,g DW m-2,NA,NCP_hour,hour,N,3.950804,26.8,64,18577.69,718.24,NCP
+900,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,36.4,g DW m-2,NA,NCP_hour,hour,N,11.543027,25.2,64,1324.96,635.04,NCP
+901,Plus et al. 2001,A,NA,mono,Zostera noltii,temperate,Oct,10,10,0,Incubator,54.2,g DW m-2,NA,NCP_hour,hour,N,9.966249,14.4,100,2937.64,207.36,NCP
+902,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Feb,2,2,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,6.4,9.4,4,NA,88.36,NCP
+903,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,55.5,27.6,36,NA,761.76,NCP
+904,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,-47.6,30.1,64,NA,906.01,NCP
+905,Rheuban et al. 2014,A,NA,mono,Zostera marina,temperate,Oct,10,10,0,Eddy correlation,NA,NA,NA,NCP_day,day,N,-0.31,17,100,NA,289,NCP
+906,Santos et al. 2004,A,NA,mono,Zostera noltii,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_hour,hour,N,4.9,NA,49,NA,NA,NCP
+907,Santos et al. 2004,B,NA,mono,Cymodocea nodosa,temperate,Jul,7,7,0,Incubator,NA,NA,NA,NCP_hour,hour,N,2.01,NA,49,NA,NA,NCP
+908,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Apr,4,4,0,Incubator,NA,NA,NA,NCP_day,day,N,6.25,9,16,NA,81,NCP
+909,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Jun,6,6,0,Incubator,NA,NA,NA,NCP_day,day,N,65.6,16,36,NA,256,NCP
+910,Staehr et al. 2018,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-50,21,64,NA,441,NCP
+911,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,20.776,g AFDW m-2,NA,NCP_hour,hour,N,2.234608,15.5875,4,431.642176,242.9701563,NCP
+912,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,16.218,g AFDW m-2,NA,NCP_hour,hour,N,3.449225,25.95,16,263.023524,673.4025,NCP
+913,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,10.998,g AFDW m-2,NA,NCP_hour,hour,N,2.083343,25.3,16,120.956004,640.09,NCP
+914,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,45.156,g AFDW m-2,NA,NCP_hour,hour,N,2.683108,30.0125,36,2039.064336,900.7501563,NCP
+915,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,41.552,g AFDW m-2,NA,NCP_hour,hour,N,1.790104,28.2,36,1726.568704,795.24,NCP
+916,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,34.238,g AFDW m-2,NA,NCP_hour,hour,N,1.092726,31.1125,64,1172.240644,967.9876563,NCP
+917,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,23.002,g AFDW m-2,NA,NCP_hour,hour,N,0.81837,31.775,64,529.092004,1009.650625,NCP
+918,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,11.024,g AFDW m-2,NA,NCP_hour,hour,N,2.998127,21.775,100,121.528576,474.150625,NCP
+919,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,19.08,g AFDW m-2,NA,NCP_hour,hour,N,1.926982,20.125,144,364.0464,405.015625,NCP
+920,Stutes et al. 2007,A,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,11.837,g AFDW m-2,NA,NCP_hour,hour,N,1.795399,14.1125,144,140.114569,199.1626563,NCP
+921,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Feb,2,2,0,Incubator,36.782,g AFDW m-2,NA,NCP_hour,hour,N,2.995628,16.2375,4,1352.915524,263.6564063,NCP
+922,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,42.4,g AFDW m-2,NA,NCP_hour,hour,N,2.796307,25.8,16,1797.76,665.64,NCP
+923,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Apr,4,4,0,Incubator,35.113,g AFDW m-2,NA,NCP_hour,hour,N,3.690709,22.94286,16,1232.922769,526.374825,NCP
+924,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,34.98,g AFDW m-2,NA,NCP_hour,hour,N,-1.620055,31.4125,36,1223.6004,986.7451563,NCP
+925,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Jun,6,6,0,Incubator,32.224,g AFDW m-2,NA,NCP_hour,hour,N,3.028799,28.825,36,1038.386176,830.880625,NCP
+926,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,80.772,g AFDW m-2,NA,NCP_hour,hour,N,4.431248,30.45,64,6524.115984,927.2025,NCP
+927,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,13.25,g AFDW m-2,NA,NCP_hour,hour,N,5.32665,29.9875,64,175.5625,899.2501563,NCP
+928,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Oct,10,10,0,Incubator,38.478,g AFDW m-2,NA,NCP_hour,hour,N,2.372285,22.4375,100,1480.556484,503.4414063,NCP
+929,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,22.26,g AFDW m-2,NA,NCP_hour,hour,N,3.432839,18.36667,144,495.5076,337.3345669,NCP
+930,Stutes et al. 2007,B,NA,mono,Halodule wrightii,tropical,Dec,12,12,0,Incubator,5.698,g AFDW m-2,NA,NCP_hour,hour,N,2.810893,13.01667,144,32.467204,169.4336979,NCP
+931,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,May,5,5,0,Incubator,101,g DW m-2,NA,NCP_hour,hour,N,6.525,NA,25,10201,NA,NCP
+932,Viaroli et al. 1996,A,NA,mono,Zostera noltii,temperate,Aug,8,8,0,Incubator,101,g DW m-2,NA,NCP_hour,hour,N,6.79,NA,64,10201,NA,NCP
+933,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,16,NA,25,NA,NA,NCP
+934,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-6.2,NA,64,NA,NA,NCP
+935,Yarbro and Carlson 2008,A,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,-11,NA,121,NA,NA,NCP
+936,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,13,NA,9,NA,NA,NCP
+937,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,-1.2,NA,25,NA,NA,NCP
+938,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,49,NA,64,NA,NA,NCP
+939,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,-2,NA,81,NA,NA,NCP
+940,Yarbro and Carlson 2008,B,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,-33,NA,121,NA,NA,NCP
+941,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,9.4,NA,25,NA,NA,NCP
+942,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,49,NA,64,NA,NA,NCP
+943,Yarbro and Carlson 2008,C,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,4.8,NA,121,NA,NA,NCP
+944,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.36,NA,25,NA,NA,NCP
+945,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.32,NA,64,NA,NA,NCP
+946,Yarbro and Carlson 2008,D,NA,mono,Halodule wrightii,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,-18,NA,121,NA,NA,NCP
+947,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,NCP_day,day,N,-0.91,NA,9,NA,NA,NCP
+948,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Incubator,NA,NA,NA,NCP_day,day,N,-6.8,NA,25,NA,NA,NCP
+949,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Incubator,NA,NA,NA,NCP_day,day,N,15,NA,64,NA,NA,NCP
+950,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Sep,9,9,0,Incubator,NA,NA,NA,NCP_day,day,N,1,NA,81,NA,NA,NCP
+951,Yarbro and Carlson 2008,E,NA,mono,Thalassia testudinum,tropical,Nov,11,11,0,Incubator,NA,NA,NA,NCP_day,day,N,3.1,NA,121,NA,NA,NCP
+952,Yarbro and Carlson 2009,A,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,NCP_hour,hour,N,-4.9,NA,9,NA,NA,NCP
+953,Yarbro and Carlson 2009,C,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Incubator,NA,NA,NA,NCP_hour,hour,N,16,NA,9,NA,NA,NCP

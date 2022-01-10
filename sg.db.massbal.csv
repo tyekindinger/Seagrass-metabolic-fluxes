@@ -1,0 +1,221 @@
+,Paper,Subject,Subj_notes,MonoMix,Dom.species,TropTemp,Month.corr,Time,Plot.time,Plot.time.err,Method,AGbiomass,AGbiomass.units,AGbiomass_notes,Resp_facet,time.unit,model,O2.mmol,Temp.C,Time2,AGbiomass2,Temp2,Response
+1,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,100.22,NA,1,NA,NA,GPP
+2,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,249.85,NA,1,NA,NA,GPP
+3,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,198.65,NA,1,NA,NA,GPP
+4,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,192.447,NA,1,NA,NA,GPP
+5,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,192.757,NA,1,NA,NA,GPP
+6,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,204.782,NA,1,NA,NA,GPP
+7,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,146.068,NA,1,NA,NA,GPP
+8,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,142.577,NA,1,NA,NA,GPP
+9,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,148.593,NA,1,NA,NA,GPP
+10,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,129.772,NA,1,NA,NA,GPP
+11,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,118.323,NA,4,NA,NA,GPP
+12,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,243.966,NA,4,NA,NA,GPP
+13,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,306.934,NA,4,NA,NA,GPP
+14,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,207.024,NA,4,NA,NA,GPP
+15,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,247.147,NA,4,NA,NA,GPP
+16,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,294.98,NA,4,NA,NA,GPP
+17,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,163.418,NA,4,NA,NA,GPP
+18,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,238.091,NA,4,NA,NA,GPP
+19,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,263.177,NA,4,NA,NA,GPP
+20,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,214.999,NA,4,NA,NA,GPP
+21,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,149.382,NA,9,NA,NA,GPP
+22,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,235.867,NA,9,NA,NA,GPP
+23,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,290.913,NA,9,NA,NA,GPP
+24,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,295.902,NA,9,NA,NA,GPP
+25,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,260.058,NA,9,NA,NA,GPP
+26,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,342.769,NA,9,NA,NA,GPP
+27,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,34.461,NA,9,NA,NA,GPP
+28,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,255.309,NA,9,NA,NA,GPP
+29,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,285.321,NA,9,NA,NA,GPP
+30,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_day,day,N,249.522,NA,9,NA,NA,GPP
+31,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,202.948,NA,16,NA,NA,GPP
+32,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,259.092,NA,16,NA,NA,GPP
+33,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,265.729,NA,16,NA,NA,GPP
+34,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,278.25,NA,16,NA,NA,GPP
+35,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,282.309,NA,16,NA,NA,GPP
+36,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,363.397,NA,16,NA,NA,GPP
+37,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,114.07,NA,16,NA,NA,GPP
+38,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,346.012,NA,16,NA,NA,GPP
+39,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,311.161,NA,16,NA,NA,GPP
+40,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,367.243,NA,16,NA,NA,GPP
+41,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,197.578,NA,25,NA,NA,GPP
+42,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,323.974,NA,25,NA,NA,GPP
+43,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,433.135,NA,25,NA,NA,GPP
+44,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,250.302,NA,25,NA,NA,GPP
+45,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,335.228,NA,25,NA,NA,GPP
+46,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,454.189,NA,25,NA,NA,GPP
+47,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,64.066,NA,25,NA,NA,GPP
+48,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,366.543,NA,25,NA,NA,GPP
+49,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,341.555,NA,25,NA,NA,GPP
+50,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,May,5,5,0,Mass balance,NA,NA,NA,GPP_day,day,N,437.406,NA,25,NA,NA,GPP
+51,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,238.251,NA,36,NA,NA,GPP
+52,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,360.358,NA,36,NA,NA,GPP
+53,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,397.096,NA,36,NA,NA,GPP
+54,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,268.866,NA,36,NA,NA,GPP
+55,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,312.419,NA,36,NA,NA,GPP
+56,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,501.047,NA,36,NA,NA,GPP
+57,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,255.636,NA,36,NA,NA,GPP
+58,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,402.059,NA,36,NA,NA,GPP
+59,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,537.405,NA,36,NA,NA,GPP
+60,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jun,6,6,0,Mass balance,NA,NA,NA,GPP_day,day,N,236.089,NA,36,NA,NA,GPP
+61,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,214.813,NA,49,NA,NA,GPP
+62,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,312.951,NA,49,NA,NA,GPP
+63,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,303.23,NA,49,NA,NA,GPP
+64,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,459.94,NA,49,NA,NA,GPP
+65,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,415.785,NA,49,NA,NA,GPP
+66,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,391.727,NA,49,NA,NA,GPP
+67,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,254.99,NA,49,NA,NA,GPP
+68,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,453.427,NA,49,NA,NA,GPP
+69,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,312.463,NA,49,NA,NA,GPP
+70,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,181.123,NA,64,NA,NA,GPP
+71,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,219.376,NA,64,NA,NA,GPP
+72,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,248.078,NA,64,NA,NA,GPP
+73,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,247.644,NA,64,NA,NA,GPP
+74,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,374.173,NA,64,NA,NA,GPP
+75,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,253.74,NA,64,NA,NA,GPP
+76,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,291.409,NA,64,NA,NA,GPP
+77,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,288.591,NA,64,NA,NA,GPP
+78,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,102.648,NA,64,NA,NA,GPP
+79,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,244.383,NA,64,NA,NA,GPP
+80,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,125.758,NA,64,NA,NA,GPP
+81,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,161.486,NA,81,NA,NA,GPP
+82,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,205.145,NA,81,NA,NA,GPP
+83,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,223.054,NA,81,NA,NA,GPP
+84,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,233.989,NA,81,NA,NA,GPP
+85,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,248.698,NA,81,NA,NA,GPP
+86,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,214.724,NA,81,NA,NA,GPP
+87,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,267.475,NA,81,NA,NA,GPP
+88,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,254.857,NA,81,NA,NA,GPP
+89,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,85.546,NA,81,NA,NA,GPP
+90,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,226.97,NA,81,NA,NA,GPP
+91,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Sep,9,9,0,Mass balance,NA,NA,NA,GPP_day,day,N,256.071,NA,81,NA,NA,GPP
+92,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,125.669,NA,100,NA,NA,GPP
+93,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,175.965,NA,100,NA,NA,GPP
+94,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,168.69,NA,100,NA,NA,GPP
+95,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,238.109,NA,100,NA,NA,GPP
+96,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,218.623,NA,100,NA,NA,GPP
+97,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,153.511,NA,100,NA,NA,GPP
+98,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,160.405,NA,100,NA,NA,GPP
+99,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,152.209,NA,100,NA,NA,GPP
+100,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,67.505,NA,100,NA,NA,GPP
+101,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,136.64,NA,100,NA,NA,GPP
+102,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,114.646,NA,100,NA,NA,GPP
+103,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,109.445,NA,121,NA,NA,GPP
+104,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,106.263,NA,121,NA,NA,GPP
+105,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,166.519,NA,121,NA,NA,GPP
+106,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,144.801,NA,121,NA,NA,GPP
+107,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,134.415,NA,121,NA,NA,GPP
+108,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,153.139,NA,121,NA,NA,GPP
+109,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,120.37,NA,121,NA,NA,GPP
+110,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,157.844,NA,121,NA,NA,GPP
+111,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,99.609,NA,121,NA,NA,GPP
+112,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Nov,11,11,0,Mass balance,NA,NA,NA,GPP_day,day,N,129.462,NA,121,NA,NA,GPP
+113,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,73.92,NA,144,NA,NA,GPP
+114,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,129.533,NA,144,NA,NA,GPP
+115,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,118.235,NA,144,NA,NA,GPP
+116,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,103.623,NA,144,NA,NA,GPP
+117,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,121.531,NA,144,NA,NA,GPP
+118,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,117.003,NA,144,NA,NA,GPP
+119,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,152.545,NA,144,NA,NA,GPP
+120,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,119.334,NA,144,NA,NA,GPP
+121,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,112.2,NA,144,NA,NA,GPP
+122,Champenois and Borges 2018,A,NA,mono,Posidonia oceanica,temperate,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,88.966,NA,144,NA,NA,GPP
+123,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Apr to Jun,5,5,1,Mass balance,NA,NA,NA,GPP_day,day,N,196.6,26.8,25,NA,718.24,GPP
+124,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Jul to Sep,8,8,1,Mass balance,NA,NA,NA,GPP_day,day,N,167.6,30.1,64,NA,906.01,GPP
+125,Odum 1956,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,1062.539845,NA,64,NA,NA,GPP
+126,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,536.020101,NA,1,NA,NA,GPP
+127,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,404.046402,NA,1,NA,NA,GPP
+128,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,GPP_day,day,N,159.365351,NA,1,NA,NA,GPP
+129,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,442.516594,NA,49,NA,NA,GPP
+130,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,211.507932,NA,49,NA,NA,GPP
+131,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,703.151368,31,49,NA,961,GPP
+132,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,540.645274,31,49,NA,961,GPP
+133,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,365.638711,31,49,NA,961,GPP
+134,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,937.535158,30,64,NA,900,GPP
+135,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,821.905821,30,64,NA,900,GPP
+136,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,706.276485,30,64,NA,900,GPP
+137,Odum et al. 1959,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,26.563496,NA,4,NA,NA,GPP
+138,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,15.625586,27,4,NA,729,GPP
+139,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,18.750703,26.5,9,NA,702.25,GPP
+140,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,18.750703,28.5,25,NA,812.25,GPP
+141,Odum et al. 1959,C,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,87.503281,27.5,4,NA,756.25,GPP
+142,Odum et al. 1959,D,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,41.564059,26.5,4,NA,702.25,GPP
+143,Odum et al. 1959,E,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_hour,hour,N,81.253047,27.5,4,NA,756.25,GPP
+144,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,671.056415,NA,4,NA,NA,GPP
+145,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,479.674238,NA,16,NA,NA,GPP
+146,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,840.656525,NA,49,NA,NA,GPP
+147,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,448.173056,NA,49,NA,NA,GPP
+148,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,GPP_day,day,N,838.218933,NA,64,NA,NA,GPP
+149,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,736.465117,NA,100,NA,NA,GPP
+150,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,288.292061,NA,100,NA,NA,GPP
+151,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,397.296149,NA,144,NA,NA,GPP
+152,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,GPP_day,day,N,356.107104,NA,4,NA,NA,GPP
+153,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,GPP_day,day,N,513.581759,NA,16,NA,NA,GPP
+154,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,535.395077,NA,49,NA,NA,GPP
+155,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,GPP_day,day,N,402.14008,NA,49,NA,NA,GPP
+156,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,666.212483,NA,100,NA,NA,GPP
+157,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,GPP_day,day,N,501.487556,NA,100,NA,NA,GPP
+158,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,GPP_day,day,N,462.704851,NA,144,NA,NA,GPP
+159,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Apr to Jun,5,5,1,Mass balance,NA,NA,NA,R_day,day,N,-181.9,26.8,25,NA,718.24,R
+160,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Jul to Sep,8,8,1,Mass balance,NA,NA,NA,R_day,day,N,-168.1,30.1,64,NA,906.01,R
+161,Odum 1956,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,R_day,day,N,-750.028126,NA,64,NA,NA,R
+162,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,R_hour,hour,N,-699.276223,NA,1,NA,NA,R
+163,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,R_hour,hour,N,-445.516707,NA,1,NA,NA,R
+164,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jan,1,1,0,Mass balance,NA,NA,NA,R_hour,hour,N,-230.914909,NA,1,NA,NA,R
+165,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_hour,hour,N,-445.797967,NA,49,NA,NA,R
+166,Odum 1963,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_hour,hour,N,-376.639124,NA,49,NA,NA,R
+167,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_hour,hour,N,-668.775079,31,49,NA,961,R
+168,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_hour,hour,N,-615.648087,31,49,NA,961,R
+169,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_hour,hour,N,-134.380039,31,49,NA,961,R
+170,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,R_hour,hour,N,-615.648087,30,64,NA,900,R
+171,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,R_hour,hour,N,-431.266172,30,64,NA,900,R
+172,Odum and Wilson 1962,NA,NA,mix,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,R_hour,hour,N,-209.382852,30,64,NA,900,R
+173,Odum et al. 1959,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,R_hour,hour,N,-23.438379,NA,4,NA,NA,R
+174,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,R_hour,hour,N,-16.250609,27,4,NA,729,R
+175,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Mass balance,NA,NA,NA,R_hour,hour,N,-14.063027,26.5,9,NA,702.25,R
+176,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Mass balance,NA,NA,NA,R_hour,hour,N,-18.750703,28.5,25,NA,812.25,R
+177,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,R_day,day,N,-979.692988,NA,4,NA,NA,R
+178,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,R_day,day,N,-332.043702,NA,16,NA,NA,R
+179,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_day,day,N,-720.495769,NA,49,NA,NA,R
+180,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_day,day,N,-329.168594,NA,49,NA,NA,R
+181,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,R_day,day,N,-814.65555,NA,64,NA,NA,R
+182,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,R_day,day,N,-756.965886,NA,100,NA,NA,R
+183,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,R_day,day,N,-329.168594,NA,100,NA,NA,R
+184,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,R_day,day,N,-337.418903,NA,144,NA,NA,R
+185,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,R_day,day,N,-831.156168,NA,4,NA,NA,R
+186,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,R_day,day,N,-329.574859,NA,16,NA,NA,R
+187,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_day,day,N,-268.916334,NA,49,NA,NA,R
+188,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,R_day,day,N,-255.009563,NA,49,NA,NA,R
+189,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,R_day,day,N,-596.959886,NA,100,NA,NA,R
+190,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,R_day,day,N,-566.521245,NA,100,NA,NA,R
+191,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,R_day,day,N,-470.017626,NA,144,NA,NA,R
+192,Baneree et al. 2018,A,NA,mix,Halodule sp. and Halophila sp.,tropical,May,5,5,0,Mass balance,NA,NA,NA,NCP_day,day,N,70.7,30,25,NA,900,NCP
+193,Baneree et al. 2018,A,A,mix,Halodule sp. and Halophila sp.,tropical,May,5,5,0,Mass balance,NA,NA,NA,NCP_hour,hour,N,51.3,30,25,NA,900,NCP
+194,Baneree et al. 2018,A,NA,mix,Halodule sp. and Halophila sp.,tropical,Sep,9,9,0,Mass balance,NA,NA,NA,NCP_day,day,N,52.6,27.94,81,NA,780.6436,NCP
+195,Baneree et al. 2018,A,A,mix,Halodule sp. and Halophila sp.,tropical,Sep,9,9,0,Mass balance,NA,NA,NA,NCP_hour,hour,N,46.16,27.94,81,NA,780.6436,NCP
+196,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Apr to Jun,5,5,1,Mass balance,NA,NA,NA,NCP_day,day,N,11.5,26.8,25,NA,718.24,NCP
+197,Murrell et al. 2018,A,NA,mix,Thalassia testudinum and Halodule beaudettei,temperate,Jul to Sep,8,8,1,Mass balance,NA,NA,NA,NCP_day,day,N,-0.5,30.1,64,NA,906.01,NCP
+198,Nixon and Oviatt 1972,A,NA,mono,Zostera marina,temperate,Aug,8,8,0,Mass balance,NA,NA,NA,NCP_hour,hour,N,0.156256,26.51457143,64,NA,703.0224981,NCP
+199,Odum et al. 1959,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,NCP_day,day,N,468.767579,NA,4,NA,NA,NCP
+200,Odum et al. 1959,A,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Mass balance,NA,NA,NA,NCP_day,day,N,156.25586,NA,9,NA,NA,NCP
+201,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,NCP_day,day,N,328.137305,27,4,NA,729,NCP
+202,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,Mar,3,3,0,Mass balance,NA,NA,NA,NCP_day,day,N,343.762891,26.5,9,NA,702.25,NCP
+203,Odum et al. 1959,B,NA,mono,Thalassia testudinum,tropical,May,5,5,0,Mass balance,NA,NA,NA,NCP_day,day,N,437.516407,28.5,25,NA,812.25,NCP
+204,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,NCP_day,day,N,-304.855182,NA,4,NA,NA,NCP
+205,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,NCP_day,day,N,159.537233,NA,16,NA,NA,NCP
+206,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,NCP_day,day,N,123.754641,NA,49,NA,NA,NCP
+207,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,NCP_day,day,N,117.754416,NA,49,NA,NA,NCP
+208,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Aug,8,8,0,Mass balance,NA,NA,NA,NCP_day,day,N,34.063777,NA,64,NA,NA,NCP
+209,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,NCP_day,day,N,-19.719489,NA,100,NA,NA,NCP
+210,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,NCP_day,day,N,-37.657662,NA,100,NA,NA,NCP
+211,Reyes and Merino 1991,A,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,NCP_day,day,N,61.096041,NA,144,NA,NA,NCP
+212,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Feb,2,2,0,Mass balance,NA,NA,NA,NCP_day,day,N,-474.517794,NA,4,NA,NA,NCP
+213,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Apr,4,4,0,Mass balance,NA,NA,NA,NCP_day,day,N,189.100841,NA,16,NA,NA,NCP
+214,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,NCP_day,day,N,254.915809,NA,49,NA,NA,NCP
+215,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Jul,7,7,0,Mass balance,NA,NA,NA,NCP_day,day,N,145.692963,NA,49,NA,NA,NCP
+216,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,NCP_day,day,N,59.627236,NA,100,NA,NA,NCP
+217,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Oct,10,10,0,Mass balance,NA,NA,NA,NCP_day,day,N,-61.846069,NA,100,NA,NA,NCP
+218,Reyes and Merino 1991,B,NA,mono,Thalassia testudinum,tropical,Dec,12,12,0,Mass balance,NA,NA,NA,NCP_day,day,N,-6.062727,NA,144,NA,NA,NCP
+219,Van Dam et al. 2019,A,NA,mono,Thalassia testudinum,temperate,Nov,11,11,0,Mass balance,65.11,g DW m-2,NA,NCP_hour,hour,N,-1.573,NA,121,4239.3121,NA,NCP
+220,Van Dam et al. 2019,B,NA,mono,Thalassia testudinum,temperate,Nov,11,11,0,Mass balance,15.09,g DW m-2,NA,NCP_hour,hour,N,-0.774,NA,121,227.7081,NA,NCP

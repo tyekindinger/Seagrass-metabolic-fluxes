@@ -1,0 +1,394 @@
+"","Paper","Subject","Subj_notes","MonoMix","Dom.species","TropTemp","Month.corr","Time","Plot.time","Plot.time.err","Method","AGbiomass","AGbiomass.units","AGbiomass_notes","GPP.time.unit","R.time.unit","NCP.time.unit","GPP.model","R.model","NCP.model","Conv.C.GPP","Conv.C.R","Conv.C.NCP","Temp.C","Time2","AGbiomass2","Temp2"
+"1","Adams et al. 2016","C","diff sites","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day",NA,NA,1,NA,NA,141,NA,25.2,64,NA,635.04
+"2","Adams et al. 2016","A","diff sites","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day",NA,NA,1,NA,NA,241,NA,26.2,64,NA,686.44
+"3","Adams et al. 2016","B","diff sites","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day",NA,NA,1,NA,NA,147,NA,27.2,64,NA,739.84
+"4","Anton et al. 2009","A","same site over time","mix","Halodule wrightii","tropical","Apr",4,4,0,"Incubator",18.254,"g DW m-2",NA,"hour","hour","hour",1,1,1,-2.48595,1.691325,-0.511877,23.247,16,333.208516,540.423009
+"5","Anton et al. 2009","A","same site over time","mix","Halodule wrightii","tropical","May",5,5,0,"Incubator",8.906,"g DW m-2",NA,"hour","hour","hour",1,1,1,-4.69573,1.01343,-3.38265,26.32,25,79.316836,692.7424
+"6","Anton et al. 2009","A","same site over time","mix","Halodule wrightii","tropical","Jun",6,6,0,"Incubator",10.223,"g DW m-2",NA,"hour","hour","hour",1,1,1,-2.917399,1.651194,-1.06863,30.017,36,104.509729,901.020289
+"7","Anton et al. 2009","A","same site over time","mix","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",11.575,"g DW m-2",NA,"hour","hour","hour",1,1,1,-7.645932,5.757117,-1.517647,30.258,64,133.980625,915.546564
+"8","Anton et al. 2020","A",NA,"mono","Halodule uninervis","tropical","Mar",3,3,0,"Incubator",7,"g DW m-2",NA,"day","day","day",1,1,1,-74.3,29.3,-59.6,26.6,9,49,707.56
+"9","Anton et al. 2020","B",NA,"mono","Thalassia hemprichii","tropical","Mar",3,3,0,"Incubator",55,"g DW m-2",NA,"day","day","day",1,1,1,-91.6,44.6,-69.2,26.6,9,3025,707.56
+"10","Anton et al. 2020","A",NA,"mono","Halodule uninervis","tropical","Jul",7,7,0,"Incubator",15,"g DW m-2",NA,"day","day","day",1,1,1,-198.3,143.4,-120.6,31.1,49,225,967.21
+"11","Anton et al. 2020","B",NA,"mono","Thalassia hemprichii","tropical","Jul",7,7,0,"Incubator",31,"g DW m-2",NA,"day","day","day",1,1,1,-156.2,81.8,-111.9,31.1,49,961,967.21
+"12","Anton et al. 2020","C",NA,"mono","Halodule stipulacea","tropical","Jul",7,7,0,"Incubator",14,"g DW m-2",NA,"day","day","day",1,1,1,-114.9,60.2,-81,30.8,49,196,948.64
+"13","Anton et al. 2020","D",NA,"mono","Thalassodendrum ciliatum","tropical","Jul",7,7,0,"Incubator",64,"g DW m-2",NA,"day","day","day",1,1,1,-116.9,92.2,-65,30.8,49,4096,948.64
+"14","Anton et al. 2020","E",NA,"mono","Thalassodendrum ciliatum","tropical","Jul",7,7,0,"Incubator",63,"g DW m-2",NA,"day","day","day",1,1,1,-201.2,65.3,-150.7,30.27,49,3969,916.2729
+"15","Anton et al. 2020","F",NA,"mono","Halodule uninervis","tropical","Jul",7,7,0,"Incubator",11,"g DW m-2",NA,"day","day","day",1,1,1,-130.6,59.3,-97.2,29.93,49,121,895.8049
+"16","Anton et al. 2020","G",NA,"mono","Halophila stipulacea","tropical","Jul",7,7,0,"Incubator",32,"g DW m-2",NA,"day","day","day",1,1,1,-268.7,169.6,-173.3,29.93,49,1024,895.8049
+"17","Anton et al. 2020","H",NA,"mono","Thalassia hemprichii","tropical","Jul",7,7,0,"Incubator",51,"g DW m-2",NA,"day","day","day",1,1,1,-146.8,81.7,-100.8,29.93,49,2601,895.8049
+"18","Anton et al. 2020","J",NA,"mono","Halophila stipulacea","tropical","Jan",1,1,0,"Incubator",5,"g DW m-2",NA,"day","day","day",1,1,1,-42.4,19.4,-33.9,23.8,1,25,566.44
+"19","Anton et al. 2020","K",NA,"mono","Halodule uninervis","tropical","Jul",7,7,0,"Incubator",7,"g DW m-2",NA,"day","day","day",1,1,1,-239.4,119.7,-174.5,31.5,49,49,992.25
+"20","Anton et al. 2020","L",NA,"mono","Thalassia hemprichii","tropical","Jul",7,7,0,"Incubator",13,"g DW m-2",NA,"day","day","day",1,1,1,-104.7,62.9,-71.1,31.5,49,169,992.25
+"21","Anton et al. 2020","M",NA,"mono","Halophila stipulacea","tropical","Mar",3,3,0,"Incubator",14,"g DW m-2",NA,"day","day","day",1,1,1,-122.2,42.3,-100.9,25,9,196,625
+"22","Anton et al. 2020","N",NA,"mono","Halophila ovalis","tropical","Mar",3,3,0,"Incubator",3,"g DW m-2",NA,"day","day","day",1,1,1,-66.5,24.7,-54.1,25,9,9,625
+"23","Anton et al. 2020","M",NA,"mono","Halophila stipulacea","tropical","Aug",8,8,0,"Incubator",4,"g DW m-2",NA,"day","day","day",1,1,1,-101.7,69.9,-63.8,32.3,64,16,1043.29
+"24","Anton et al. 2020","N",NA,"mono","Halophila ovalis","tropical","Aug",8,8,0,"Incubator",4,"g DW m-2",NA,"day","day","day",1,1,1,-121.1,62.4,-87.3,32.3,64,16,1043.29
+"25","Anton et al. 2020","O",NA,"mono","Halodule uninervis","tropical","Mar",3,3,0,"Incubator",8,"g DW m-2",NA,"day","day","day",1,1,1,-65.9,36.6,-47.6,27.5,9,64,756.25
+"26","Anton et al. 2020","P",NA,"mono","Halophila ovalis","tropical","Mar",3,3,0,"Incubator",3,"g DW m-2",NA,"day","day","day",1,1,1,-63.6,22.9,-52.1,27.5,9,9,756.25
+"27","Anton et al. 2020","Q",NA,"mono","Thalassia hemprichii","tropical","Mar",3,3,0,"Incubator",28,"g DW m-2",NA,"day","day","day",1,1,1,-77.1,50.3,-51.9,27.5,9,784,756.25
+"28","Anton et al. 2020","O",NA,"mono","Halodule uninervis","tropical","Aug",8,8,0,"Incubator",26,"g DW m-2",NA,"day","day","day",1,1,1,-146.7,56.7,-115.9,31,64,676,961
+"29","Anton et al. 2020","R",NA,"mono","Halophila stipulacea","tropical","Aug",8,8,0,"Incubator",19,"g DW m-2",NA,"day","day","day",1,1,1,-149.2,56.3,-118.7,31,64,361,961
+"30","Anton et al. 2020","P",NA,"mono","Halophila ovalis","tropical","Aug",8,8,0,"Incubator",4,"g DW m-2",NA,"day","day","day",1,1,1,-114,33.8,-95.7,31,64,16,961
+"31","Anton et al. 2020","Q",NA,"mono","Thalassia hemprichii","tropical","Aug",8,8,0,"Incubator",28,"g DW m-2",NA,"day","day","day",1,1,1,-123,47.7,-97.1,31,64,784,961
+"32","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",111.0648849,"g DW m-2",NA,"day","day","day",1,1,1,-60.081,28.354,-30.85,14.05,4,12335.4086578502,197.4025
+"33","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",173.7906793,"g DW m-2",NA,"day","day","day",1,1,1,-85.081,48.213,-38.662,15.52,16,30203.2002115554,240.8704
+"34","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",344.7404888,"g DW m-2",NA,"day","day","day",1,1,1,-176.154,119.134,-53.379,23.41,36,118846.004618063,548.0281
+"35","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",237.878419,"g DW m-2",NA,"day","day","day",1,1,1,-92.82,64.784,-27.985,25.78,64,56586.1422259396,664.6084
+"36","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",89.2602009,"g DW m-2",NA,"day","day","day",1,1,1,-75.465,53.138,-23.08,21.29,100,7967.38346470836,453.2641
+"37","Apostolaki et al. 2010","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",111.3256182,"g DW m-2",NA,"day","day","day",1,1,1,-61.363,37.574,-25.078,16.14,144,12393.3932676122,260.4996
+"38","Apostolaki et al. 2014","A",NA,"mix","Cymodocea nodosa","temperate","May",5,5,0,"Incubator",204.4,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-36.53,19.68,25,41779.36,387.3024
+"39","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Jan",1,1,0,"Incubator",338.9,"g DW m-2",NA,"day","day","day",1,1,1,-31.02,18.04,-12.98,NA,1,114853.21,NA
+"40","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",348,"g DW m-2",NA,"day","day","day",1,1,1,-59.89,32.85,-27.03,NA,4,121104,NA
+"41","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",405.1,"g DW m-2",NA,"day","day","day",1,1,1,-59.81,29.01,-30.8,NA,9,164106.01,NA
+"42","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",332.5,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-29.7,NA,9,110556.25,NA
+"43","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",859,"g DW m-2",NA,"day","day","day",1,1,1,-146.05,88.72,-57.33,NA,16,737881,NA
+"44","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",519.9,"g DW m-2",NA,"day","day","day",1,1,1,-173.31,84.53,-88.78,NA,16,270296.01,NA
+"45","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",490,"g DW m-2",NA,"day","day","day",1,1,1,-129.6,88.39,-41.21,NA,25,240100,NA
+"46","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",798.5,"g DW m-2",NA,"day","day","day",1,1,1,-48.43,29.05,-19.38,NA,25,637602.25,NA
+"47","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",682.2,"g DW m-2",NA,"day","day","day",1,1,1,-123.01,138.42,15.4,NA,36,465396.84,NA
+"48","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",872.4,"g DW m-2",NA,"day","day","day",1,1,1,-120.1,72.93,-47.17,NA,36,761081.76,NA
+"49","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",553.9,"g DW m-2",NA,"day","day","day",1,1,1,-137.24,96.44,-40.8,NA,49,306805.21,NA
+"50","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",880.5,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,15.9,NA,49,775280.25,NA
+"51","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",529.6,"g DW m-2",NA,"day","day","day",1,1,1,-155.19,141.91,-13.28,NA,64,280476.16,NA
+"52","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",550.6,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,24.67,NA,64,303160.36,NA
+"53","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Sep",9,9,0,"Incubator",233.4,"g DW m-2",NA,"day","day","day",1,1,1,-24.66,35.86,11.19,NA,81,54475.56,NA
+"54","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",415,"g DW m-2",NA,"day","day","day",1,1,1,-114.81,108.97,-5.84,NA,100,172225,NA
+"55","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",578.3,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-2.49,NA,100,334430.89,NA
+"56","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Nov",11,11,0,"Incubator",399.2,"g DW m-2",NA,"day","day","day",1,1,1,-77.66,76.49,-1.17,NA,121,159360.64,NA
+"57","Barron and Duarte 2009","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",287.7,"g DW m-2",NA,"day","day","day",1,1,1,-53.85,60.87,7.02,NA,144,82771.29,NA
+"58","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-29.38,35.46,6.08,NA,49,NA,NA
+"59","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-39.35,54.29,12.26,NA,49,NA,NA
+"60","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-49.26,53.9,4.63,NA,49,NA,NA
+"61","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-18.12,83.65,71.46,NA,49,NA,NA
+"62","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-18.62,49.12,30.83,NA,49,NA,NA
+"63","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-22.91,74.07,50.24,NA,49,NA,NA
+"64","Barron et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-6.97,14.13,12.92,NA,49,NA,NA
+"65","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Jan",1,1,0,"Incubator",339.396,"g DW m-2",NA,"day",NA,"day",1,NA,1,-33.593,NA,-12.842,13.933,1,115189.644816,194.128489
+"66","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",348.957,"g DW m-2",NA,"day","day","day",1,1,1,-61.041,32.846,-26.96,14.467,4,121770.987849,209.294089
+"67","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-59.85,26.939,-30.988,NA,9,NA,NA
+"68","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",331.715,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-29.913,14.445,9,110034.841225,208.658025
+"69","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",860.21,"g DW m-2",NA,"day","day","day",1,1,1,-146.257,89.925,-57.619,NA,16,739961.2441,NA
+"70","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",521.143,"g DW m-2",NA,"day","day","day",1,1,1,-172.173,83.314,-89.294,15.147,16,271590.026449,229.431609
+"71","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",487.462,"g DW m-2",NA,"day","day","day",1,1,1,-129.582,88.644,-41.171,NA,25,237619.201444,NA
+"72","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",797.001,"g DW m-2",NA,"day","day","day",1,1,1,-50.621,30.512,-19.344,18.917,25,635210.594001,357.852889
+"73","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",681.985,"g DW m-2",NA,"day","day","day",1,1,1,-123.993,138.466,15.417,22.605,36,465103.540225,510.986025
+"74","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",870.692,"g DW m-2",NA,"day","day","day",1,1,1,-118.803,72.244,-47.489,22.415,36,758104.558864,502.432225
+"75","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",553.397,"g DW m-2",NA,"day","day","day",1,1,1,-136.934,97.156,-40.696,25.151,49,306248.239609,632.572801
+"76","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",879.539,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,16.029,26.324,49,773588.852521,692.952976
+"77","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",529.737,"g DW m-2",NA,"day","day","day",1,1,1,-153.752,141.45,-13.331,27.273,64,280621.289169,743.816529
+"78","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",550.091,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,25.245,26.028,64,302600.108281,677.456784
+"79","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Sep",9,9,0,"Incubator",233.993,"g DW m-2",NA,"day","day","day",1,1,1,-26.147,37.051,11.525,25.745,81,54752.724049,662.805025
+"80","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",415.093,"g DW m-2",NA,"day","day","day",1,1,1,-114.335,108.478,-5.573,23.637,100,172302.198649,558.707769
+"81","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",579.494,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-2.43,22.685,100,335813.296036,514.609225
+"82","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Nov",11,11,0,"Incubator",396.952,"g DW m-2",NA,"day","day","day",1,1,1,-77.212,76.661,-0.115,18.669,121,157570.890304,348.531561
+"83","Barron et al. 2006","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",285.406,"g DW m-2",NA,"day","day","day",1,1,1,-54.346,61.904,6.631,15.66,144,81456.584836,245.2356
+"84","Berg et al. 2018","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",34.73631279,"g DW m-2",NA,"day","day","day",1,1,1,-86.535,68.078,-19.849,16,16,1206.61142624472,256
+"85","Berg et al. 2018","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",44.66097359,"g DW m-2",NA,"day","day","day",1,1,1,-105.735,132.865,27.103,27.6,36,1994.60256200668,761.76
+"86","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jan",1,1,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-12,28,18,NA,1,NA,NA
+"87","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Mar",3,3,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-57,69,6.4,NA,9,NA,NA
+"88","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-75.416,77,-6.7,NA,16,NA,NA
+"89","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-40,52,6.3,NA,16,NA,NA
+"90","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-50,73,18,NA,16,NA,NA
+"91","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-85,82,-7.9,NA,16,NA,NA
+"92","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-73,56,-24,NA,16,NA,NA
+"93","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-152.607,181,25,NA,25,NA,NA
+"94","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-124,99,-32,NA,25,NA,NA
+"95","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-195,220,21,NA,36,NA,NA
+"96","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-105,141,34,NA,36,NA,NA
+"97","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-87,135,43,NA,36,NA,NA
+"98","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-154,120,-40,NA,36,NA,NA
+"99","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-139,125,-20,NA,36,NA,NA
+"100","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jul",7,7,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-188,223,30,NA,49,NA,NA
+"101","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Jul",7,7,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-161,144,-17,NA,49,NA,NA
+"102","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-218,224,8,NA,64,NA,NA
+"103","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-63,81,17,NA,64,NA,NA
+"104","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-93,98,-11,NA,64,NA,NA
+"105","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-117,111,-11,NA,64,NA,NA
+"106","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-68.4,73,-5.9,NA,100,NA,NA
+"107","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-69,53,-19,NA,100,NA,NA
+"108","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-61,65,-6.4,NA,100,NA,NA
+"109","Berger et al. 2020","A",NA,"mono","Zostera marina","temperate","Nov",11,11,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-75,40,-38,NA,121,NA,NA
+"110","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Feb",2,2,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-187.55,152.97,-34.58,22.3,4,NA,497.29
+"111","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Feb",2,2,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-103.47,91.3,-12.17,22.8,4,NA,519.84
+"112","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-183.09,109.4,-73.69,29.6,16,NA,876.16
+"113","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-175.9,159.81,-16.1,30,16,NA,900
+"114","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Jun",6,6,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-340,231.39,-108.89,32.5,36,NA,1056.25
+"115","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-417.97,278.83,-139.15,33.4,49,NA,1115.56
+"116","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Jul",7,7,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-267.33,254.15,-13.18,33.5,49,NA,1122.25
+"117","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-263.91,168.46,-95.45,32,64,NA,1024
+"118","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-270.67,256.2,-14.47,33.8,64,NA,1142.44
+"119","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Sep",9,9,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-305.62,342.17,36.55,33.5,81,NA,1122.25
+"120","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-263.26,307.48,44.23,32.2,100,NA,1036.84
+"121","Burkhoz et al. 2019","A",NA,"mono","Enhalus acoroides","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-211.04,165.56,-45.48,28.5,121,NA,812.25
+"122","Burkhoz et al. 2019","B",NA,"mix","Cymodecea serrulata and Halodule uninervis","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-236.69,233.47,-3.22,30.7,121,NA,942.49
+"123","Calleja et al. 2006","A",NA,"mono","Thalassia testudinum","tropical","Dec",12,12,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-156.72,82.06,-74.66,24,144,NA,576
+"124","Cardini et al 2018","A",NA,"mono","Halophila stipulacea","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-271.781,23,4,NA,529
+"125","Cardini et al 2018","A",NA,"mono","Halophila stipulacea","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-637.641,22.8,16,NA,519.84
+"126","Cardini et al 2018","A",NA,"mono","Halophila stipulacea","temperate","Sep",9,9,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-566.803,27.5,81,NA,756.25
+"127","Cardini et al 2018","A",NA,"mono","Halophila stipulacea","temperate","Nov",11,11,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-433.316,25.2,121,NA,635.04
+"128","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",482.1,"g DW m-2",NA,"day","day",NA,1,1,NA,-45,107,NA,14.14329,4,232420.41,200.0326520241
+"129","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",248.1,"g DW m-2",NA,"day","day",NA,1,1,NA,-76.27,69.31,NA,13.25963,4,61553.61,175.8177877369
+"130","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",314,"g DW m-2",NA,"day","day",NA,1,1,NA,-99.36,73.63,NA,12.90182,4,98596,166.4569593124
+"131","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",736.3,"g DW m-2",NA,"day","day",NA,1,1,NA,-139.42,239.02,NA,14.31058,16,542137.69,204.7926999364
+"132","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",529.9,"g DW m-2",NA,"day","day",NA,1,1,NA,-254.22,218.9,NA,15.93007,16,280794.01,253.7671302049
+"133","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",750.6,"g DW m-2",NA,"day","day",NA,1,1,NA,-157.88,94.99,NA,18.21524,25,563400.36,331.7949682576
+"134","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",435,"g DW m-2",NA,"day","day",NA,1,1,NA,-389.88,301.23,NA,20.24781,36,189225,409.9738097961
+"135","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",862.4,"g DW m-2",NA,"day","day",NA,1,1,NA,-392.28,242.74,NA,25.5752,64,743733.76,654.09085504
+"136","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",528.3,"g DW m-2",NA,"day","day",NA,1,1,NA,-75.64,129.68,NA,22.27244,64,279100.89,496.0615835536
+"137","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",629.5,"g DW m-2",NA,"day","day",NA,1,1,NA,-272.66,296.54,NA,25.57224,64,396270.25,653.9394586176
+"138","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",431.2,"g DW m-2",NA,"day","day",NA,1,1,NA,-229.45,192.12,NA,24.35753,64,185933.44,593.2892677009
+"139","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",255.6,"g DW m-2",NA,"day","day",NA,1,1,NA,-56.44,39.29,NA,22.33733,100,65331.36,498.9563115289
+"140","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",201.1,"g DW m-2",NA,"day","day",NA,1,1,NA,-22.67,49.47,NA,19.32532,100,40441.21,373.4679931024
+"141","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",301.5,"g DW m-2",NA,"day","day",NA,1,1,NA,-28.32,67.97,NA,18.03682,144,90902.25,325.3268757124
+"142","Champenois and Borges 2012","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",235.5,"g DW m-2",NA,"day","day",NA,1,1,NA,-46.32,54.1,NA,16.36981,144,55460.25,267.9706794361
+"143","Chen et al. 2019","A",NA,"mono","Zostera capricorni","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-3.521,1.797,-2.304,NA,4,NA,NA
+"144","Chen et al. 2019","B",NA,"mono","Halophila ovalis","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-0.813,1.141,0.413,NA,4,NA,NA
+"145","Chen et al. 2019","C",NA,"mono","Zostera capricorni","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-5.789,2.58,-3.215,NA,4,NA,NA
+"146","Chen et al. 2019","A",NA,"mono","Zostera capricorni","temperate","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-6.94,3.35,-3.623,NA,25,NA,NA
+"147","Chen et al. 2019","A",NA,"mono","Zostera capricorni","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-11.398,4.253,-6.449,NA,64,NA,NA
+"148","Chen et al. 2019","B",NA,"mono","Halophila ovalis","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-3.377,2.415,-0.886,NA,64,NA,NA
+"149","Chen et al. 2019","C",NA,"mono","Zostera capricorni","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-10.62,5.633,-5.033,NA,64,NA,NA
+"150","Chen et al. 2019","A",NA,"mono","Zostera capricorni","temperate","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-2.347,1.87,-1.143,NA,121,NA,NA
+"151","Chen et al. 2019","B",NA,"mono","Halophila ovalis","temperate","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-1.607,1.405,-0.23,NA,121,NA,NA
+"152","Chen et al. 2019","C",NA,"mono","Zostera capricorni","temperate","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-1.435,1.72,0.783,NA,121,NA,NA
+"153","Dahl et al. 2016","A",NA,"mono","Thalassia hemprichii","tropical","Sep",9,9,0,"Incubator",NA,NA,NA,NA,NA,"hour",NA,NA,1,NA,NA,-17.056225,29.68,81,NA,880.9024
+"154","Drylie et al. 2018","A",NA,"mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",290,"g DW m-2",NA,"hour",NA,"hour",1,NA,1,-7.594,NA,2.793,NA,64,84100,NA
+"155","Drylie et al. 2018","B",NA,"mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",308,"g DW m-2",NA,"hour",NA,"hour",1,NA,1,-1.265,NA,-1.076,NA,64,94864,NA
+"156","Drylie et al. 2018","C",NA,"mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",161,"g DW m-2",NA,"hour",NA,"hour",1,NA,1,-0.346,NA,-0.801,NA,64,25921,NA
+"157","Duarte et al. 2002","A",NA,"mono","Zostera marina","temperate","Sep",9,9,0,"Incubator",142.3,"g DW m-2",NA,"day","day","day",1,1,1,-55.086441,55.211445,0.12188,NA,81,20249.29,NA
+"158","Duarte et al. 2002","B",NA,"mono","Zostera marina","temperate","Sep",9,9,0,"Incubator",149.7,"g DW m-2",NA,"day","day","day",1,1,1,-78.92171,69.268223,-9.965999,NA,81,22410.09,NA
+"159","Egea et al. 2019","A",NA,"mono","Cymodocea nodosa","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-63.48,48.573,-15.283,16.5,9,NA,272.25
+"160","Egea et al. 2019","A",NA,"mono","Cymodocea nodosa","temperate","Sep",9,9,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-123.618,70.91,-52.869,24.6,81,NA,605.16
+"161","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-4.029,1.525,-0.278,15.31,4,NA,234.3961
+"162","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-13.207,3.827,-85.771,19.39,16,NA,375.9721
+"163","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-12.759,4.108,-88.384,25.61,36,NA,655.8721
+"164","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-15.696,5.299,-91.925,26.82,64,NA,719.3124
+"165","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-18.716,5.049,-148.516,27.39,64,NA,750.2121
+"166","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-22.141,5.455,-126.948,25.01,100,NA,625.5001
+"167","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-17.896,5.22,-80.772,19.4,100,NA,376.36
+"168","Egea et al. 2019b ","A",NA,"mono","Cymodocea nodosa","temperate","Dec",12,12,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-11.983,2.832,-48.84,11.48,144,NA,131.7904
+"169","Ferguson et al. 2017","C","two depths, two seasons","mono","Zostera muelleri","temperate","Mar",3,3,0,"Incubator",42.93,"g DW m-2",NA,"hour","hour","day",1,1,1,-4.27,3.68,15.228,17.3,9,1842.9849,299.29
+"170","Ferguson et al. 2017","B","two depths, two seasons","mono","Zostera muelleri","temperate","Mar",3,3,0,"Incubator",54.395,"g DW m-2",NA,"hour","hour","day",1,1,1,-10.089,4.704,12.287,17.3,9,2958.816025,299.29
+"171","Ferguson et al. 2017","A","two depths, two seasons","mono","Zostera muelleri","temperate","Mar",3,3,0,"Incubator",71.8,"g DW m-2",NA,"hour","hour","day",1,1,1,-10.453,2.367,-3.27,17.3,9,5155.24,299.29
+"172","Ferguson et al. 2017","C","two depths, two seasons","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",65.175,"g DW m-2",NA,"hour","hour","day",1,1,1,-14.523,6.037,-40.62,25.6,64,4247.780625,655.36
+"173","Ferguson et al. 2017","A","two depths, two seasons","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",110.586,"g DW m-2",NA,"hour","hour","day",1,1,1,-16.589,5.546,10.776,25.6,64,12229.263396,655.36
+"174","Ferguson et al. 2017","B","two depths, two seasons","mono","Zostera muelleri","temperate","Aug",8,8,0,"Incubator",115.104,"g DW m-2",NA,"hour","hour","day",1,1,1,-23.796,9.627,16.961,25.6,64,13248.930816,655.36
+"175","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-13.107,NA,9,NA,NA
+"176","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-24.82,NA,25,NA,NA
+"177","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-26.031,NA,36,NA,NA
+"178","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-4.096,NA,49,NA,NA
+"179","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,0.29,NA,49,NA,NA
+"180","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-5.548,NA,64,NA,NA
+"181","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,6.035,NA,64,NA,NA
+"182","Frankignoulle and Bouquegneau 1987","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,5.225,NA,100,NA,NA
+"183","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,11.192,NA,1,NA,NA
+"184","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Feb",2,2,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-13.278,NA,4,NA,NA
+"185","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-27.034,NA,9,NA,NA
+"186","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-29.7,NA,9,NA,NA
+"187","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-30.799,NA,16,NA,NA
+"188","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-57.331,NA,16,NA,NA
+"189","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-88.775,NA,25,NA,NA
+"190","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-19.377,NA,25,NA,NA
+"191","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,7.023,NA,36,NA,NA
+"192","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-12.981,NA,36,NA,NA
+"193","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-5.842,NA,49,NA,NA
+"194","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-1.166,NA,49,NA,NA
+"195","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-41.214,NA,64,NA,NA
+"196","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,15.401,NA,64,NA,NA
+"197","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Sep",9,9,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-2.49,NA,81,NA,NA
+"198","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,15.899,NA,100,NA,NA
+"199","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,24.674,NA,100,NA,NA
+"200","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Nov",11,11,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-47.169,NA,121,NA,NA
+"201","Gazeau et al. 2005","A",NA,"mono","Posidonia oceanica","temperate","Dec",12,12,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-40.798,NA,144,NA,NA
+"202","Gruber et al. 2017","A",NA,"mix","Enhalus acoroides + Thalassia hemprichii","tropical","Oct",10,10,0,"Control volume",NA,NA,NA,"day","day","day",1,1,1,-430,380,-50,30.8,100,NA,948.64
+"203","Gustafsson and Norkko 2016","A",NA,"mono","Ruppia cirrhosa","temperate","Aug",8,8,0,"Incubator",0.4,"g DW m-2",NA,"day","day","day",1,1,1,-45.926,38.852,-6.861,19,64,0.16,361
+"204","Gustafsson and Norkko 2016","B",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Incubator",4.2,"g DW m-2",NA,"day","day","day",1,1,1,-38.011,21.087,-16.842,19,64,17.64,361
+"205","Herbert and Fourqurean 2008","A",NA,"mix","Thalassia testudinum","tropical","Nov",11,11,0,"Incubator",57.3,"g DW m-2",NA,"hour","hour","hour",1,1,1,-25.060987,16.735078,-8.325909,NA,121,3283.29,NA
+"206","Holmer et al. 2004","A",NA,"mono","Cymodocea nodosa","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-34.195,NA,36,NA,NA
+"207","Holmer et al. 2004","B",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",490,"g DW m-2",NA,"day","day","day",1,1,1,-115.008,24.107,-90.901,18,36,240100,324
+"208","Holmer et al. 2004","C",NA,"mono","Posidonia oceanica","temperate","Jun",6,6,0,"Incubator",527,"g DW m-2",NA,"day","day","day",1,1,1,-123.515,41.395,-82.12,18,36,277729,324
+"209","Holmer et al. 2004","D",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",471,"g DW m-2",NA,"day","day","day",1,1,1,-104.031,46.264,-57.767,18,25,221841,324
+"210","Holmer et al. 2004","E",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Incubator",612,"g DW m-2",NA,"day","day","day",1,1,1,-184.771,46.017,-138.754,18,25,374544,324
+"211","Hume et al. 2011","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-65.9,61,-4.9,NA,36,NA,NA
+"212","Hume et al. 2011","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-126,89.5,-36.5,NA,36,NA,NA
+"213","Hume et al. 2011","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-223.6,210.1,-13.4,NA,36,NA,NA
+"214","Hume et al. 2011","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-215,217.4,2.4,NA,36,NA,NA
+"215","Hume et al. 2011","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-143.8,102.4,-41.7,NA,36,NA,NA
+"216","Johnson et al. 2019","A",NA,"mono","Thalassia testudinum","tropical","Jul",7,7,0,"Incubator",130.9,"g DW m-2",NA,"day","day","day",1,1,1,-305.605,196.09,-110.579,30,49,17134.81,900
+"217","Johnson et al. 2019","B",NA,"mono","Halophila stipulacea","tropical","Jul",7,7,0,"Incubator",36.4,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-98.717,30,49,1324.96,900
+"218","Johnson et al. 2019","C",NA,"mono","Halodule stipulacea","tropical","Jul",7,7,0,"Incubator",17.1,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-60.748,31.1,49,292.41,967.21
+"219","Johnson et al. 2019","D",NA,"mono","Thalassia testudinum","tropical","Aug",8,8,0,"Incubator",202.2,"g DW m-2",NA,"day","day","day",1,1,1,-198.92,73.857,-127.613,32.2,64,40884.84,1036.84
+"220","Johnson et al. 2019","E",NA,"mono","Thalassia testudinum","tropical","Aug",8,8,0,"Incubator",96.5,"g DW m-2",NA,"day","day","day",1,1,1,-152.224,88.979,-65.222,34.4,64,9312.25,1183.36
+"221","Johnson et al. 2019","F",NA,"mono","Thalassia testudinum","tropical","May",5,5,0,"Incubator",70.7,"g DW m-2",NA,"day","day","day",1,1,1,-130.561,78.884,-52.821,29.2,25,4998.49,852.64
+"222","Johnson et al. 2019","G",NA,"mono","Thalassia testudinum","tropical","Jun",6,6,0,"Incubator",183.2,"g DW m-2",NA,"day","day","day",1,1,1,-375.383,177.23,-197.806,31.9,36,33562.24,1017.61
+"223","Johnson et al. 2019","G",NA,"mono","Thalassia testudinum","tropical","May to Aug",6.5,6.5,1.5,"Incubator",183.2,"g DW m-2",NA,"day","day","day",1,1,1,-356.736,132.58,-225.337,31.7,42.25,33562.24,1004.89
+"224","Johnson et al. 2019","G",NA,"mono","Thalassia testudinum","tropical","Jul",5,7,0,"Incubator",183.2,"g DW m-2",NA,"day","day","day",1,1,1,-347.141,170.43,-177.853,33.6,25,33562.24,1128.96
+"225","Johnson et al. 2019","H",NA,"mono","Thalassia testudinum","tropical","Feb",2,2,0,"Incubator",51.6,"g DW m-2",NA,"day","day","day",1,1,1,-121.033,23.7,-98.7,27.9,4,2662.56,778.41
+"226","Johnson et al. 2019","I",NA,"mono","Halophila stipulacea","tropical","Feb",2,2,0,"Incubator",63,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-71.117,27.9,4,3969,778.41
+"227","Koopmans et al. 2020","A",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-151.4,66.4,-85,NA,25,NA,NA
+"228","Koopmans et al. 2020","B",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-203.7,91.8,-119.1,NA,25,NA,NA
+"229","Koopmans et al. 2020","C",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-159.8,106.2,-53.6,NA,25,NA,NA
+"230","Koopmans et al. 2020","D",NA,"mono","Posidonia oceanica","temperate","May",5,5,0,"Eddy covariance",NA,NA,NA,"day","day","day",1,1,1,-133.3,73,-60.3,NA,25,NA,NA
+"231","Long et al. 2015","A",NA,"mono","Thalassia testudinium","tropical","Jul",7,7,0,"Eddy correlation",75,"g DW m-2",NA,"day","day","day",1,1,1,-151,127,-25,29.1,49,5625,846.81
+"232","Long et al. 2015","B",NA,"mono","Thalassia testudinium","tropical","Jul",7,7,0,"Eddy correlation",24,"g DW m-2",NA,"day","day","day",1,1,1,-68,52,-11,31.2,49,576,973.44
+"233","Long et al. 2015","C",NA,"mono","Thalassia testudinium","tropical","Aug",8,8,0,"Eddy correlation",193,"g DW m-2",NA,"day","day","day",1,1,1,-223,185,-37,30.6,64,37249,936.36
+"234","Long et al. 2015","D",NA,"mono","Thalassia testudinium","tropical","Aug",8,8,0,"Eddy correlation",136,"g DW m-2",NA,"day","day","day",1,1,1,-190,155,-35,30.7,64,18496,942.49
+"235","Maher and Eyre 2011","A",NA,"mono","Halophila ovalis","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-70.270675,43.21147,-27.059206,NA,1,NA,NA
+"236","Maher and Eyre 2011","B",NA,"mono","Ruppia megcarpa","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-236.705604,196.65798,-40.047624,NA,1,NA,NA
+"237","Maher and Eyre 2011","C",NA,"mono","Zostera capricorni","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-125.721232,164.936265,39.215033,NA,1,NA,NA
+"238","Maher and Eyre 2011","B",NA,"mono","Ruppia megcarpa","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-171.430474,211.39484,40.047624,NA,16,NA,NA
+"239","Maher and Eyre 2011","C",NA,"mono","Zostera capricorni","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-176.759057,90.835672,-85.923385,NA,16,NA,NA
+"240","Maher and Eyre 2011","A",NA,"mono","Halophila ovalis","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-176.925575,136.87795,-40.047624,NA,64,NA,NA
+"241","Maher and Eyre 2011","B",NA,"mono","Ruppia megcarpa","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-187.166443,148.86726,-38.299183,NA,64,NA,NA
+"242","Maher and Eyre 2011","C",NA,"mono","Zostera capricorni","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-213.559576,124.389086,-89.17049,NA,64,NA,NA
+"243","Maher and Eyre 2011","A",NA,"mono","Halophila ovalis","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-71.602821,83.009317,11.406496,NA,100,NA,NA
+"244","Maher and Eyre 2011","B",NA,"mono","Ruppia megcarpa","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-242.117445,200.987453,-41.046733,NA,100,NA,NA
+"245","Maher and Eyre 2011","C",NA,"mono","Zostera capricorni","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-203.318707,136.295137,-67.023571,NA,100,NA,NA
+"246","Maher and Eyre 2011","D",NA,"mono","Halophila ovalis","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-42.29562,82.343244,40.047624,NA,1,NA,NA
+"247","Maher and Eyre 2011","F",NA,"mono","Zostera capricorni","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-102.741722,119.143763,16.402042,NA,1,NA,NA
+"248","Maher and Eyre 2011","D",NA,"mono","Halophila ovalis","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-39.881106,29.890015,-9.991091,NA,16,NA,NA
+"249","Maher and Eyre 2011","F",NA,"mono","Zostera capricorni","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-327.791053,268.260801,-59.530252,NA,16,NA,NA
+"250","Maher and Eyre 2011","D",NA,"mono","Halophila ovalis","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-78.430067,22.563214,-55.866852,NA,64,NA,NA
+"251","Maher and Eyre 2011","F",NA,"mono","Zostera capricorni","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-454.511394,447.850666,-6.660728,NA,64,NA,NA
+"252","Maher and Eyre 2011","D",NA,"mono","Halophila ovalis","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-58.198107,40.880215,-17.317892,NA,100,NA,NA
+"253","Maher and Eyre 2011","F",NA,"mono","Zostera capricorni","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-228.046658,177.008834,-51.037825,NA,100,NA,NA
+"254","Maher and Eyre 2011","E",NA,"mono","Halophila ovalis","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-117.728359,106.072086,-11.656273,NA,1,NA,NA
+"255","Maher and Eyre 2011","H",NA,"mono","Posidonia australis","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-189.081402,113.648663,-75.432739,NA,1,NA,NA
+"256","Maher and Eyre 2011","I",NA,"mono","Ruppia megcarpa","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-79.92873,57.532034,-22.396696,NA,1,NA,NA
+"257","Maher and Eyre 2011","E",NA,"mono","Halophila ovalis","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-152.697178,111.15089,-41.546288,NA,16,NA,NA
+"258","Maher and Eyre 2011","H",NA,"mono","Posidonia australis","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-298.400593,298.733629,0.333036,NA,16,NA,NA
+"259","Maher and Eyre 2011","I",NA,"mono","Ruppia megcarpa","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-193.577393,190.496807,-3.080586,NA,16,NA,NA
+"260","Maher and Eyre 2011","G",NA,"mono","Zostera capricorni","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-109.31919,121.808054,12.488864,NA,16,NA,NA
+"261","Maher and Eyre 2011","E",NA,"mono","Halophila ovalis","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-258.019932,288.909056,30.889124,NA,64,NA,NA
+"262","Maher and Eyre 2011","H",NA,"mono","Posidonia australis","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-370.253191,283.99677,-86.256421,NA,64,NA,NA
+"263","Maher and Eyre 2011","I",NA,"mono","Ruppia megcarpa","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-293.488306,336.033703,42.545397,NA,64,NA,NA
+"264","Maher and Eyre 2011","G",NA,"mono","Zostera capricorni","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-214.14239,216.88994,2.830809,NA,64,NA,NA
+"265","Maher and Eyre 2011","E",NA,"mono","Halophila ovalis","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-186.833407,208.980326,22.06366,NA,100,NA,NA
+"266","Maher and Eyre 2011","H",NA,"mono","Posidonia australis","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-253.357423,253.940237,0.582814,NA,100,NA,NA
+"267","Maher and Eyre 2011","I",NA,"mono","Ruppia megcarpa","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-197.57383,253.773718,56.199888,NA,100,NA,NA
+"268","Maher and Eyre 2011","G",NA,"mono","Zostera capricorni","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-154.112583,118.061395,-36.051188,NA,100,NA,NA
+"269","Martin et al. 2005","A",NA,"mono","Zostera marina","temperate","Mar",3,3,0,"Incubator",35.6,"g AFDW m-2",NA,"hour","hour","day",NA,1,NA,NA,2.3,NA,13,9,1267.36,169
+"270","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jan",1,1,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-0.469748,NA,1,11664,NA
+"271","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Feb",2,2,0,"C14_enrichment",166,"g DW m-2","from reported range",NA,NA,"hour",NA,NA,1,NA,NA,-1.537962,NA,4,27556,NA
+"272","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","May",5,5,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-11.152056,NA,25,11664,NA
+"273","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-3.375157,NA,36,11664,NA
+"274","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-4.901213,NA,36,11664,NA
+"275","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-5.206441,NA,36,11664,NA
+"276","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-8.869008,NA,36,11664,NA
+"277","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Jul",7,7,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-2.917399,NA,49,11664,NA
+"278","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"C14_enrichment",42,"g DW m-2","from reported range",NA,NA,"hour",NA,NA,1,NA,NA,-4.43746,NA,64,1764,NA
+"279","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Sep",9,9,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-9.015628,NA,81,11664,NA
+"280","Moncreiff et al. 1992","A",NA,"mono","Halodule wrightii","tropical","Oct",10,10,0,"C14_enrichment",108,"g DW m-2","mean = 108±37",NA,NA,"hour",NA,NA,1,NA,NA,-4.742688,NA,100,11664,NA
+"281","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",209.4,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-5.031971,NA,NA,NA,36,43848.36,NA
+"282","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Jul",7,7,0,"C14_enrichment",114.658,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-7.402649,NA,NA,NA,49,13146.456964,NA
+"283","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Sep",9,9,0,"C14_enrichment",82.085,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-11.346799,NA,NA,NA,81,6737.947225,NA
+"284","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Oct",10,10,0,"C14_enrichment",175.15,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-37.18451,NA,NA,NA,100,30677.5225,NA
+"285","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Nov",11,11,0,"C14_enrichment",51.191,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-3.698452,NA,NA,NA,121,2620.518481,NA
+"286","Morgan and Kitting 1984","A",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"C14_enrichment",88.29,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-3.40205,NA,NA,NA,144,7795.1241,NA
+"287","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"C14_enrichment",203.425,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-9.131358,NA,NA,NA,36,41381.730625,NA
+"288","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Jul",7,7,0,"C14_enrichment",132.247,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-3.527854,NA,NA,NA,49,17489.269009,NA
+"289","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"C14_enrichment",154.278,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-15.701666,NA,NA,NA,64,23801.701284,NA
+"290","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Sep",9,9,0,"C14_enrichment",449.218,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-47.401567,NA,NA,NA,81,201796.811524,NA
+"291","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Oct",10,10,0,"C14_enrichment",225.516,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-24.98747,NA,NA,NA,100,50857.466256,NA
+"292","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Nov",11,11,0,"C14_enrichment",91.634,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-0.966222,NA,NA,NA,121,8396.789956,NA
+"293","Morgan and Kitting 1984","B",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"C14_enrichment",86.55,"g DW m-2",NA,"hour",NA,NA,1,NA,NA,-2.407104,NA,NA,NA,144,7490.9025,NA
+"294","Moriarty et al. 1990","A",NA,"mono","Halodule uninervis","tropical","Jan",1,1,0,"Incubator_lacunal",78,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-91.585003,23,1,6084,529
+"295","Moriarty et al. 1990","A",NA,"mono","Halodule uninervis","tropical","Apr",4,4,0,"Incubator_lacunal",35,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-83.259094,29,16,1225,841
+"296","Moriarty et al. 1990","A",NA,"mono","Halodule uninervis","tropical","Jul",7,7,0,"Incubator_lacunal",185,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-291.406829,32,49,34225,1024
+"297","Moriarty et al. 1990","A",NA,"mono","Halodule uninervis","tropical","Nov",11,11,0,"Incubator_lacunal",60,"g DW m-2",NA,NA,NA,"day",NA,NA,1,NA,NA,-74.933185,30,121,3600,900
+"298","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Jan",1,1,0,"Incubator",NA,NA,NA,NA,"hour","hour",NA,1,1,NA,0.972974,-5.36417,7,1,NA,49
+"299","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Mar",3,3,0,"Incubator",NA,NA,NA,NA,"hour","hour",NA,1,1,NA,3.129086,-8.496506,8,9,NA,64
+"300","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,NA,"hour","hour",NA,1,1,NA,6.156512,-3.906553,14,16,NA,196
+"301","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","May",5,5,0,"Incubator",81,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,5.375233,-14.941967,18,25,6561,324
+"302","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","May",5,5,0,"Incubator",81,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,4.496294,-9.570734,18,25,6561,324
+"303","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Jun",6,6,0,"Incubator",20,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,7.381433,-21.964605,24,36,400,576
+"304","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Incubator",116,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,9.183938,-5.46183,26,36,13456,676
+"305","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Incubator",116,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,11.914947,-4.289942,26,36,13456,676
+"306","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Jul",7,7,0,"Incubator",80,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,9.088278,-23.92871,24,49,6400,576
+"307","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Jul",7,7,0,"Incubator",82,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,7.386027,-29.428229,27,49,6724,729
+"308","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Jul",7,7,0,"Incubator",62,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,6.153074,-7.805636,33,49,3844,1089
+"309","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Aug",8,8,0,"Incubator",87,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,6.474055,-18.952992,25,64,7569,625
+"310","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Incubator",61,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,4.102248,3.132149,27,64,3721,729
+"311","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Sep",9,9,0,"Incubator",61,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,2.283961,-11.882164,27,81,3721,729
+"312","Murray and Wetzel 1987","B",NA,"mono","Ruppia maritima","temperate","Oct",10,10,0,"Incubator",70,"g DW m-2",NA,NA,"hour","hour",NA,1,1,NA,11.183326,-7.953955,20,100,4900,400
+"313","Murray and Wetzel 1987","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,"hour","hour",NA,1,1,NA,5.65715,-8.098616,16,100,NA,256
+"314","Olive et al. 2016","E","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-212.45,150.79,-61.67,NA,100,NA,NA
+"315","Olive et al. 2016","F","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-105.45,55.49,-49.96,NA,100,NA,NA
+"316","Olive et al. 2016","A","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"hour",NA,NA,1,NA,NA,-9.936143,NA,100,NA,NA
+"317","Olive et al. 2016","B","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"hour",NA,NA,1,NA,NA,-11.611,NA,100,NA,NA
+"318","Olive et al. 2016","C","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"hour",NA,NA,1,NA,NA,-2.481,NA,100,NA,NA
+"319","Olive et al. 2016","D","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"hour",NA,NA,1,NA,NA,-0.615,NA,100,NA,NA
+"320","Olive et al. 2016","G","These are estimates based on different incubation times","mono","Posidonia oceanica","temperate","Oct",10,10,0,"Incubator",NA,NA,NA,NA,NA,"day",NA,NA,1,NA,NA,-14.75,NA,100,NA,NA
+"321","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Jan",1,1,0,"C14_enrichment",51.186,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-53.662151,NA,NA,13.652,1,2620.006596,186.377104
+"322","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Feb",2,2,0,"C14_enrichment",99.048,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-52.737143,NA,NA,12.374,4,9810.506304,153.115876
+"323","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Mar",3,3,0,"C14_enrichment",185.108,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-49.731489,NA,NA,15.341,9,34264.971664,235.346281
+"324","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"C14_enrichment",140.431,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-39.315777,NA,NA,17.669,16,19720.865761,312.193561
+"325","Penhale 1977","A",NA,"mono","Zostera marina","temperate","May",5,5,0,"C14_enrichment",128.006,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-45.096456,NA,NA,20.137,25,16385.536036,405.498769
+"326","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"C14_enrichment",117.881,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-52.744636,NA,NA,25.706,36,13895.930161,660.798436
+"327","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Jul",7,7,0,"C14_enrichment",140.431,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-90.444354,NA,NA,27.446,49,19720.865761,753.282916
+"328","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"C14_enrichment",113.739,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-104.531792,NA,NA,27.4,64,12936.560121,750.76
+"329","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Sep",9,9,0,"C14_enrichment",77.348,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-73.778381,NA,NA,25.39,81,5982.713104,644.6521
+"330","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"C14_enrichment",71.791,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-71.004188,NA,NA,19.721,100,5153.947681,388.917841
+"331","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Nov",11,11,0,"C14_enrichment",81.882,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-75.628398,NA,NA,14.886,121,6704.661924,221.592996
+"332","Penhale 1977","A",NA,"mono","Zostera marina","temperate","Dec",12,12,0,"C14_enrichment",76.819,"g DW m-2",NA,"day",NA,NA,1,NA,NA,-50.887126,NA,NA,12.512,144,5901.158761,156.550144
+"333","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Feb",2,2,0,"Incubator",26.6,"g DW m-2",NA,"hour","hour","hour",1,1,1,-11.430429,2.480062,-8.950367,9.3,4,707.56,86.49
+"334","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Apr",4,4,0,"Incubator",67.7,"g DW m-2",NA,"hour","hour","hour",1,1,1,-11.092947,3.603948,-7.489,14.15,16,4583.29,200.2225
+"335","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","May",5,5,0,"Incubator",27.8,"g DW m-2",NA,"hour","hour","hour",1,1,1,-7.436404,3.368533,-4.067871,17.3,25,772.84,299.29
+"336","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Jul",7,7,0,"Incubator",99.9,"g DW m-2",NA,"hour","hour","hour",1,1,1,-16.711127,7.193176,-9.517951,21.6,49,9980.01,466.56
+"337","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Aug",8,8,0,"Incubator",136.3,"g DW m-2",NA,"hour","hour","hour",1,1,1,-16.609998,12.659193,-3.950804,26.8,64,18577.69,718.24
+"338","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Aug",8,8,0,"Incubator",36.4,"g DW m-2",NA,"hour","hour","hour",1,1,1,-20.249853,8.706827,-11.543027,25.2,64,1324.96,635.04
+"339","Plus et al. 2001","A",NA,"mono","Zostera noltii","temperate","Oct",10,10,0,"Incubator",54.2,"g DW m-2",NA,"hour","hour","hour",1,1,1,-12.47353,2.507282,-9.966249,14.4,100,2937.64,207.36
+"340","Rheuban et al. 2014","A",NA,"mono","Zostera marina","temperate","Feb",2,2,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-51.95555,45.56864,-6.4,9.4,4,NA,88.36
+"341","Rheuban et al. 2014","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-371.7955,315.4495,-55.5,27.6,36,NA,761.76
+"342","Rheuban et al. 2014","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-181.9717,229.5711,47.6,30.1,64,NA,906.01
+"343","Rheuban et al. 2014","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Eddy correlation",NA,NA,NA,"day","day",NA,1,1,NA,-162.4409,196.0729,NA,27.4,64,NA,750.76
+"344","Rheuban et al. 2014","A",NA,"mono","Zostera marina","temperate","Oct",10,10,0,"Eddy correlation",NA,NA,NA,"day","day","day",1,1,1,-135.7604,136.0774,0.31,17,100,NA,289
+"345","Santos et al. 2004","A",NA,"mono","Zostera noltii","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-12.47,7.57,-4.9,NA,49,NA,NA
+"346","Santos et al. 2004","B",NA,"mono","Cymodocea nodosa","temperate","Jul",7,7,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-6.36,4.35,-2.01,NA,49,NA,NA
+"347","Staehr et al. 2018","A",NA,"mono","Zostera marina","temperate","Apr",4,4,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-12.5,6.25,-6.25,9,16,NA,81
+"348","Staehr et al. 2018","A",NA,"mono","Zostera marina","temperate","Jun",6,6,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-275,209.4,-65.6,16,36,NA,256
+"349","Staehr et al. 2018","A",NA,"mono","Zostera marina","temperate","Aug",8,8,0,"Incubator",NA,NA,NA,"day","day","day",1,1,1,-109.4,159.4,50,21,64,NA,441
+"350","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Feb",2,2,0,"Incubator",20.776,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.795366,1.933193,-1.862173,15.5875,4,431.642176,242.97015625
+"351","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Apr",4,4,0,"Incubator",16.218,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-4.544198,1.669844,-2.874354,25.95,16,263.023524,673.4025
+"352","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Apr",4,4,0,"Incubator",10.998,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-2.697595,0.961393,-1.736119,25.3,16,120.956004,640.09
+"353","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"Incubator",45.156,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-4.320065,2.084225,-2.235923,30.0125,36,2039.064336,900.75015625
+"354","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"Incubator",41.552,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.175918,1.684248,-1.491753,28.2,36,1726.568704,795.24
+"355","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",34.238,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-2.386705,1.476184,-0.910605,31.1125,64,1172.240644,967.98765625
+"356","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",23.002,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-2.223351,1.541376,-0.681975,31.775,64,529.092004,1009.650625
+"357","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Oct",10,10,0,"Incubator",11.024,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-4.306577,1.808138,-2.498439,21.775,100,121.528576,474.150625
+"358","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"Incubator",19.08,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.919006,2.313187,-1.605818,20.125,144,364.0464,405.015625
+"359","Stutes et al. 2007","A",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"Incubator",11.837,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.140949,1.644783,-1.496166,14.1125,144,140.114569,199.16265625
+"360","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Feb",2,2,0,"Incubator",36.782,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-4.525548,2.029191,-2.496357,16.2375,4,1352.915524,263.65640625
+"361","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Apr",4,4,0,"Incubator",42.4,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-6.983023,4.652768,-2.330256,25.8,16,1797.76,665.64
+"362","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Apr",4,4,0,"Incubator",35.113,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-4.670336,1.594661,-3.075591,22.94286,16,1232.922769,526.3748249796
+"363","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"Incubator",34.98,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-2.618499,3.968545,1.350046,31.4125,36,1223.6004,986.74515625
+"364","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Jun",6,6,0,"Incubator",32.224,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.747658,1.223742,-2.523999,28.825,36,1038.386176,830.880625
+"365","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",80.772,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-8.739374,5.046667,-3.692707,30.45,64,6524.115984,927.2025
+"366","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",13.25,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-6.330605,1.89173,-4.438875,29.9875,64,175.5625,899.25015625
+"367","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Oct",10,10,0,"Incubator",38.478,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.093492,1.116588,-1.976904,22.4375,100,1480.556484,503.44140625
+"368","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"Incubator",22.26,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.637423,0.776724,-2.860699,18.36667,144,495.5076,337.3345668889
+"369","Stutes et al. 2007","B",NA,"mono","Halodule wrightii","tropical","Dec",12,12,0,"Incubator",5.698,"g AFDW m-2",NA,"hour","hour","hour",1,1,1,-3.744828,1.402499,-2.342411,13.01667,144,32.467204,169.4336978889
+"370","Viaroli et al. 1996","A",NA,"mono","Zostera noltii","temperate","May",5,5,0,"Incubator",101,"g DW m-2",NA,"hour","hour","hour",1,1,1,-8.532,2.728,-6.525,NA,25,10201,NA
+"371","Viaroli et al. 1996","A",NA,"mono","Zostera noltii","temperate","Aug",8,8,0,"Incubator",101,"g DW m-2",NA,"hour","hour","hour",1,1,1,-14.622,8.255,-6.79,NA,64,10201,NA
+"372","Yarbro and Carlson 2008","A",NA,"mono","Thalassia testudinum","tropical","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-3.558,2.858,-16,NA,25,NA,NA
+"373","Yarbro and Carlson 2008","A",NA,"mono","Thalassia testudinum","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.675,2.639,6.2,NA,64,NA,NA
+"374","Yarbro and Carlson 2008","A",NA,"mono","Thalassia testudinum","tropical","Sep",9,9,0,"Incubator",NA,NA,NA,NA,"hour","day",NA,1,NA,NA,1.263,NA,NA,81,NA,NA
+"375","Yarbro and Carlson 2008","A",NA,"mono","Thalassia testudinum","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.481,2.097,11,NA,121,NA,NA
+"376","Yarbro and Carlson 2008","B",NA,"mono","Halodule wrightii","tropical","Mar",3,3,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-2.5,1.407,-13,NA,9,NA,NA
+"377","Yarbro and Carlson 2008","B",NA,"mono","Halodule wrightii","tropical","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-0.848,1.154,1.2,NA,25,NA,NA
+"378","Yarbro and Carlson 2008","B",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-6.104,3.009,-49,NA,64,NA,NA
+"379","Yarbro and Carlson 2008","B",NA,"mono","Halodule wrightii","tropical","Sep",9,9,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.315,1.539,2,NA,81,NA,NA
+"380","Yarbro and Carlson 2008","B",NA,"mono","Halodule wrightii","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-2.59,4.72,33,NA,121,NA,NA
+"381","Yarbro and Carlson 2008","C",NA,"mono","Thalassia testudinum","tropical","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-3.077,2.918,-9.4,NA,25,NA,NA
+"382","Yarbro and Carlson 2008","C",NA,"mono","Thalassia testudinum","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-8.872,6.333,-49,NA,64,NA,NA
+"383","Yarbro and Carlson 2008","C",NA,"mono","Thalassia testudinum","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-3.266,2.392,-4.8,NA,121,NA,NA
+"384","Yarbro and Carlson 2008","D",NA,"mono","Halodule wrightii","tropical","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-2.142,2.674,0.36,NA,25,NA,NA
+"385","Yarbro and Carlson 2008","D",NA,"mono","Halodule wrightii","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-3.654,4.534,0.32,NA,64,NA,NA
+"386","Yarbro and Carlson 2008","D",NA,"mono","Halodule wrightii","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.385,2.531,18,NA,121,NA,NA
+"387","Yarbro and Carlson 2008","E",NA,"mono","Thalassia testudinum","tropical","Mar",3,3,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.921,1.996,0.91,NA,9,NA,NA
+"388","Yarbro and Carlson 2008","E",NA,"mono","Thalassia testudinum","tropical","May",5,5,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.713,2.74,6.8,NA,25,NA,NA
+"389","Yarbro and Carlson 2008","E",NA,"mono","Thalassia testudinum","tropical","Aug",8,8,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-2.709,1.935,-15,NA,64,NA,NA
+"390","Yarbro and Carlson 2008","E",NA,"mono","Thalassia testudinum","tropical","Sep",9,9,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-2.025,2.024,-1,NA,81,NA,NA
+"391","Yarbro and Carlson 2008","E",NA,"mono","Thalassia testudinum","tropical","Nov",11,11,0,"Incubator",NA,NA,NA,"hour","hour","day",1,1,1,-1.401,0.944,-3.1,NA,121,NA,NA
+"392","Yarbro and Carlson 2009","A",NA,"mono","Thalassia testudinum","tropical","Mar",3,3,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-0.979,1.386,4.9,NA,9,NA,NA
+"393","Yarbro and Carlson 2009","C",NA,"mono","Thalassia testudinum","tropical","Mar",3,3,0,"Incubator",NA,NA,NA,"hour","hour","hour",1,1,1,-5.395,4.051,-16,NA,9,NA,NA

@@ -1,0 +1,624 @@
+##### LOAD PACKAGES
+```{r message = FALSE, warning = FALSE}
+rm(list = ls())
+library(tidyverse)
+library(nlme)
+library(broom)
+library(broom.mixed) 
+```
+
+##### *SET WORKING DIRECTORY*
+```{r message = FALSE, warning = FALSE} 
+setwd("...")
+```
+
+##### CALCULATE MEAN & SDs (summary stats reported in paper)
+```{r message = FALSE, warning = FALSE}
+sg.db.wk <- read.csv("sg.db.nomb.csv") # long database with obs from models and mass balance methods REMOVED; 953 rows
+
+# MEAN HOURLY NCP
+sg.db.wk %>% filter(Resp_facet == "NCP_hour") %>% summarize(mean = mean(O2.mmol), sd = sd(O2.mmol))
+# mean: 5.476593	 sd: 5.869626
+
+# MEAN DAILY NCP --> TROPICAL vs. TEMPERATE
+sg.db.wk %>% filter(Resp_facet == "NCP_day") %>% group_by(TropTemp) %>% summarize(mean = mean(O2.mmol), sd = sd(O2.mmol))
+# temperate	29.00626	79.05560		
+# tropical	62.47230	62.42661
+
+# MEAN DAILY NCP --> t-test per climate
+x <- sg.db.wk %>% filter(Resp_facet == "NCP_day" & TropTemp == "tropical")
+t.test(x$O2.mmol) # t = 8.7814, df = 76, p-value = 3.501e-13
+# Number of positive values --> 65
+x %>% filter(O2.mmol < 0) # 12 
+# 65/77 = 0.8441558
+
+xx <- sg.db.wk %>% filter(Resp_facet == "NCP_day" & TropTemp == "temperate")
+t.test(xx$O2.mmol) # t = 5.0174, df = 186, p-value = 1.219e-06
+# Number of positive values --> 65
+xx %>% filter(O2.mmol < 0) # 128 
+# 128/187 = 0.684492
+
+# MEAN HOURLY NCP --> t-test
+x <- sg.db.wk %>% filter(Resp_facet == "NCP_hour")
+t.test(x$O2.mmol) # t = 8.5004, df = 82, p-value = 7.097e-13
+# Number of positive values --> 76
+x %>% filter(O2.mmol < 0) # 7
+# 76/83 = 0.9156627
+```
+
+##### MODELS
+## *HOURLY RATES*
+
+## *METABOLISM ~ Month (numeric) x Climate* = all observations
+```{r message = FALSE, warning = FALSE}
+sg.db.wk <- read.csv("sg.db.nomb.csv") # long database with obs from models and mass balance methods REMOVED; 953 rows
+
+## GPP_hour
+GPP.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "GPP_hour")) 
+anova(GPP.lme.full)
+GPP.lme.Dintxn <- update(GPP.lme.full, .~. -Time:TropTemp)
+LRT.output <- anova(GPP.lme.full, GPP.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time")
+GPP.lme.Dintxn2 <- update(GPP.lme.Dintxn, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dintxn, GPP.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time"))
+anova(GPP.lme.Dintxn2)
+GPP.lme.Dclim <- update(GPP.lme.Dintxn2, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dintxn2, GPP.lme.Dclim) %>% mutate(var = "TropTemp", Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time"))
+GPP.lme.Dtime2 <- update(GPP.lme.Dclim, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dclim, GPP.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time")) ## SIGNIF (TIME ALSO STAYS IN MODEL)
+
+# final model --> Time + Time2
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_hour")) 
+tidy.output <- tidy(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time")
+glance.output <- glance(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time")
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "GPP_hour") 
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time) # create new df with only signif fixed fx
+new$fixed <- predict(GPP.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(GPP.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(GPP.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+aug.output <- augment(GPP.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper)) %>% 
+  mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time") 
+
+
+## GPP_hour --> try without 4 potential outliers = 3 from Morgan & Kitting 1984 and 1 from Herbert and Fourqurean 2008 
+GPP.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", 
+                    data = sg.db.wk %>% filter(Resp_facet == "GPP_hour" & O2.mmol < 24)) 
+anova(GPP.lme.full)
+GPP.lme.Dintxn <- update(GPP.lme.full, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.full, GPP.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "GPP_hour", rand = "Paper/Subj", outlier = "4 dropped", mod = "time"))
+GPP.lme.Dintxn2 <- update(GPP.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.full, GPP.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "GPP_hour", rand = "Paper/Subj", outlier = "4 dropped", mod = "time")) # p = 0.0683
+GPP.lme.Dtime2 <- update(GPP.lme.Dintxn2, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dintxn2, GPP.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "GPP_hour", rand = "Paper/Subj", outlier = "4 dropped", mod = "time"))
+
+# final model --> Time + Time2 + TropTemp + Time:TropTemp
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + Time:TropTemp, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_hour" & O2.mmol < 24)) 
+tidy.output <- tidy.output %>% bind_rows(tidy(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", outlier = "4 dropped", mod = "time"))
+glance.output <- glance.output %>% bind_rows(glance(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", outlier = "4 dropped", mod = "time"))
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "GPP_hour" & O2.mmol < 24) 
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(GPP.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(GPP.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(GPP.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- aug.output %>% bind_rows(augment(GPP.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper)) %>% 
+                                         mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "time", outlier = "4 dropped")) 
+
+
+## R_hour
+R.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "R_hour")) 
+anova(R.lme.full)
+R.lme.Dintxn <- update(R.lme.full, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.full, R.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time")) ## SIGNIF
+R.lme.Dintxn2 <- update(R.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.full, R.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time")) ## SIGNIF
+
+# final model --> full model
+R.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_hour")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time"))
+glance.output <- glance.output %>% bind_rows(glance(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time"))
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "R_hour") 
+new <- data.frame(Time = temp$Time, Time2 = temp$Time2, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(R.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(R.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(R.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- aug.output %>% bind_rows(augment(R.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper)) %>% 
+                                         mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time")) 
+
+
+## R_hour --> remove tropical outlier (<-15) --> Herbert and Fourqurean 2008
+R.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "R_hour" & O2.mmol >(-19))) 
+anova(R.lme.full)
+R.lme.Dintxn <- update(R.lme.full, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.full, R.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "R_hour", rand = "Paper/Subj", outlier = "1 dropped", mod = "time")) ## SIGNIF
+R.lme.Dintxn2 <- update(R.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.full, R.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "R_hour", rand = "Paper/Subj", outlier = "1 dropped", mod = "time")) ## SIGNIF
+
+# final model --> full model (same model, but fitted line is much better in plot!)
+R.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_hour" & O2.mmol >(-19))) 
+tidy.output <- tidy.output %>% bind_rows(tidy(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", outlier = "1 dropped", mod = "time"))
+glance.output <- glance.output %>% bind_rows(glance(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", outlier = "1 dropped", mod = "time"))
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "R_hour" & O2.mmol >(-19)) 
+new <- data.frame(Time = temp$Time, Time2 = temp$Time2, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(R.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(R.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(R.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- aug.output %>% bind_rows(augment(R.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper)) %>% 
+                                         mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "time", outlier = "1 dropped")) 
+
+
+## NCP_hour
+NCP.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "NCP_hour")) 
+anova(NCP.lme.full)
+NCP.lme.Dintxn <- update(NCP.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.full, NCP.lme.Dintxn) %>% mutate(var = "Time2:TropTemp", Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "time"))
+NCP.lme.Dintxn2 <- update(NCP.lme.Dintxn, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.Dintxn, NCP.lme.Dintxn2) %>% mutate(var = "Time:TropTemp", Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "time"))
+anova(NCP.lme.Dintxn2)
+NCP.lme.Dclim <- update(NCP.lme.Dintxn2, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.Dintxn2, NCP.lme.Dclim) %>% mutate(var = "TropTemp", Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "time"))
+NCP.lme.Dtime2 <- update(NCP.lme.Dclim, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.Dclim, NCP.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "time"))
+NCP.lme.Dtime <- update(NCP.lme.Dtime2, .~. -Time)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.Dtime2, NCP.lme.Dtime) %>% mutate(var = "Time", Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "time"))
+
+# nothing significant --> use raw values (NOT residuals) for subsequent models
+```
+
+## *RESID METABOLISM ~ Temp.C x Climate* = subset of observations --> response = residuals; no quadratic models needed
+```{r message = FALSE, warning = FALSE}
+## REFIT MONTH MODELS WITH SUBSET THAT HAS TEMP --> extract residuals
+# final model --> Time + Time2
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_hour" & !is.na(Temp.C))) 
+resid.temp <- augment(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "temp")
+                                          
+# final model --> full model
+R.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_hour" & !is.na(Temp.C))) 
+resid.temp <- resid.temp %>% bind_rows(augment(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "temp"))
+                                          
+# combine with raw NCP values
+sg.tempC <- resid.temp %>% mutate(fin.values = .resid) %>% bind_rows(sg.db.wk %>% filter(Resp_facet == "NCP_hour" & !is.na(Temp.C)) %>% mutate(Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "temp", fin.values = O2.mmol)) # 155 rows
+                                                                     
+
+#### FIT LMs (no random fx with conditional residuals)
+## GPP_hour
+GPP.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "GPP_hour")) 
+GPP.lm.Dintxn <- update(GPP.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.full, GPP.lm.Dintxn)) %>% mutate(var = "Temp.C:TropTemp", Resp_facet = "GPP_hour", rand = "none", mod = "temp"))
+
+# final model --> full model
+GPP.lm.fin <- GPP.lm.full
+tidy.output <- tidy.output %>% bind_rows(tidy(GPP.lm.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "temp"))
+glance.output <- glance.output %>% bind_rows(glance(GPP.lm.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "temp"))
+aug.output <- aug.output %>% bind_rows(augment(GPP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "temp", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+
+
+## R_hour 
+R.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "R_hour")) 
+R.lm.Dintxn <- update(R.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.full, R.lm.Dintxn)) %>% mutate(var = "Temp.C:TropTemp", Resp_facet = "R_hour", rand = "none", mod = "temp"))
+anova(R.lm.Dintxn)
+R.lm.Dclim <- update(R.lm.Dintxn, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dintxn, R.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "R_hour", rand = "none", mod = "temp"))
+R.lm.Dtemp <- update(R.lm.Dclim, .~. -Temp.C)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dclim, R.lm.Dtemp)) %>% mutate(var = "Temp.C", Resp_facet = "R_hour", rand = "none", mod = "temp")) 
+# final model --> NOTHING!
+
+
+## NCP_hour 
+NCP.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "NCP_hour")) 
+NCP.lm.Dintxn <- update(NCP.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.full, NCP.lm.Dintxn))%>% mutate(var = "Temp.C:TropTemp", Resp_facet = "NCP_hour", rand = "none", mod = "temp"))
+anova(NCP.lm.Dintxn)
+NCP.lm.Dtemp <- update(NCP.lm.Dintxn, .~. -Temp.C)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dintxn, NCP.lm.Dtemp)) %>% mutate(var = "Temp.C", Resp_facet = "NCP_hour", rand = "none", mod = "temp"))
+NCP.lm.Dclim <- update(NCP.lm.Dtemp, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dtemp, NCP.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "NCP_hour", rand = "none", mod = "temp")) 
+
+# final model --> TropTemp
+NCP.lm.fin <- lm(fin.values ~ TropTemp, data = sg.tempC %>% filter(Resp_facet == "NCP_hour")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "temp"))
+glance.output <- glance.output %>% bind_rows(glance(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "temp"))
+aug.output <- aug.output %>% bind_rows(augment(NCP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "temp", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+```
+
+## *RESID METABOLISM ~ AGbiomass x Climate* = subset of observations --> response = residuals; no quadratic models needed
+```{r message = FALSE, warning = FALSE}
+## REFIT MONTH MODELS WITH SUBSET THAT HAS BIOMASS --> extract residuals
+# final model --> Time + Time2
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_hour" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2")) 
+resid.biom <- augment(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "Paper/Subj", mod = "biom")
+                                          
+# final model --> full model
+R.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_hour" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2")) 
+resid.biom <- resid.biom %>% bind_rows(augment(R.lme.fin) %>% mutate(Resp_facet = "R_hour", rand = "Paper/Subj", mod = "biom"))
+                                          
+# combine with raw NCP values
+sg.biom <- resid.biom %>% mutate(fin.values = .resid) %>% bind_rows(sg.db.wk %>% filter(Resp_facet == "NCP_hour" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2") %>% mutate(Resp_facet = "NCP_hour", rand = "Paper/Subj", mod = "biom", fin.values = O2.mmol))
+                                                                     
+
+## FIT LMs (no random fx with conditional residuals)
+
+## GPP_hour
+GPP.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "GPP_hour")) 
+GPP.lm.Dintxn <- update(GPP.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.full, GPP.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "GPP_hour", rand = "none", mod = "biom"))
+
+# final model --> full model
+GPP.lm.fin <- GPP.lm.full
+tidy.output <- tidy.output %>% bind_rows(tidy(GPP.lm.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "biom"))
+glance.output <- glance.output %>% bind_rows(glance(GPP.lm.fin) %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "biom"))
+aug.output <- aug.output %>% bind_rows(augment(GPP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "GPP_hour", rand = "none", mod = "biom", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+
+
+## R_hour 
+R.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "R_hour")) 
+R.lm.Dintxn <- update(R.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.full, R.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "R_hour", rand = "none", mod = "biom"))
+anova(R.lm.Dintxn)
+R.lm.Dclim <- update(R.lm.Dintxn, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dintxn, R.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "R_hour", rand = "none", mod = "biom"))
+R.lm.Dbiom <- update(R.lm.Dclim, .~. -AGbiomass)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dclim, R.lm.Dbiom)) %>% mutate(var = "AGbiomass", Resp_facet = "R_hour", rand = "none", mod = "biom")) 
+
+# NOTHING SIGNIF
+
+## NCP_hour 
+NCP.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "NCP_hour")) 
+NCP.lm.Dintxn <- update(NCP.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.full, NCP.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "NCP_hour", rand = "none", mod = "biom"))
+anova(NCP.lm.Dintxn)
+NCP.lm.Dbiom <- update(NCP.lm.Dintxn, .~. -AGbiomass)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dintxn, NCP.lm.Dbiom)) %>% mutate(var = "AGbiomass", Resp_facet = "NCP_hour", rand = "none", mod = "biom"))
+NCP.lm.Dclim <- update(NCP.lm.Dbiom, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dbiom, NCP.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "NCP_hour", rand = "none", mod = "biom")) 
+
+# final model --> TropTemp
+NCP.lm.fin <- lm(fin.values ~ TropTemp, data = sg.biom %>% filter(Resp_facet == "NCP_hour")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom"))
+glance.output <- glance.output %>% bind_rows(glance(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom"))
+aug.output <- aug.output %>% bind_rows(augment(NCP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+
+## BUT, AGbiomass p = 0.05144596
+# final model --> additive model
+NCP.lm.fin <- lm(fin.values ~ AGbiomass + TropTemp, data = sg.biom %>% filter(Resp_facet == "NCP_hour")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom", alt.mod = "Y"))
+glance.output <- glance.output %>% bind_rows(glance(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom", alt.mod = "Y"))
+aug.output <- aug.output %>% bind_rows(augment(NCP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "NCP_hour", rand = "none", mod = "biom", alt.mod = "Y", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+```
+
+## *save hourly output*
+```{r message = FALSE, warning = FALSE}
+write.csv(LRT.output, "LRT_HOUR_RESID.csv")
+write.csv(tidy.output, "tidy_HOUR_RESID.csv")
+write.csv(glance.output, "glance_HOUR_RESID.csv")
+write.csv(aug.output, "aug_HOUR_RESID.csv")
+```
+
+
+## *DAILY RATES*
+
+## *METABOLISM ~ Month (numeric) x Climate* = all observations
+```{r message = FALSE, warning = FALSE}
+## GPP_day
+GPP.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "GPP_day")) 
+anova(GPP.lme.full)
+GPP.lme.Dintxn <- update(GPP.lme.full, .~. -Time2:TropTemp)
+LRT.output <- anova(GPP.lme.full, GPP.lme.Dintxn) %>% mutate(var = "Time2:TropTemp", Resp_facet = "GPP_day", rand = "Paper/Subj", mod = "time")
+GPP.lme.Dintxn2 <- update(GPP.lme.Dintxn, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dintxn, GPP.lme.Dintxn2) %>% mutate(var = "Time:TropTemp", Resp_facet = "GPP_day", rand = "Paper/Subj", mod = "time"))
+GPP.lme.Dtime2 <- update(GPP.lme.Dintxn, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(GPP.lme.Dintxn, GPP.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "GPP_day", rand = "Paper/Subj", mod = "time"))
+
+# final model --> Time + Time2 + TropTemp + TropTemp*Time
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_day")) 
+tidy.output <- tidy(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_day", rand = "Paper/Subj", mod = "time")
+glance.output <- glance(GPP.lme.fin) %>% mutate(Resp_facet = "GPP_day", rand = "Paper/Subj", mod = "time")
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "GPP_day") 
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(GPP.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(GPP.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(GPP.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- augment(GPP.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(rand = "Paper/Subj", mod = "time"))
+
+
+## R_day
+R.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "R_day")) 
+anova(R.lme.full)
+R.lme.Dintxn <- update(R.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.full, R.lme.Dintxn) %>% mutate(var = "Time2:TropTemp", Resp_facet = "R_day", rand = "Paper/Subj", mod = "time")) 
+R.lme.Dintxn2 <- update(R.lme.Dintxn, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.Dintxn, R.lme.Dintxn2) %>% mutate(var = "Time:TropTemp", Resp_facet = "R_day", rand = "Paper/Subj", mod = "time")) 
+anova(R.lme.Dintxn2)
+R.lme.Dclim <- update(R.lme.Dintxn2, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.Dintxn2, R.lme.Dclim) %>% mutate(var = "TropTemp", Resp_facet = "R_day", rand = "Paper/Subj", mod = "time")) 
+R.lme.Dtime2 <- update(R.lme.Dclim, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(R.lme.Dclim, R.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "R_day", rand = "Paper/Subj", mod = "time")) 
+
+# final model --> Time + Time2
+R.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_day")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(R.lme.fin) %>% mutate(Resp_facet = "R_day", rand = "Paper/Subj", mod = "time"))
+glance.output <- glance.output %>% bind_rows(glance(R.lme.fin) %>% mutate(Resp_facet = "R_day", rand = "Paper/Subj", mod = "time"))
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "R_day") 
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time) # create new df with only signif fixed fx
+new$fixed <- predict(R.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(R.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(R.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- aug.output %>% bind_rows(augment(R.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(rand = "Paper/Subj", mod = "time")))
+
+
+## NCP_day
+NCP.lme.full <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.db.wk %>% filter(Resp_facet == "NCP_day")) 
+anova(NCP.lme.full)
+NCP.lme.Dintxn <- update(NCP.lme.full, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.full, NCP.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "NCP_day", rand = "Paper/Subj", mod = "time"))
+NCP.lme.Dintxn2 <- update(NCP.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(NCP.lme.full, NCP.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "NCP_day", rand = "Paper/Subj", mod = "time"))
+
+# final model --> full model
+NCP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "NCP_day")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(NCP.lme.fin) %>% mutate(Resp_facet = "NCP_day", rand = "Paper/Subj", mod = "time"))
+glance.output <- glance.output %>% bind_rows(glance(NCP.lme.fin) %>% mutate(Resp_facet = "NCP_day", rand = "Paper/Subj", mod = "time"))
+# calc 95% CIs manually
+temp <- sg.db.wk %>% filter(Resp_facet == "NCP_day") 
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(NCP.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(NCP.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(NCP.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+aug.output <- aug.output %>% bind_rows(augment(NCP.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(rand = "Paper/Subj", mod = "time")))
+```
+
+## *RESID METABOLISM ~ Temp.C x Climate* = subset of observations --> response = residuals; no quadratic models needed
+```{r message = FALSE, warning = FALSE}
+## REFIT MONTH MODELS WITH SUBSET THAT HAS TEMP --> extract residuals
+# final model --> Time + Time2 + TropTemp + TropTemp*Time
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_day" & !is.na(Temp.C))) resid.temp <- augment(GPP.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "temp")
+                                        
+# final model --> Time + Time2
+R.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_day" & !is.na(Temp.C))) 
+resid.temp <- resid.temp %>% bind_rows(augment(R.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "temp"))
+                                          
+# final model --> full model
+NCP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "NCP_day" & !is.na(Temp.C))) 
+sg.tempC <- resid.temp %>% bind_rows(augment(NCP.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "temp")) %>% mutate(fin.values = .resid) # 334 rows
+
+
+## FIT LMs (no random fx with conditional residuals)
+
+## GPP_day
+GPP.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "GPP_day")) 
+GPP.lm.Dintxn <- update(GPP.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.full, GPP.lm.Dintxn)) %>% mutate(var = "Temp.C:TropTemp", Resp_facet = "GPP_day", rand = "none", mod = "temp"))
+anova(GPP.lm.Dintxn)
+GPP.lm.Dtemp <- update(GPP.lm.Dintxn, .~. -Temp.C)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.Dintxn, GPP.lm.Dtemp)) %>% mutate(var = "Temp.C", Resp_facet = "GPP_day", rand = "none", mod = "temp"))
+GPP.lm.Dclim <- update(GPP.lm.Dtemp, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.Dtemp, GPP.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "GPP_day", rand = "none", mod = "temp"))
+
+# NOTHING SIGNIFICANT
+
+
+## R_day 
+R.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "R_day")) 
+R.lm.Dintxn <- update(R.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.full, R.lm.Dintxn)) %>% mutate(var = "Temp.C:TropTemp", Resp_facet = "R_day", rand = "none", mod = "temp"))
+anova(R.lm.Dintxn)
+R.lm.Dclim <- update(R.lm.Dintxn, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dintxn, R.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "R_day", rand = "none", mod = "temp"))
+R.lm.Dtemp <- update(R.lm.Dclim, .~. -Temp.C)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dclim, R.lm.Dtemp)) %>% mutate(var = "Temp.C", Resp_facet = "R_day", rand = "none", mod = "temp")) 
+
+# NOTHING SIGNIFICANT
+
+
+## NCP_day 
+NCP.lm.full <- lm(fin.values ~ Temp.C + TropTemp + TropTemp*Temp.C, data = sg.tempC %>% filter(Resp_facet == "NCP_day")) 
+NCP.lm.Dintxn <- update(NCP.lm.full, .~. -Temp.C:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.full, NCP.lm.Dintxn)) %>% mutate(var = "Temp.C:TropTemp", Resp_facet = "NCP_day", rand = "none", mod = "temp"))
+anova(NCP.lm.Dintxn)
+NCP.lm.Dtemp <- update(NCP.lm.Dintxn, .~. -Temp.C)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dintxn, NCP.lm.Dtemp)) %>% mutate(var = "Temp.C", Resp_facet = "NCP_day", rand = "none", mod = "temp"))
+NCP.lm.Dclim <- update(NCP.lm.Dtemp, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.Dtemp, NCP.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "NCP_day", rand = "none", mod = "temp")) 
+
+# NOTHING SIGNIFICANT
+```
+
+## *RESID METABOLISM ~ AGbiomass x Climate* = subset of observations --> response = residuals; no quadratic models needed
+```{r message = FALSE, warning = FALSE}
+## REFIT MONTH MODELS WITH SUBSET THAT HAS TEMP --> extract residuals
+# final model --> Time + Time2 + TropTemp + TropTemp*Time
+GPP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "GPP_day" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2")) 
+resid.biom <- augment(GPP.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "biom")
+                                          
+# final model --> Time + Time2
+R.lme.fin <- lme(O2.mmol ~ Time + Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "R_day" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2")) 
+resid.biom <- resid.biom %>% bind_rows(augment(R.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "biom"))
+                                          
+# final model --> full model
+NCP.lme.fin <- lme(O2.mmol ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.db.wk %>% filter(Resp_facet == "NCP_day" & !is.na(AGbiomass) & AGbiomass.units == "g DW m-2")) 
+sg.biom <- resid.biom %>% bind_rows(augment(NCP.lme.fin) %>% mutate(rand = "Paper/Subj", mod = "biom")) %>% mutate(fin.values = .resid) # 306 rows
+                                                                     
+
+## FIT LMs (no random fx with conditional residuals)
+
+## GPP_day
+GPP.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "GPP_day")) 
+GPP.lm.Dintxn <- update(GPP.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.full, GPP.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "GPP_day", rand = "none", mod = "biom"))
+anova(GPP.lm.Dintxn)
+GPP.lm.Dclim <- update(GPP.lm.Dintxn, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.Dintxn, GPP.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "GPP_day", rand = "none", mod = "biom"))
+GPP.lm.Dbiom <- update(GPP.lm.Dclim, .~. -AGbiomass)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(GPP.lm.Dclim, GPP.lm.Dbiom)) %>% mutate(var = "AGbiomass", Resp_facet = "GPP_day", rand = "none", mod = "biom"))
+
+## NOTHING SIGNIF
+
+## R_day 
+R.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "R_day")) 
+R.lm.Dintxn <- update(R.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.full, R.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "R_day", rand = "none", mod = "biom"))
+anova(R.lm.Dintxn)
+R.lm.Dbiom <- update(R.lm.Dintxn, .~. -AGbiomass)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dintxn, R.lm.Dbiom)) %>% mutate(var = "AGbiomass", Resp_facet = "R_day", rand = "none", mod = "biom"))
+R.lm.Dclim <- update(R.lm.Dbiom, .~. -TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(R.lm.Dbiom, R.lm.Dclim)) %>% mutate(var = "TropTemp", Resp_facet = "R_day", rand = "none", mod = "biom")) 
+
+## NOTHING SIGNIF
+
+
+## NCP_day 
+NCP.lm.full <- lm(fin.values ~ AGbiomass + TropTemp + TropTemp*AGbiomass, data = sg.biom %>% filter(Resp_facet == "NCP_day")) 
+NCP.lm.Dintxn <- update(NCP.lm.full, .~. -AGbiomass:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(tidy(anova(NCP.lm.full, NCP.lm.Dintxn)) %>% mutate(var = "AGbiomass:TropTemp", Resp_facet = "NCP_day", rand = "none", mod = "biom"))
+
+# final model --> full model
+NCP.lm.fin <- lm(fin.values ~ AGbiomass * TropTemp, data = sg.biom %>% filter(Resp_facet == "NCP_day")) 
+tidy.output <- tidy.output %>% bind_rows(tidy(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_day", rand = "none", mod = "biom"))
+glance.output <- glance.output %>% bind_rows(glance(NCP.lm.fin) %>% mutate(Resp_facet = "NCP_day", rand = "none", mod = "biom"))
+aug.output <- aug.output %>% bind_rows(augment(NCP.lm.fin, se_fit = TRUE) %>% rename(se.fit = '.se.fit', fitted = '.fitted') %>% mutate(Resp_facet = "NCP_day", rand = "none", mod = "biom", lower = fitted - 1.96*se.fit, upper = fitted + 1.96*se.fit))
+```
+
+## *save daily rate output*
+```{r message = FALSE, warning = FALSE}
+write.csv(LRT.output %>% filter(str_detect(Resp_facet, "day")), "LRT_DAY_RESID.csv")
+write.csv(tidy.output %>% filter(str_detect(Resp_facet, "day")), "tidy_DAY_RESID.csv")
+write.csv(glance.output %>% filter(str_detect(Resp_facet, "day")), "glance_DAY_RESID.csv")
+write.csv(aug.output %>% filter(str_detect(Resp_facet, "day")), "aug_DAY_RESID.csv")
+```
+
+
+##### CORRELATIONS
+
+## *Temp.C ~ Month (numeric) x Climate* = subset of observations --> USE WIDE DATABASE FORMAT
+```{r message = FALSE, warning = FALSE}
+sg.wide <- read.csv("sg.db.wide.csv") %>% 
+  select(Paper, Subject, TropTemp, Plot.time, Method, AGbiomass, AGbiomass.units, Temp.C) %>% mutate(Time = Plot.time, Time2 = Time^2)
+
+# subset data with temperature values --> 196 rows
+sg.wide.tempC <- sg.wide %>% filter(!is.na(Temp.C))
+
+TM.lme.full <- lme(Temp.C ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.wide.tempC) 
+anova(TM.lme.full)
+TM.lme.Dintxn <- update(TM.lme.full, .~. -Time2:TropTemp)
+LRT.output <- anova(TM.lme.full, TM.lme.Dintxn) %>% mutate(var = "Time2:TropTemp", Resp_facet = "TM", rand = "Paper/Subj")
+TM.lme.Dintxn2 <- update(TM.lme.Dintxn, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(TM.lme.Dintxn, TM.lme.Dintxn2) %>% mutate(var = "Time:TropTemp", Resp_facet = "TM", rand = "Paper/Subj"))
+anova(TM.lme.Dintxn2)
+TM.lme.Dtime2 <- update(TM.lme.Dintxn, .~. -Time2)
+LRT.output <- LRT.output %>% bind_rows(anova(TM.lme.Dintxn, TM.lme.Dtime2) %>% mutate(var = "Time2", Resp_facet = "TM", rand = "Paper/Subj"))
+
+# final model --> Time + Time2 + TropTemp + TropTemp*Time
+TM.lme.fin <- lme(Temp.C ~ Time + Time2 + TropTemp + TropTemp*Time, random = ~ 1 | Paper/Subject, method = "REML", data = sg.wide.tempC) 
+corr.tidy <- tidy(TM.lme.fin) %>% mutate(Resp_facet = "TM", rand = "Paper/Subj")
+corr.glance <- glance(TM.lme.fin) %>% mutate(Resp_facet = "TM", rand = "Paper/Subj")
+
+# calc 95% CIs manually
+temp <- sg.wide.tempC
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(TM.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(TM.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(TM.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+corr.aug <- augment(TM.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(Resp_facet = "TM", rand = "Paper/Subj"))
+```
+
+## *AGBiomass ~ Month (numeric) x Climate* = subset of observations
+```{r message = FALSE, warning = FALSE}
+# subset data with biomass values & common units --> 183 rows
+sg.biom <- sg.wide %>% filter(!is.na(AGbiomass) & AGbiomass.units == "g DW m-2") %>% mutate(Resp_facet = "AGbiom") 
+
+BM.lme.full <- lme(AGbiomass ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "ML", data = sg.biom) 
+anova(BM.lme.full)
+BM.lme.Dintxn <- update(BM.lme.full, .~. -Time:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(BM.lme.full, BM.lme.Dintxn) %>% mutate(var = "Time:TropTemp", Resp_facet = "BM", rand = "Paper/Subj"))
+BM.lme.Dintxn2 <- update(BM.lme.full, .~. -Time2:TropTemp)
+LRT.output <- LRT.output %>% bind_rows(anova(BM.lme.full, BM.lme.Dintxn2) %>% mutate(var = "Time2:TropTemp", Resp_facet = "BM", rand = "Paper/Subj"))
+
+# full model
+BM.lme.fin <- lme(AGbiomass ~ Time + Time2 + TropTemp + TropTemp*Time + TropTemp*Time2, random = ~ 1 | Paper/Subject, method = "REML", data = sg.biom) 
+corr.tidy <- corr.tidy %>% bind_rows(tidy(BM.lme.fin) %>% mutate(Resp_facet = "BM", rand = "Paper/Subj"))
+corr.glance <- corr.glance %>% bind_rows(glance(BM.lme.fin) %>% mutate(Resp_facet = "BM", rand = "Paper/Subj"))
+
+# calc 95% CIs manually
+temp <- sg.biom
+new <- data.frame(Time2 = temp$Time2, Time = temp$Time, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(BM.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(BM.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(BM.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+corr.aug <- corr.aug %>% bind_rows(augment(BM.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(Resp_facet = "BM", rand = "Paper/Subj")))
+
+```  
+  
+## *AGBiomass ~ Temp.C x Climate* = subset of observations
+```{r message = FALSE, warning = FALSE}
+# subset data with temp & biomass values --> 130 rows
+sg.biom.temp <- sg.wide %>% filter(!is.na(AGbiomass) & !is.na(Temp.C) & AGbiomass.units == "g DW m-2") %>% mutate(Resp_facet = "AGbiom2")
+
+B_TC.lme.full <- lme(AGbiomass ~ Temp.C + TropTemp + TropTemp*Temp.C, random = ~ 1 | Paper/Subject, method = "ML", data = sg.biom.temp) 
+B_TC.lme.Dintxn <- update(B_TC.lme.full, .~. -TropTemp*Temp.C)
+LRT.output <- LRT.output %>% bind_rows(anova(B_TC.lme.full, B_TC.lme.Dintxn) %>% mutate(var = "TropTemp*Temp.C", Resp_facet = "B_TC", rand = "Paper/Subj"))
+
+# full model
+B_TC.lme.fin <- lme(AGbiomass ~ Temp.C + TropTemp + TropTemp*Temp.C, random = ~ 1 | Paper/Subject, method = "REML", data = sg.biom.temp) 
+corr.tidy <- corr.tidy %>% bind_rows(tidy(B_TC.lme.fin) %>% mutate(Resp_facet = "B_TC", rand = "Paper/Subj"))
+corr.glance <- corr.glance %>% bind_rows(glance(B_TC.lme.fin) %>% mutate(Resp_facet = "B_TC", rand = "Paper/Subj"))
+
+# calc 95% CIs manually
+temp <- sg.biom.temp
+new <- data.frame(Temp.C = temp$Temp.C, TropTemp = temp$TropTemp) # create new df with only signif fixed fx
+new$fixed <- predict(B_TC.lme.fin, newdata = new, level = 0) # calculate predicted values using original values
+des = model.matrix(formula(B_TC.lme.fin)[-2], new) # extract model matrix using new df
+predvar = diag(des %*% vcov(B_TC.lme.fin) %*% t(des)) # use matrix multiplication on model matrix and var-covar matrix (vcov) --> pull out variance (values on the diagonal)
+new$se.fit = sqrt(predvar) # calc SE = sqrt(variance)
+new$lower = with(new, fixed - 1.96*se.fit) # calc CIs
+new$upper = with(new, fixed + 1.96*se.fit)
+
+corr.aug <- corr.aug %>% bind_rows(augment(B_TC.lme.fin) %>% bind_cols(new %>% select(fixed, se.fit, lower, upper) %>% mutate(Resp_facet = "B_TC", rand = "Paper/Subj")))
+```  
+
+## *save daily output*
+```{r message = FALSE, warning = FALSE}
+write.csv(LRT.output, "LRT_CORR.csv")
+write.csv(corr.tidy, "tidy_CORR.csv")
+write.csv(corr.glance, "glance_CORR.csv")
+write.csv(corr.aug, "aug_CORR.csv")
+```
